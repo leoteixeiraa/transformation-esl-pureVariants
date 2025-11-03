@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iint6ybh_zHt3i9Y8" cm:version="1.8" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="iint6ybh_zHt3i9Y8name" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="iint6ybh_zHt3i9Y8nameval" cm:type="ps:string">System</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iint6ybh_zHt3i9Y8author" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="iint6ybh_zHt3i9Y8authorval" cm:type="ps:string">unknown</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iint6ybh_zHt3i9Y8version" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iint6ybh_zHt3i9Y8versionval" cm:type="ps:string">0.1</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iint6ybh_zHt3i9Y8created" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iint6ybh_zHt3i9Y8createdval" cm:type="ps:datetime">2004-06-02T15:29:04Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iq5Nmf_UbDAK6v-Cq" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="iLqduTHMyB2cjZM4g" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="i4Kw7VuhYUDwOdHl7">
+    <cm:element cm:id="i4Kw7VuhYUDwOdHl7" cm:name="System" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="i4Kw7VuhYUDwOdHl7id1000068" cm:class="ps:children">
+        <cm:relation cm:id="i9iZHF3wWzgpGFDFj" cm:type="ps:mandatory">
+          <cm:target cm:id="iiVOf0Seto3ksCNTX">./ic7G4LRtYTqHr3MO2</cm:target>
+          <cm:target cm:id="i3JJd4vvk2lLxfzON">./iFnTLWgStWnZGaLqD</cm:target>
+          <cm:target cm:id="iL5Rm5kK4GoxMYNov">./i2sU_vWRzmBpGxE29</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="i7STyjTFEUghUuVeN" cm:type="ps:optional">
+          <cm:target cm:id="iIGiGR9hVTig6CI5p">./ipkJsf_aWol39UA6t</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="icmLc23afAcsdqay1" cm:type="ps:string" cm:name="Version">
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iint6ybh_zHt3i9Y8id1000100" cm:mimetype="text/plain" cm:encoding="utf-8">System</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ic7G4LRtYTqHr3MO2" cm:name="Config" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ic7G4LRtYTqHr3MO2id858889" cm:class="ps:parents">
+        <cm:relation cm:id="iWkfhWQf-_dsaFTv5" cm:type="ps:parent">
+          <cm:target cm:id="iwiUIgadP6sPavaUy">./i4Kw7VuhYUDwOdHl7</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ic7G4LRtYTqHr3MO2id993512" cm:class="ps:children">
+        <cm:relation cm:id="i3NXFzY-NnRUAKoX6" cm:type="ps:alternative">
+          <cm:target cm:id="iS4l0m9BiEb0k529J">./iDrr6iXtnwcCpKJm0</cm:target>
+          <cm:target cm:id="iGfLgVPViDM8NtfU9">./iNYVL13bDnVds7OGh</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="iH8pqeb36h_rQ1Sxp" cm:type="ps:optional">
+          <cm:target cm:id="iThDadFS7ETZ_k_MO">./i0Yp2fzhBzFQ-XUdF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="iint6ybh_zHt3i9Y8id860313" cm:mimetype="text/plain" cm:encoding="utf-8">Configuration</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iDrr6iXtnwcCpKJm0" cm:name="DEBUG" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iDrr6iXtnwcCpKJm0id990124" cm:class="ps:parents">
+        <cm:relation cm:id="iAi08mKAcREtqz63z" cm:type="ps:parent">
+          <cm:target cm:id="i4V22JyJbhXMaIFgH">./ic7G4LRtYTqHr3MO2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="iint6ybh_zHt3i9Y8id839441" cm:mimetype="text/plain" cm:encoding="utf-8">Debugging Version</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iNYVL13bDnVds7OGh" cm:name="PRODUCT" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iSujBvMU5sQG4zg94" cm:class="ps:parents">
+        <cm:relation cm:id="i5-OiS9AnbjNg771c" cm:type="ps:parent">
+          <cm:target cm:id="i7WHpMQcJhZsRrVra">./ic7G4LRtYTqHr3MO2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iint6ybh_zHt3i9Y8id997348" cm:mimetype="text/plain" cm:encoding="utf-8">Production Version</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i0Yp2fzhBzFQ-XUdF" cm:name="DOCU" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iHEr-LTpN6RTImC2B" cm:class="ps:parents">
+        <cm:relation cm:id="iM4oMiDSFKKM8EIFW" cm:type="ps:parent">
+          <cm:target cm:id="i-tig671b79_CF7Ii">./ic7G4LRtYTqHr3MO2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="iint6ybh_zHt3i9Y8id1013662" cm:mimetype="text/plain" cm:encoding="utf-8">Documentation</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iFnTLWgStWnZGaLqD" cm:name="BaseClassVariation" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="i_X5U4eBgAryPtmhk" cm:class="ps:parents">
+        <cm:relation cm:id="ieVyPllO6OX241EpH" cm:type="ps:parent">
+          <cm:target cm:id="i-NxQEGkhgEkVsFfe">./i4Kw7VuhYUDwOdHl7</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i-ioIles4Cm4bKYI2" cm:class="ps:children">
+        <cm:relation cm:id="imBjx8t9q9fbu2f4V" cm:type="ps:alternative">
+          <cm:target cm:id="i8MMxCuifUO0p6wF8">./iBjGeEcsQvQNoRFxW</cm:target>
+          <cm:target cm:id="iyTnYs3A0H3qOvsSH">./iNlorfUSqhY1fAioq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i87_yRRxTh6LkelFg" cm:mimetype="text/plain" cm:encoding="utf-8">ps:classalias: Variable Base Class for ClassE</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iJb07SpNgLnlc0go9" cm:mimetype="text/html" cm:encoding="utf-8">The ps:classalias element in family models can be used to model a variable base class 
+To have class classE inherit either from classA or classB implement classE like this
+
+classE: classD { ... };
+
+and put a 'ps:classalias' classD into the family model, and create restrictions for its attribute 
+'Value' to be either "classA" or "classB" as shown in the System.ccfm.</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="iBjGeEcsQvQNoRFxW" cm:name="SelectBaseClassA" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="izg6u09B6JC7IWmiE" cm:class="ps:parents">
+        <cm:relation cm:id="iaNTNld4O2G5i0Rdl" cm:type="ps:parent">
+          <cm:target cm:id="iYjH2gnRxU6Snq07J">./iFnTLWgStWnZGaLqD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iQfjpIdsDp5C6v7pP" cm:mimetype="text/plain" cm:encoding="utf-8">Base Class is ClassA</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iNlorfUSqhY1fAioq" cm:name="SelectBaseClassB" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="i2htPuG4HDGBdpnTS" cm:class="ps:parents">
+        <cm:relation cm:id="iNLPBqJ2oWcfNK0Jq" cm:type="ps:parent">
+          <cm:target cm:id="i30HtyYnYnjyvr-hL">./iFnTLWgStWnZGaLqD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="imFDEMwMECgmwwiD-" cm:mimetype="text/plain" cm:encoding="utf-8">Base Class is ClassB</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ipkJsf_aWol39UA6t" cm:name="BaseClassVariation_1" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="i7VIQ7ADlEouHVZjs" cm:class="ps:parents">
+        <cm:relation cm:id="iWBax32HDoD3OY0Wf" cm:type="ps:parent">
+          <cm:target cm:id="iI8EU9O4O5X2azOep">./i4Kw7VuhYUDwOdHl7</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ik1XufFZ_QHFBN7GN" cm:mimetype="text/plain" cm:encoding="utf-8">ps:file: Use Alternative Header Implementation Variant2 for ClassB using ps:srcfile</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iYZFFqaEA5RP_bS0-" cm:mimetype="text/html" cm:encoding="utf-8">To provide different implementation files which shall have the same name during compilation
+use the ps:srcfile attribute on a ps:file element and  different values e.g. "ClassB_Variant1.h" 
+and "ClassB_Variant2.h". Select the values with appropriate restrictions.
+See example for ClassB in System.ccfm. By default ClassB_Variant1.h is the selected implementation 
+but if "Alternative Implementation for ClassB" is selected, ClassB_Variant2.h is selected and copied to 
+ClassB.h 
+
+</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="ic0h0Nw6r6FsHGJj_" cm:name="ClassA_Impl1" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="ift3us7z0I5dtu0gh" cm:class="ps:parents">
+        <cm:relation cm:id="iPB3SpJDCsX3OvLnS" cm:type="ps:parent">
+          <cm:target cm:id="in7jaxB9MaCofS-rJ">./i2sU_vWRzmBpGxE29</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ioV-lmdxTjRBRUu1Q" cm:mimetype="text/plain" cm:encoding="utf-8">ClassA Implementation Variant 1</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i2sU_vWRzmBpGxE29" cm:name="FragmentVariation1" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iD0YwdOrLcAVu2EBB" cm:class="ps:parents">
+        <cm:relation cm:id="ijPwaft_JjvduPDX4" cm:type="ps:parent">
+          <cm:target cm:id="iMRWazUVwaPIJnYIy">./i4Kw7VuhYUDwOdHl7</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i_6P_gCy2zOpYoiD9" cm:class="ps:children">
+        <cm:relation cm:id="iOkNu3KON-3BXmq2P" cm:type="ps:alternative">
+          <cm:target cm:id="ivEMLLg7dCDCp9GNP">./ic0h0Nw6r6FsHGJj_</cm:target>
+          <cm:target cm:id="iE-ASDuh0O32ot5yY">./inuHA-zm0dvvJ1yWv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iNA0_nOoI7h3xPIFT" cm:mimetype="text/plain" cm:encoding="utf-8">ps:fragment: Variable implementations with shared parts</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="ibD6UEZ_9raTyXJFH" cm:mimetype="text/html" cm:encoding="utf-8">The ps:fragment source element in family models can be used to combine shared 
+and variable parts into one file.
+Class A has 2 different implementations of  constructor&amp;destructor but shares the same 
+class declaration. The file is combined from ClassA_Decl.h plus ClassA_ImplVariant1.h or
+ClassA_ImplVariant2.h. See System.ccfm</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="inuHA-zm0dvvJ1yWv" cm:name="ClassA_Imp2" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iWtuco7_wJArVgDuB" cm:class="ps:parents">
+        <cm:relation cm:id="iL56CAdmp2nNuT-gZ" cm:type="ps:parent">
+          <cm:target cm:id="iEqz-kf5LeY8RKRFF">./i2sU_vWRzmBpGxE29</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ijcqfyat6DLl6BekA" cm:mimetype="text/plain" cm:encoding="utf-8">ClassA Implementation Variant 2</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="ikOdBCIsChxpcCQ8_" cm:version="1.8" cm:type="ps:ccfm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="ikOdBCIsChxpcCQ8_name" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="ikOdBCIsChxpcCQ8_nameval" cm:type="ps:string">System</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ikOdBCIsChxpcCQ8_author" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="ikOdBCIsChxpcCQ8_authorval" cm:type="ps:string">unknown</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ikOdBCIsChxpcCQ8_version" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="ikOdBCIsChxpcCQ8_versionval" cm:type="ps:string">0.1</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ikOdBCIsChxpcCQ8_created" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="ikOdBCIsChxpcCQ8_createdval" cm:type="ps:datetime">2004-06-02T14:43:11Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iUOzfqb2dGHAZ6z2g" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="i_O-4iquCa6LtPRp-" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:restrictions>
+    <cm:restset cm:id="iLMuSWUthgkYj2c9y">
+      <cm:restriction cm:id="ibGuSDktvIm6yaT5O">
+        <cm:script cm:id="iLghHY8LNrzM7IWof" cm:language="ps:pvscl" cm:type="ps:boolean">DOCU</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iRSxyeHTWfhqzWXFx">
+      <cm:restriction cm:id="i6UgQqTnOuWc_hDc1">
+        <cm:script cm:id="iSzlQgAMQcjMYmL5-" cm:language="ps:pvscl" cm:type="ps:boolean">DEBUG</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="i6kVZGvuAOGSMBFUn">
+      <cm:restriction cm:id="ir1Old8L5G6JChThj">
+        <cm:script cm:id="if6yrZO3xqnylyUcn" cm:language="ps:pvscl" cm:type="ps:boolean">PRODUCT</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="i9xqMcNfzlFAnkmYE">
+      <cm:restriction cm:id="iyr_0eMR-CmqaVc38">
+        <cm:script cm:id="iB_obkFQoSd5SE0oN" cm:language="ps:pvscl" cm:type="ps:boolean">NOT(PRODUCT)</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="ijtF8pL3sDEl0zbts">
+      <cm:restriction cm:id="iJvxMwM5oRfeq7jr5">
+        <cm:script cm:id="iwrfbT9pE66LSX13v" cm:language="ps:pvscl" cm:type="ps:boolean">DEBUG</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="id4MQP1_Ux8GIWlzK">
+      <cm:restriction cm:id="i3fkR0l8TICIBb4Js">
+        <cm:script cm:id="inaXgZIyNzOqk6TWX" cm:language="ps:pvscl" cm:type="ps:boolean">PRODUCT</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="ibqSCmjXf3VQRWp3f">
+      <cm:restriction cm:id="ihnscMlMqtrQPRM8q">
+        <cm:script cm:id="id4Rte4Vj9k54DYmp" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/ic0h0Nw6r6FsHGJj_</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iQ1CjuZlDMiggTAa-">
+      <cm:restriction cm:id="iV0eiQvNQUPU9JJU8">
+        <cm:script cm:id="ic6dGKGlFK_h1ahxy" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/inuHA-zm0dvvJ1yWv</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="ikfvKDghOCsN_4tZl">
+      <cm:restriction cm:id="ija_cQ6b9mmZpZ7b-">
+        <cm:script cm:id="iP-yET98hNMMTx8eT" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/ipkJsf_aWol39UA6t</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="ijOUiFEbbSCM2TgGo">
+      <cm:restriction cm:id="if-nYrr02R9Wq0Hz3">
+        <cm:script cm:id="iwvf5mBujatwDOF-0" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/iBjGeEcsQvQNoRFxW</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iBQ-7pvaKVkdVuo5e">
+      <cm:restriction cm:id="iJem96-kCziHJBUBi">
+        <cm:script cm:id="i40CGky3jkFccn-8q" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/iBjGeEcsQvQNoRFxW</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iucKrt9lEYCWsfqhG">
+      <cm:restriction cm:id="iI86gIglMkeQnAZoe">
+        <cm:script cm:id="iimmZXXEsKYA8bbem" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/iNlorfUSqhY1fAioq</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="i33K56riHbSC0voFP">
+      <cm:restriction cm:id="iTHinlvmBPMZBIR-m">
+        <cm:script cm:id="ieo7fnLFLAK9BdZ_F" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/iNlorfUSqhY1fAioq</cm:script>
+      </cm:restriction>
+    </cm:restset>
+  </cm:restrictions>
+  <cm:elements cm:rootid="ivekvZxE83NLQTn75">
+    <cm:element cm:id="ivekvZxE83NLQTn75" cm:name="Family" cm:type="ps:family" cm:class="ps:family" cm:default="on">
+      <cm:relations cm:id="iZm4ZWPmO9-34HgD2" cm:class="ps:children">
+        <cm:relation cm:id="iSnvdVrR4MUPn1Ajd" cm:type="ps:optional">
+          <cm:target cm:id="iZy4edFk0hIw9Q0Rp">./idkjpIPhmvpVz0Iv6</cm:target>
+          <cm:target cm:id="i_jfmuxLQ6IYI0dBg">./imzuMN1ulRm_Fd9Zv</cm:target>
+          <cm:target cm:id="iufaJd8O0PB_a2pNV">./iluvTHPzBHBfbKHDv</cm:target>
+          <cm:target cm:id="iiGY3m8Fn9S1GX9Sr">./iohTzw0DiQwjpPla4</cm:target>
+          <cm:target cm:id="igkscoDAQE4raF26Q">./iJEXExaDu5wAsxRnr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id838529" cm:mimetype="text/plain" cm:encoding="utf-8">System</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="idkjpIPhmvpVz0Iv6" cm:name="Build" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="i3kWL4-jBCBHZZRQZ" cm:class="ps:parents">
+        <cm:relation cm:id="iIoQaUwGdBJ20oefZ" cm:type="ps:parent">
+          <cm:target cm:id="iNmFwNShX5OuaWtmV">./ivekvZxE83NLQTn75</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iaQMfL1u2f1QtAb6Q" cm:class="ps:children">
+        <cm:relation cm:id="i0Dneue4xHo1i5NrU" cm:type="ps:optional">
+          <cm:target cm:id="iMhgmyuu2yIpcer3_">./i7-SpXiN89QfXVSEJ</cm:target>
+          <cm:target cm:id="idOkn78OwbL-WsvHj">./id8kK6O6M1JzBXuBY</cm:target>
+        </cm:relation>
+      </cm:relations>
+    </cm:element>
+    <cm:element cm:id="imzuMN1ulRm_Fd9Zv" cm:name="Configuration" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iTDO6Lafur1Pbuvsj" cm:class="ps:parents">
+        <cm:relation cm:id="ifs1bbWaw6M9Wto2c" cm:type="ps:parent">
+          <cm:target cm:id="isfxxSGZsMBObeRat">./ivekvZxE83NLQTn75</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iYk836__NGFc1Yn-Q" cm:class="ps:children">
+        <cm:relation cm:id="igDdJHEd7Tams0sZ8" cm:type="ps:optional">
+          <cm:target cm:id="i6tgJc5C8T9zQVv67">./izgiGP_qZI3IJAsP1</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iAp1DzwpFVcNf1VPx" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i-cLlCBSjoocqY4wF" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iluvTHPzBHBfbKHDv" cm:name="Classes" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iBqAcNQwDjbmxcbWZ" cm:class="ps:parents">
+        <cm:relation cm:id="iJdwaWgbZh-LGoscB" cm:type="ps:parent">
+          <cm:target cm:id="iHwVPY7VORmBkLCWq">./ivekvZxE83NLQTn75</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iLSxTgVisSMd5kOSJ" cm:class="ps:children">
+        <cm:relation cm:id="ilmp_xdKLWLCIFOFL" cm:type="ps:optional">
+          <cm:target cm:id="iufcmd_rVCUcRsOju">./i-jiK2MKwIbLcaCF2</cm:target>
+          <cm:target cm:id="i21knK4V7An6afjPW">./inK20tQGZCqaiaS5a</cm:target>
+          <cm:target cm:id="iY2CFL1kxsa7GpfBb">./ibaJxE5bssMDuG4Ut</cm:target>
+          <cm:target cm:id="ideREsbylR-qOvlrR">./igbCHA9vaEryaCaLP</cm:target>
+          <cm:target cm:id="inz10Yvbn99bYRx2i">./ieW6DfcPkMAr8b4wJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+        <cm:property cm:id="i2zRMnjb6wtq5r3tm" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iVKQ7O2cMwUmUIbVG" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i-jiK2MKwIbLcaCF2" cm:name="ClassA" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ijfn9GCJXoNaSlYnZ" cm:class="ps:parents">
+        <cm:relation cm:id="iIheqFMTWymnmTQDA" cm:type="ps:parent">
+          <cm:target cm:id="iVkzPJKc9s5_4bBS_">./iluvTHPzBHBfbKHDv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i9vnAZJdJb2dCnjPp" cm:class="ps:children">
+        <cm:relation cm:id="igCZaQ-sA0okdP7Nf" cm:type="ps:optional">
+          <cm:target cm:id="iEaJ_QDJ9xiqwp2qP">./ih7phK12Qzxq-xL8Y</cm:target>
+          <cm:target cm:id="iRRfcsoWgYt-ZMdBT">./iCbhaGsXCtElSQGI2</cm:target>
+          <cm:target cm:id="iuhWnLtYvfsYoY4_I">./iFimMCpkugspuc4rg</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ia2ZQQjrOx0qGucYx" cm:type="ps:path" cm:inheritable="true" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="itT4uHKkOQvt3SWOV" cm:type="ps:string">ClassA.h</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+        <cm:property cm:id="i81O_IU4x04cE0PLS" cm:type="ps:filetype" cm:inheritable="true" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="isduAok8hS_vN1bIq" cm:type="ps:string">def</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikkHt71UUGCKdKzxW" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iJsB77fc0cdHWbdTm" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="inK20tQGZCqaiaS5a" cm:name="ClassB" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ihXjQJviPdikvAgEU" cm:class="ps:parents">
+        <cm:relation cm:id="iibAXXeYGjHgwKKMf" cm:type="ps:parent">
+          <cm:target cm:id="imG0Y5AJJshcKu8r7">./iluvTHPzBHBfbKHDv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ihGJUtcek1Qa1FPUr" cm:class="ps:children">
+        <cm:relation cm:id="invCXKsbk5MYg5yKA" cm:type="ps:optional">
+          <cm:target cm:id="iKYGLwhGwc4skEssu">./iwi3KfxU4RS_GUJRC</cm:target>
+        </cm:relation>
+      </cm:relations>
+    </cm:element>
+    <cm:element cm:id="ibaJxE5bssMDuG4Ut" cm:name="ClassC" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iho_SOo1g8BXiGaSb" cm:class="ps:parents">
+        <cm:relation cm:id="ifdz_CL4HIVdO7QFZ" cm:type="ps:parent">
+          <cm:target cm:id="iv_M7QrzBeziKRuCh">./iluvTHPzBHBfbKHDv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iEphQmNohAlVFnh4G" cm:class="ps:children">
+        <cm:relation cm:id="i6Bid1SZLolP4zz-J" cm:type="ps:optional">
+          <cm:target cm:id="ifSGiCojU43Da_YHF">./i2kZ3rId3YS5quDuJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+    </cm:element>
+    <cm:element cm:id="igbCHA9vaEryaCaLP" cm:name="ClassD" cm:type="ps:classalias" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iNoMZVXpdvFi7AD1z" cm:class="ps:parents">
+        <cm:relation cm:id="iONL9CsUrl_7quA7j" cm:type="ps:parent">
+          <cm:target cm:id="iiJ8ocxC72BpyUmsp">./iluvTHPzBHBfbKHDv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iHYeAhC1zUpR_Qjor" cm:class="ps:children">
+        <cm:relation cm:id="iOi5Nl1RliYy6jFg5" cm:type="ps:optional">
+          <cm:target cm:id="i3RgUWbzbmidRt-Pu">./iVmLwtvpqKsIs91Ar</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iuG4al9JY_osDEXQB" cm:type="ps:string" cm:fixed="true" cm:name="Value">
+          <cm:constant cm:id="iz7BiAM5WTp2kL_-j" cm:restriction="ijOUiFEbbSCM2TgGo" cm:type="ps:string">ClassA</cm:constant>
+          <cm:constant cm:id="igg3fETqKfM3wG1IF" cm:restriction="i33K56riHbSC0voFP" cm:type="ps:string">ClassB</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_IOEYws231unE7MQ" cm:type="ps:class" cm:fixed="true" cm:name="class">
+          <cm:constant cm:id="ieFwsKIKE42la7ynr" cm:restriction="iBQ-7pvaKVkdVuo5e" cm:type="ps:class">ikOdBCIsChxpcCQ8_/i-jiK2MKwIbLcaCF2</cm:constant>
+          <cm:constant cm:id="iTEE_KGSJNVYWVVwQ" cm:restriction="iucKrt9lEYCWsfqhG" cm:type="ps:class">ikOdBCIsChxpcCQ8_/inK20tQGZCqaiaS5a</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ih7phK12Qzxq-xL8Y" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="itc4H1sbW6-n21JYf" cm:class="ps:parents">
+        <cm:relation cm:id="inSTJynvZnXeNFRHV" cm:type="ps:parent">
+          <cm:target cm:id="iwb6dLi_ZrTF2x0ha">./i-jiK2MKwIbLcaCF2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+        <cm:property cm:id="i0XonK3dxx9HASobt" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
+          <cm:constant cm:id="igDOz1vOS2ljrU08i" cm:type="ps:path">ClassA_Decl.h</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iwi3KfxU4RS_GUJRC" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="itRytFs1SrYMRxfca" cm:class="ps:parents">
+        <cm:relation cm:id="iybFrdvn9se1f9-xl" cm:type="ps:parent">
+          <cm:target cm:id="iaalOFsgkg6o4K8bm">./inK20tQGZCqaiaS5a</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iDOBZpCCm1ovgQ-PX" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iafZp_yn9VJfOw_as" cm:type="ps:string">ClassB.h</cm:constant>
+        </cm:property>
+        <cm:property cm:id="it9ZNh7dTMBFy1rR8" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iiw3CPB7Ot7ng3m36" cm:type="ps:string">def</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVSxqqokWg7fzxlpJ" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ig0-EADikYNpSfk6J" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-w5qSyNyzvFcuIS1" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
+          <cm:constant cm:id="igGppzfU2IlpRRqHi" cm:restriction="ikfvKDghOCsN_4tZl" cm:type="ps:string">ClassB_Variant2.h</cm:constant>
+          <cm:constant cm:id="ik3QzsOhY0f4vbGk3" cm:type="ps:path">ClassB_Variant1.h</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i2kZ3rId3YS5quDuJ" cm:type="ps:symlink" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ipQitgdIYbeucS7FI" cm:class="ps:parents">
+        <cm:relation cm:id="icF8VreslrV1eisoJ" cm:type="ps:parent">
+          <cm:target cm:id="iJNrj3CWt_jB4Et_O">./ibaJxE5bssMDuG4Ut</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iFav5S8Zx5uh9mRmH" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i0amUPFbXTUWQSbyT" cm:type="ps:string">ClassC.h</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYzQVvTlDyYcYfq7I" cm:type="ps:path" cm:fixed="true" cm:name="linktarget">
+          <cm:constant cm:id="iXpYfV-IgfDkW1WZK" cm:type="ps:string">sys/ClassC.h</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iVmLwtvpqKsIs91Ar" cm:type="ps:classaliasfile" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ib9zK-RwEtSe1I9kt" cm:class="ps:parents">
+        <cm:relation cm:id="iXOQjOHr8MqQY7DpX" cm:type="ps:parent">
+          <cm:target cm:id="iwi4iGS1cKwQFkePN">./igbCHA9vaEryaCaLP</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="infY7PTAcsbJ05wQw" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iw2neXKzFKsS-jVgL" cm:type="ps:string">ClassD.h</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQpBZSAYwGmTgQBAO" cm:type="ps:string" cm:fixed="true" cm:name="alias">
+          <cm:constant cm:id="iAJ_Nr7fFI10ft8eW" cm:type="ps:string">ClassD</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i7-SpXiN89QfXVSEJ" cm:name="Makefile" cm:type="ps:project" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ivLXNS_56_jGyHWZe" cm:class="ps:parents">
+        <cm:relation cm:id="iegD8jcFsW2Aycuuw" cm:type="ps:parent">
+          <cm:target cm:id="iGo7-djdsyHZLsKSH">./idkjpIPhmvpVz0Iv6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iTVwUzpX22jQ8eNvz" cm:class="ps:children">
+        <cm:relation cm:id="i8oK8clgO0T0MAAam" cm:type="ps:optional">
+          <cm:target cm:id="i1bh9lyb6dXMurMbR">./iCEYEZOLC2W7TfEuO</cm:target>
+        </cm:relation>
+      </cm:relations>
+    </cm:element>
+    <cm:element cm:id="iCEYEZOLC2W7TfEuO" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iDp3WAX6W5TzbQwYJ" cm:class="ps:parents">
+        <cm:relation cm:id="iybjT5ZhqM2j7B0zN" cm:type="ps:parent">
+          <cm:target cm:id="ihAQ_I3rpNbD2YG4x">./i7-SpXiN89QfXVSEJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i89YaoFEbHdSOcy9I" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="ikp_uwTmzSUHuqWu5" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRDYcWTKeeA7f3q8k" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iC0m_vurVaNkZ-RBH" cm:type="ps:string">Makefile</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIlfW-3OTvoQF_asJ" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="inJmUa_M0hpH9uH__" cm:type="ps:string">misc</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iohTzw0DiQwjpPla4" cm:name="Application" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ieHIRYXdgigXY1xfU" cm:class="ps:parents">
+        <cm:relation cm:id="iy0yAgbYOFreekdI7" cm:type="ps:parent">
+          <cm:target cm:id="igBowcydYXJbG0wyX">./ivekvZxE83NLQTn75</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="irwF_J93wX2kcVsVB" cm:class="ps:children">
+        <cm:relation cm:id="iPCYVngtAdWY21uXf" cm:type="ps:optional">
+          <cm:target cm:id="iSfRocIWD164cGAMl">./ir-psFskXQTUos2do</cm:target>
+        </cm:relation>
+      </cm:relations>
+    </cm:element>
+    <cm:element cm:id="ir-psFskXQTUos2do" cm:type="ps:project" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iSD6enLWqrvg5BzE6" cm:class="ps:parents">
+        <cm:relation cm:id="iGfg_kAqj-utwoZbL" cm:type="ps:parent">
+          <cm:target cm:id="iRb8DHaGOmU5ez4q4">./iohTzw0DiQwjpPla4</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i6s_VnhoGMH0N3MJ2" cm:class="ps:children">
+        <cm:relation cm:id="iEy1UWGp_OE_Conq-" cm:type="ps:optional">
+          <cm:target cm:id="ikr56hrsT9sp6rZhL">./iJm3mjks6TBK9no8I</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id836173" cm:mimetype="text/plain" cm:encoding="utf-8">main.cpp</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iJm3mjks6TBK9no8I" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i9YG7fEENNjxSMGI4" cm:class="ps:parents">
+        <cm:relation cm:id="iaoUVB3ZhymXY6Q8_" cm:type="ps:parent">
+          <cm:target cm:id="ixJpmQx4fmXLg3oKN">./ir-psFskXQTUos2do</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="itvZdX0VJMHYeNr2Y" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="imoJoepO5n7M04f4N" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivYqgfnDCCJWOaFtX" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iusiZXS9Bhllii1fU" cm:type="ps:string">main.cpp</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iugZD35yAIMf4-egO" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="ir1cP9penKvaV7jL_" cm:type="ps:string">misc</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ipy6wECmOmAJsQjS3" cm:name="CXX_OPTFLAGS" cm:type="ps:variable" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ib0DoiiniGXKFJneb" cm:class="ps:parents">
+        <cm:relation cm:id="iPpfbsdqq_EVzziCO" cm:type="ps:parent">
+          <cm:target cm:id="ilNwplImpNjajzSz2">./id8kK6O6M1JzBXuBY</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iiZ-GAxTByLHAUVfU" cm:class="ps:children">
+        <cm:relation cm:id="ia5Y1Nca1tAU45-eG" cm:type="ps:optional">
+          <cm:target cm:id="imWq5hGQ_QIBF5wra">./ikL2VrStIYHHE1yro</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iQALwk0trikJLX0wQ" cm:type="ps:string" cm:fixed="true" cm:name="Value">
+          <cm:constant cm:id="iqZEHWxuf4Uxq8xhN" cm:restriction="i6kVZGvuAOGSMBFUn" cm:type="ps:string">-O6 -DNDEBUG</cm:constant>
+          <cm:constant cm:id="i8q3nzXaFlkRY228d" cm:restriction="iRSxyeHTWfhqzWXFx" cm:type="ps:string">-g</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ikL2VrStIYHHE1yro" cm:type="ps:makefile" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i-dD9MPpIwgtrtxuZ" cm:class="ps:parents">
+        <cm:relation cm:id="i7P0CSWkbKR-Ssg5S" cm:type="ps:parent">
+          <cm:target cm:id="iqdsUQSbw-qlagG3k">./ipy6wECmOmAJsQjS3</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i5hf7xmF4MaviSI26" cm:type="ps:string" cm:fixed="true" cm:name="variable">
+          <cm:constant cm:id="iPxaI4HkXyEqWpTSJ" cm:type="ps:string">CXX_OPTFLAGS</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iAQ7N-l9oUie2j-OA" cm:type="ps:flag" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iPXpqYbYhFpDd6iRe" cm:class="ps:parents">
+        <cm:relation cm:id="ibp8QuzooOZJrQP_x" cm:type="ps:parent">
+          <cm:target cm:id="itT4uB7RNzwhTHrZW">./izgiGP_qZI3IJAsP1</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iiLd5qh9Z9b6-iPXm" cm:class="ps:children">
+        <cm:relation cm:id="ijciuM82mTfaSSYDQ" cm:type="ps:optional">
+          <cm:target cm:id="iikwA-t6_X4NoE3Iw">./iiMhaXrELGkFZIRoc</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ilLt7WoehmcuS7NUl" cm:type="ps:string" cm:fixed="true" cm:name="Value">
+          <cm:constant cm:id="ih1XpHc3LcW5CWCA9" cm:restriction="ijtF8pL3sDEl0zbts" cm:type="ps:string">1</cm:constant>
+          <cm:constant cm:id="iAckQSRO-PtPqYj72" cm:type="ps:string">0</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id994841" cm:mimetype="text/plain" cm:encoding="utf-8">DEBUG</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iiMhaXrELGkFZIRoc" cm:type="ps:flagfile" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iKbjkie2BeucASqdE" cm:class="ps:parents">
+        <cm:relation cm:id="iK1LY-60qKMHur416" cm:type="ps:parent">
+          <cm:target cm:id="ihJQCwkiSA6Y67SCP">./iAQ7N-l9oUie2j-OA</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i8iu9sdr_CT0hbNyg" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ilkmk9Q572iHxCfSF" cm:type="ps:string">flags.h</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9k2RrP4Vz3BXqfbP" cm:type="ps:string" cm:fixed="true" cm:name="flag">
+          <cm:constant cm:id="iS6bz3ohQLzw3Mpza" cm:type="ps:string">DEBUG</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iD70LlaTpHcF2kSfi" cm:type="ps:flagfile" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ib-K1Qaw_1uEF83_4" cm:class="ps:parents">
+        <cm:relation cm:id="idrPbqv-r8fX8VoNb" cm:type="ps:parent">
+          <cm:target cm:id="iEjrOpTqnKpESC1a4">./ie7qhoSMQxo8oFGBy</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iyFkyX77dgPnQj5lZ" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i9U9-U9iXuZVn2Uk4" cm:type="ps:string">flags.h</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i53QP9q9L9h2TZCmk" cm:type="ps:string" cm:fixed="true" cm:name="flag">
+          <cm:constant cm:id="iaskXpbMrK02Hr0tt" cm:type="ps:string">PRODUCT</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ie7qhoSMQxo8oFGBy" cm:type="ps:flag" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iQcu9wkro_cCjn-EA" cm:class="ps:parents">
+        <cm:relation cm:id="iHrS1NGq0zUfoK6OX" cm:type="ps:parent">
+          <cm:target cm:id="iQub3S0Nc14278NwT">./izgiGP_qZI3IJAsP1</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="imXRpvGbCzQfvpAOB" cm:class="ps:children">
+        <cm:relation cm:id="ic8t-Oae5gy-L6DV-" cm:type="ps:optional">
+          <cm:target cm:id="iCzVY-NstXqOoKp6B">./iD70LlaTpHcF2kSfi</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="irkRHcxI9JTe7pUcb" cm:type="ps:string" cm:fixed="true" cm:name="Value">
+          <cm:constant cm:id="iD5HMe8rOgi8S2ClH" cm:restriction="i9xqMcNfzlFAnkmYE" cm:type="ps:string">0</cm:constant>
+          <cm:constant cm:id="iEBro4SGmhUroWAFp" cm:restriction="id4MQP1_Ux8GIWlzK" cm:type="ps:string">1</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id838003" cm:mimetype="text/plain" cm:encoding="utf-8">PRODUCT</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iJEXExaDu5wAsxRnr" cm:restriction="iLMuSWUthgkYj2c9y" cm:name="Documentation" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iQqktB1ZmptCN2Vao" cm:class="ps:parents">
+        <cm:relation cm:id="imJDHBNr3CuhoxpuA" cm:type="ps:parent">
+          <cm:target cm:id="iWgvYkJbsHU_KodV2">./ivekvZxE83NLQTn75</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="inHnpNQyhwBC8du6y" cm:class="ps:children">
+        <cm:relation cm:id="iCr5sU7pvlgT4ClT0" cm:type="ps:optional">
+          <cm:target cm:id="iNVUGetT4vckukvip">./iJNmYT5sAL3iRZFZ_</cm:target>
+          <cm:target cm:id="iQTFBzUhCpyYg2OJP">./iZiGYGSvu1bgDuzBH</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iXx9v8kcvsfIbKwxS" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iy-PGHC-r82qRvaFe" cm:type="ps:directory">doc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iV9BwMcJDjlIijhhM" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="in2yee1ebrffsjMEi" cm:type="ps:directory">docu</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="id8kK6O6M1JzBXuBY" cm:name="config_mk" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iQh5JWCh6j8U1XMI3" cm:class="ps:parents">
+        <cm:relation cm:id="ir1exSy8qbjC54brC" cm:type="ps:parent">
+          <cm:target cm:id="ipG9mb20YhCt48zmZ">./idkjpIPhmvpVz0Iv6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ipniiA_f3Z-vl_vSu" cm:class="ps:children">
+        <cm:relation cm:id="iLvBHxgng1EcIJqwD" cm:type="ps:optional">
+          <cm:target cm:id="iuIUI0Ne_xzlImkDe">./ipy6wECmOmAJsQjS3</cm:target>
+          <cm:target cm:id="i6vubvHA4UjmWnXU0">./iAjWnXo1ksRwj7kmm</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ivlHPiQDNi376EA_F" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iUAXY35nygfn2qAp4" cm:type="ps:directory">src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2ClpdOvXMjj_Y4r7" cm:type="ps:path" cm:inheritable="true" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iQ48OKgryoTfr9G9o" cm:type="ps:path">config.mk</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id997316" cm:mimetype="text/plain" cm:encoding="utf-8">config.mk</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iAjWnXo1ksRwj7kmm" cm:type="ps:part" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="i2ZXaZRQnbz4CrAeA" cm:class="ps:parents">
+        <cm:relation cm:id="iEUzZNHbUH2qoX4KV" cm:type="ps:parent">
+          <cm:target cm:id="iBS6Z7OCTd2jVYz7l">./id8kK6O6M1JzBXuBY</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iOLXy3njpIqNsE693" cm:class="ps:children">
+        <cm:relation cm:id="ibfGZdWNOzbvA7us5" cm:type="ps:optional">
+          <cm:target cm:id="iagH3JqsuiK8qttR-">./iBwlborEyqLrVJKsC</cm:target>
+          <cm:target cm:id="igcVQxepYunaYY7tR">./ijOxS6I61AcZSeYQp</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id838804" cm:mimetype="text/plain" cm:encoding="utf-8">Default Variables</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iBwlborEyqLrVJKsC" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="is0SVK5a1gITq74oB" cm:class="ps:parents">
+        <cm:relation cm:id="iD_0pHRpjweatf_JC" cm:type="ps:parent">
+          <cm:target cm:id="i4XxAud7TivJce4m5">./iAjWnXo1ksRwj7kmm</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iflz2PlNu2tpTl4ib" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
+          <cm:constant cm:id="iwhCJR8ZcbFqafhSX" cm:type="ps:path">config_mk.fragment</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isNwHDmFW3B_m3nW9" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ijzllYDKVDi8s9cJ0" cm:type="ps:directory">config</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="izgiGP_qZI3IJAsP1" cm:name="Flags" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iCBdAhlAD20sKFxlQ" cm:class="ps:parents">
+        <cm:relation cm:id="iKg1gptbGfwfJdT8s" cm:type="ps:parent">
+          <cm:target cm:id="izJa_Yop-5k5-Hxdt">./imzuMN1ulRm_Fd9Zv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iLTDoiYs8FNKj45Sw" cm:class="ps:children">
+        <cm:relation cm:id="iGgtN1G4ypNq7hCal" cm:type="ps:optional">
+          <cm:target cm:id="i5TxgtnK8Xv4MKgaV">./iAQ7N-l9oUie2j-OA</cm:target>
+          <cm:target cm:id="idYLR7Z5BLjobajMk">./ie7qhoSMQxo8oFGBy</cm:target>
+        </cm:relation>
+      </cm:relations>
+    </cm:element>
+    <cm:element cm:id="iJNmYT5sAL3iRZFZ_" cm:type="ps:document" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iG_MhkkFLzcH6VCV5" cm:class="ps:parents">
+        <cm:relation cm:id="il5SBGyLZ5fnRCK5B" cm:type="ps:parent">
+          <cm:target cm:id="i_i8EXbvWEmfsVSFn">./iJEXExaDu5wAsxRnr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iObP6wd17vMOxYz24" cm:class="ps:children">
+        <cm:relation cm:id="ibHdDQ0X5mkDoORTP" cm:type="ps:optional">
+          <cm:target cm:id="ixw98qI8inMQ-2PHQ">./iC8Chb4Z2U6CpyCGQ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id858190" cm:mimetype="text/plain" cm:encoding="utf-8">docu.html</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ijOxS6I61AcZSeYQp" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i0sSduGr1FiCaKVYn" cm:class="ps:parents">
+        <cm:relation cm:id="i-_WK9H6hfE9kEBK_" cm:type="ps:parent">
+          <cm:target cm:id="ikms3rQhnua33Mip_">./iAjWnXo1ksRwj7kmm</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMXy4aykGMtmQXmvE" cm:type="ps:string" cm:fixed="true" cm:name="content">
+          <cm:constant cm:id="idtHrqoBZ7ZvKALFL" cm:type="ps:string">PROGNAME := prog
+</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iZiGYGSvu1bgDuzBH" cm:type="ps:document" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iwEHPym8vzpkislGM" cm:class="ps:parents">
+        <cm:relation cm:id="iKbiZP1tuHNDHGJMN" cm:type="ps:parent">
+          <cm:target cm:id="iRY56Dg3Vhsv26ieB">./iJEXExaDu5wAsxRnr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iEgHzZdyUrdw1hQal" cm:class="ps:children">
+        <cm:relation cm:id="iZicbZyC8pJmzIT_P" cm:type="ps:optional">
+          <cm:target cm:id="it-ocbzdQ3Lu1uF8R">./i1fZPcyxQH_680fZB</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id840934" cm:mimetype="text/plain" cm:encoding="utf-8">readme.txt</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="igGmTYlpWbQbZHJ_j" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="inhmgPl1ZKFoSuNkH" cm:class="ps:parents">
+        <cm:relation cm:id="iyMar7aMl5gRxtWn8" cm:type="ps:parent">
+          <cm:target cm:id="ivuXkmxYnk5CtnykU">./ieW6DfcPkMAr8b4wJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iQaxD8oOMndP1RmTV" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i2NVGAlAq41MyLYTf" cm:type="ps:string">ClassE.h</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iazIsY9YI9o7dqWZo" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iFCP8RSD9Jb7oMDxy" cm:type="ps:string">def</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ieW6DfcPkMAr8b4wJ" cm:name="ClassE" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="il6PYj_nJ5ORqtISA" cm:class="ps:parents">
+        <cm:relation cm:id="iakYrPU0KewftEi32" cm:type="ps:parent">
+          <cm:target cm:id="iZH_VniNkBinl8VoD">./iluvTHPzBHBfbKHDv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iukLgjLSYr1xS2l5E" cm:class="ps:children">
+        <cm:relation cm:id="ioWckMHavZAXZ6vEt" cm:type="ps:optional">
+          <cm:target cm:id="icWjwVLZzJFPb-B95">./igGmTYlpWbQbZHJ_j</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iCbhaGsXCtElSQGI2" cm:restriction="ibqSCmjXf3VQRWp3f" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iTFKA-QklMQiFOy4d" cm:class="ps:parents">
+        <cm:relation cm:id="iBpMsP5qRLkN9bbuz" cm:type="ps:parent">
+          <cm:target cm:id="i7MxKph1pi397hNqn">./i-jiK2MKwIbLcaCF2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+        <cm:property cm:id="invzGm1mwdSLjmWfs" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
+          <cm:constant cm:id="i7i2hPrpPxeOstwX5" cm:type="ps:path">ClassA_ImplVariant1.h</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iFimMCpkugspuc4rg" cm:restriction="iQ1CjuZlDMiggTAa-" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iVUY6zCdXe8r0WZDi" cm:class="ps:parents">
+        <cm:relation cm:id="i4R-C7XP_ZEFrTULw" cm:type="ps:parent">
+          <cm:target cm:id="iiWbySXsWytqnfZ-3">./i-jiK2MKwIbLcaCF2</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        
+        
+        
+        
+        <cm:property cm:id="ioe9Spp-vo6ZrOR44" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
+          <cm:constant cm:id="i5n7PfiISkvT83AGr" cm:type="ps:path">ClassA_ImplVariant2.h</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i1fZPcyxQH_680fZB" cm:name="ReadMe" cm:type="ps:pvscltext" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ikYSD_1reGEV2-yot" cm:class="ps:parents">
+        <cm:relation cm:id="ihnVDOrAfRjFC8XIj" cm:type="ps:parent">
+          <cm:target cm:id="itmVxCz7bx8j4uOiX">./iZiGYGSvu1bgDuzBH</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iKfyYB87y8N4Q0PBl" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iHkKYZJWEWjcIenqO" cm:type="ps:path">readme.txt</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWhaTuWFb-7SaNR-W" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i0AdSlb2y4xu7NXlF" cm:type="ps:directory">docu</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iC8Chb4Z2U6CpyCGQ" cm:name="docu" cm:type="ps:pvsclxml" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ir2XGr4QpFguZ9W8-" cm:class="ps:parents">
+        <cm:relation cm:id="ilRG19TyLWN6n5Yb_" cm:type="ps:parent">
+          <cm:target cm:id="i4a5z0u5-lvMgiqiM">./iJNmYT5sAL3iRZFZ_</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i5CSO6e8e-xI1274w" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iW5pgjgZ2f1t49STz" cm:type="ps:path">docu_xhtml.xml</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyr9SxDUDvdWx-sSD" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iTKA2kJIm2EhwOQuv" cm:type="ps:directory">docu</cm:constant>
+        </cm:property>
+        
+        
+        
+        
+      </cm:properties>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title pv:condition="DEBUG">Documentation of the Debugging Version</title>
+    <title pv:condition="PRODUCT">Documentation of the Production Version</title>
+  </head>
+  <body>
+    <h1>
+      <a pv:condition="DEBUG" name="Start" id="Start">Documentation of the Debugging Version</a>
+      <a pv:condition="PRODUCT" name="Start" id="Start">Documentation of the Production Version</a>
+    </h1>
+    <hr noshade="noshade" />
+    <p>API documentation...</p>
+    <p pv:condition="DEBUG">Debugging API documentation...</p>
+  </body>
+</html>

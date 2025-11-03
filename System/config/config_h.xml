@@ -1,0 +1,11 @@
+<config>#ifndef __config_h__
+#define __config_h__
+
+#include "flags.h"
+
+#define VERSION         <version/>
+#define VERSION_STRING  <version-string/>
+#define BUILD_DATE      <build-date/>
+
+#endif /* __config_h__ */
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><projectDescription>
+	<name>Transformation ESL</name>
+	<comment/>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.ps.consul.eclipse.core.ConsulNature</nature>
+	</natures>
+</projectDescription>
