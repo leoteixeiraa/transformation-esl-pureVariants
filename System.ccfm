@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="ikOdBCIsChxpcCQ8_" cm:version="1.8" cm:type="ps:ccfm">
   <cm:head>
     <cm:properties>
@@ -85,6 +84,44 @@
         <cm:script cm:id="ieo7fnLFLAK9BdZ_F" cm:language="ps:pvscl" cm:type="ps:string">@iint6ybh_zHt3i9Y8/iNlorfUSqhY1fAioq</cm:script>
       </cm:restriction>
     </cm:restset>
+    <cm:restset cm:id="i477m10p9NfX-e82R">
+      <cm:restriction cm:id="iEwn5vEH8n_Znc22y">
+        <cm:script cm:id="ixGyh9Uy98_uHnbXz" cm:language="ps:pvscl" cm:type="ps:boolean">Commission</cm:script>
+        <cm:desc>
+          <cm:mimedesc cm:id="imWL0fPts5C0eBrM6" cm:mimetype="text/html" cm:encoding="utf-8">&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-col-size="sm" data-end="1545" data-start="1511"&gt;&lt;strong data-end="1544" data-start="1513"&gt;Restriction (Commissioning)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-col-size="md" data-end="1586" data-start="1545"&gt;Condi&amp;ccedil;&amp;atilde;o l&amp;oacute;gica que ativa esse arquivo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-col-size="xl" data-end="1731" data-start="1586"&gt;Diz: &amp;#x201c;s&amp;oacute; inclua este arquivo se a feature &lt;em data-end="1645" data-start="1630"&gt;Commissioning&lt;/em&gt; estiver selecionada no VDM&amp;#x201d;. &amp;Eacute; o v&amp;iacute;nculo direto entre &lt;em data-end="1715" data-start="1700"&gt;feature model&lt;/em&gt; e &lt;em data-end="1728" data-start="1718"&gt;artefato&lt;/em&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</cm:mimedesc>
+        </cm:desc>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iGulsk9ivxhOCfDP9">
+      <cm:restriction cm:id="ioATrYHTKu0SwBS9F">
+        <cm:script cm:id="iCGWAhZPLgFcMGk1r" cm:language="ps:pvscl" cm:type="ps:boolean">Commission</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iS-V2PBns6AIbpkmd">
+      <cm:restriction cm:id="iF-oIPNkqoEhILMHG">
+        <cm:script cm:id="i0aZcV4cdrMu4MQd3" cm:language="ps:pvscl" cm:type="ps:boolean">Commission</cm:script>
+      </cm:restriction>
+    </cm:restset>
   </cm:restrictions>
   <cm:elements cm:rootid="ivekvZxE83NLQTn75">
     <cm:element cm:id="ivekvZxE83NLQTn75" cm:name="Family" cm:type="ps:family" cm:class="ps:family" cm:default="on">
@@ -97,12 +134,6 @@
           <cm:target cm:id="igkscoDAQE4raF26Q">./iJEXExaDu5wAsxRnr</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id838529" cm:mimetype="text/plain" cm:encoding="utf-8">System</cm:mimedesc>
       </cm:vname>
@@ -135,10 +166,6 @@
         <cm:property cm:id="iAp1DzwpFVcNf1VPx" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="i-cLlCBSjoocqY4wF" cm:type="ps:string">src</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="iluvTHPzBHBfbKHDv" cm:name="Classes" cm:type="ps:component" cm:class="ps:component" cm:default="on">
@@ -154,15 +181,24 @@
           <cm:target cm:id="iY2CFL1kxsa7GpfBb">./ibaJxE5bssMDuG4Ut</cm:target>
           <cm:target cm:id="ideREsbylR-qOvlrR">./igbCHA9vaEryaCaLP</cm:target>
           <cm:target cm:id="inz10Yvbn99bYRx2i">./ieW6DfcPkMAr8b4wJ</cm:target>
+          <cm:target cm:id="izvop157WjGutAbYt">./iAEM4MgdM-DxVNZ-z</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
         <cm:property cm:id="i2zRMnjb6wtq5r3tm" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="iVKQ7O2cMwUmUIbVG" cm:type="ps:string">src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOsxXCTW6G-jefmZ4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iCnG6jaDF7i2b8dep" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-YqIj83ZXgAIe2oP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iK6uAKrTweYxNiUM-" cm:type="ps:datetime">2025-11-03T03:56:11.629Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDLWvRrVaKOf7Pmt8" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ileKynIJ2a8WLr5IS" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izulCCu5ZphXGwqz5" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iHFgnZ0agUhMyG4_3" cm:type="ps:datetime">2025-11-03T03:56:11.629Z</cm:constant>
         </cm:property>
       </cm:properties>
     </cm:element>
@@ -183,10 +219,6 @@
         <cm:property cm:id="ia2ZQQjrOx0qGucYx" cm:type="ps:path" cm:inheritable="true" cm:fixed="true" cm:name="file">
           <cm:constant cm:id="itT4uHKkOQvt3SWOV" cm:type="ps:string">ClassA.h</cm:constant>
         </cm:property>
-        
-        
-        
-        
         <cm:property cm:id="i81O_IU4x04cE0PLS" cm:type="ps:filetype" cm:inheritable="true" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="isduAok8hS_vN1bIq" cm:type="ps:string">def</cm:constant>
         </cm:property>
@@ -239,10 +271,6 @@
           <cm:constant cm:id="ieFwsKIKE42la7ynr" cm:restriction="iBQ-7pvaKVkdVuo5e" cm:type="ps:class">ikOdBCIsChxpcCQ8_/i-jiK2MKwIbLcaCF2</cm:constant>
           <cm:constant cm:id="iTEE_KGSJNVYWVVwQ" cm:restriction="iucKrt9lEYCWsfqhG" cm:type="ps:class">ikOdBCIsChxpcCQ8_/inK20tQGZCqaiaS5a</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="ih7phK12Qzxq-xL8Y" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
@@ -252,10 +280,6 @@
         </cm:relation>
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
         <cm:property cm:id="i0XonK3dxx9HASobt" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
           <cm:constant cm:id="igDOz1vOS2ljrU08i" cm:type="ps:path">ClassA_Decl.h</cm:constant>
         </cm:property>
@@ -270,6 +294,122 @@
       <cm:properties>
         <cm:property cm:id="iDOBZpCCm1ovgQ-PX" cm:type="ps:path" cm:fixed="true" cm:name="file">
           <cm:constant cm:id="iafZp_yn9VJfOw_as" cm:type="ps:string">ClassB.h</cm:constant>
+          <cm:desc>
+            <cm:mimedesc cm:id="i6Gf0UT9JG0uSrIBu" cm:mimetype="text/html" cm:encoding="utf-8">&lt;ul data-end="514" data-start="129"&gt;
+&lt;li data-end="211" data-start="129"&gt;
+&lt;p data-end="211" data-start="131"&gt;O item &amp;eacute; um &lt;strong data-end="156" data-start="143"&gt;&lt;code data-end="154" data-start="145"&gt;ps:file&lt;/code&gt;&lt;/strong&gt; chamado &lt;strong data-end="179" data-start="165"&gt;&lt;code data-end="177" data-start="167"&gt;ClassB.h&lt;/code&gt;&lt;/strong&gt; (nome do &lt;strong data-end="209" data-start="189"&gt;arquivo de sa&amp;iacute;da&lt;/strong&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="333" data-start="212"&gt;
+&lt;p data-end="285" data-start="214"&gt;Em &lt;strong data-end="243" data-start="217"&gt;Attributes &amp;#x2192; &lt;code data-end="241" data-start="232"&gt;srcfile&lt;/code&gt;&lt;/strong&gt;, ele listou &lt;strong data-end="284" data-start="256"&gt;duas fontes alternativas&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul data-end="333" data-start="288"&gt;
+&lt;li data-end="309" data-start="288"&gt;
+&lt;p data-end="309" data-start="290"&gt;&lt;code data-end="309" data-start="290"&gt;ClassB_Variant1.h&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="333" data-start="312"&gt;
+&lt;p data-end="333" data-start="314"&gt;&lt;code data-end="333" data-start="314"&gt;ClassB_Variant2.h&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li data-end="514" data-start="334"&gt;
+&lt;p data-end="432" data-start="336"&gt;Cada &lt;strong data-end="363" data-start="341"&gt;valor de &lt;code data-end="361" data-start="352"&gt;srcfile&lt;/code&gt;&lt;/strong&gt; recebe &lt;strong data-end="398" data-start="371"&gt;uma Restriction pr&amp;oacute;pria&lt;/strong&gt; (na aba &lt;em data-end="421" data-start="407"&gt;Restrictions&lt;/em&gt;), do tipo:&lt;/p&gt;
+&lt;ul data-end="514" data-start="435"&gt;
+&lt;li data-end="473" data-start="435"&gt;
+&lt;p data-end="473" data-start="437"&gt;&lt;code data-end="447" data-start="437"&gt;Variant1&lt;/code&gt; &amp;#x2192; usa &lt;code data-end="473" data-start="454"&gt;ClassB_Variant1.h&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="514" data-start="476"&gt;
+&lt;p data-end="514" data-start="478"&gt;&lt;code data-end="488" data-start="478"&gt;Variant2&lt;/code&gt; &amp;#x2192; usa &lt;code data-end="514" data-start="495"&gt;ClassB_Variant2.h&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote data-end="731" data-start="516"&gt;
+&lt;p data-end="731" data-start="518"&gt;Resultado: o &lt;strong data-end="557" data-start="531"&gt;mesmo arquivo de sa&amp;iacute;da&lt;/strong&gt; (&lt;code data-end="569" data-start="559"&gt;ClassB.h&lt;/code&gt;) &amp;eacute; &lt;strong data-end="612" data-start="573"&gt;montado a partir de uma &amp;uacute;nica fonte&lt;/strong&gt; por vez, escolhida conforme a feature/vari&amp;aacute;vel ativa.&lt;br data-end="669" data-start="666"&gt; &amp;Eacute; um &amp;#x201c;&lt;strong data-end="699" data-start="677"&gt;ou isso, ou aquilo&lt;/strong&gt;&amp;#x201d; dentro do &lt;strong data-end="730" data-start="711"&gt;mesmo &lt;code data-end="728" data-start="719"&gt;ps:file&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 data-end="774" data-start="733"&gt;Diferen&amp;ccedil;a para o que voc&amp;ecirc; vem fazendo&lt;/h3&gt;
+&lt;ul data-end="1034" data-start="775"&gt;
+&lt;li data-end="852" data-start="775"&gt;
+&lt;p data-end="852" data-start="777"&gt;&lt;strong data-end="785" data-start="777"&gt;Voc&amp;ecirc;&lt;/strong&gt;: cria v&amp;aacute;rios &lt;code data-end="808" data-start="799"&gt;ps:file&lt;/code&gt; (um para cada &lt;code data-end="830" data-start="823"&gt;.dart&lt;/code&gt;) e restringe cada um.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1034" data-start="853"&gt;
+&lt;p data-end="1034" data-start="855"&gt;&lt;strong data-end="866" data-start="855"&gt;Exemplo&lt;/strong&gt;: &lt;strong data-end="883" data-start="868"&gt;1 &lt;code data-end="881" data-start="872"&gt;ps:file&lt;/code&gt;&lt;/strong&gt; com &lt;strong data-end="917" data-start="888"&gt;v&amp;aacute;rias fontes (&lt;code data-end="914" data-start="905"&gt;srcfile&lt;/code&gt;)&lt;/strong&gt;, cada fonte com sua &lt;strong data-end="951" data-start="938"&gt;restri&amp;ccedil;&amp;atilde;o&lt;/strong&gt; &amp;#x2192; sempre gera &lt;strong data-end="992" data-start="966"&gt;um &amp;uacute;nico nome de sa&amp;iacute;da&lt;/strong&gt;, mas com &lt;strong data-end="1033" data-start="1002"&gt;implementa&amp;ccedil;&amp;otilde;es alternativas&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 data-end="1066" data-start="1036"&gt;Quando usar cada abordagem&lt;/h3&gt;
+&lt;ul data-end="1494" data-start="1067"&gt;
+&lt;li data-end="1254" data-start="1067"&gt;
+&lt;p data-end="1254" data-start="1069"&gt;&lt;strong data-end="1101" data-start="1069"&gt;V&amp;aacute;rios &lt;code data-end="1087" data-start="1078"&gt;ps:file&lt;/code&gt; (seu jeito)&lt;/strong&gt;: quando os &lt;strong data-end="1155" data-start="1113"&gt;arquivos de sa&amp;iacute;da t&amp;ecirc;m nomes diferentes&lt;/strong&gt; (ex.: &lt;code data-end="1198" data-start="1162"&gt;commissioning_process_manager.dart&lt;/code&gt;, &lt;code data-end="1234" data-start="1200"&gt;step1_decommission_macInput.dart&lt;/code&gt;). &amp;Eacute; o mais simples.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1494" data-start="1255"&gt;
+&lt;p data-end="1494" data-start="1257"&gt;&lt;strong data-end="1294" data-start="1257"&gt;Um &lt;code data-end="1271" data-start="1262"&gt;ps:file&lt;/code&gt; com v&amp;aacute;rios &lt;code data-end="1292" data-start="1283"&gt;srcfile&lt;/code&gt;&lt;/strong&gt;: quando voc&amp;ecirc; quer &lt;strong data-end="1335" data-start="1313"&gt;o mesmo nome final&lt;/strong&gt; (ex.: &lt;code data-end="1368" data-start="1342"&gt;commissioning_step1.dart&lt;/code&gt;) por&amp;eacute;m com &lt;strong data-end="1409" data-start="1380"&gt;implementa&amp;ccedil;&amp;otilde;es diferentes&lt;/strong&gt; (ex.: &lt;code data-end="1448" data-start="1416"&gt;commissioning_step1_implA.dart&lt;/code&gt; e &lt;code data-end="1467" data-start="1451"&gt;..._implB.dart&lt;/code&gt;) selecionadas por feature.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 data-end="1535" data-start="1496"&gt;Como reproduzir isso no seu Flutter&lt;/h3&gt;
+&lt;p data-end="1635" data-start="1536"&gt;Suponha que voc&amp;ecirc; quer sempre gerar &lt;code data-end="1597" data-start="1571"&gt;commissioning_step1.dart&lt;/code&gt;, mas escolher a implementa&amp;ccedil;&amp;atilde;o A ou B:&lt;/p&gt;
+&lt;ol data-end="1662" data-start="1637"&gt;
+&lt;li data-end="1662" data-start="1637"&gt;
+&lt;p data-end="1662" data-start="1640"&gt;Crie &lt;strong data-end="1651" data-start="1645"&gt;um&lt;/strong&gt; &lt;code data-end="1661" data-start="1652"&gt;ps:file&lt;/code&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul data-end="1736" data-start="1663"&gt;
+&lt;li data-end="1700" data-start="1663"&gt;
+&lt;p data-end="1700" data-start="1665"&gt;&lt;code data-end="1698" data-start="1665"&gt;file = commissioning_step1.dart&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1720" data-start="1701"&gt;
+&lt;p data-end="1720" data-start="1703"&gt;&lt;code data-end="1718" data-start="1703"&gt;dir = src/sys&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1736" data-start="1721"&gt;
+&lt;p data-end="1736" data-start="1723"&gt;&lt;code data-end="1736" data-start="1723"&gt;type = misc&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="2" data-end="1797" data-start="1738"&gt;
+&lt;li data-end="1797" data-start="1738"&gt;
+&lt;p data-end="1797" data-start="1741"&gt;Em &lt;strong data-end="1770" data-start="1744"&gt;Attributes &amp;#x2192; &lt;code data-end="1768" data-start="1759"&gt;srcfile&lt;/code&gt;&lt;/strong&gt;, adicione &lt;strong data-end="1796" data-start="1781"&gt;duas linhas&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul data-end="1867" data-start="1798"&gt;
+&lt;li data-end="1832" data-start="1798"&gt;
+&lt;p data-end="1832" data-start="1800"&gt;&lt;code data-end="1832" data-start="1800"&gt;commissioning_step1_implA.dart&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1867" data-start="1833"&gt;
+&lt;p data-end="1867" data-start="1835"&gt;&lt;code data-end="1867" data-start="1835"&gt;commissioning_step1_implB.dart&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="3" data-end="1938" data-start="1869"&gt;
+&lt;li data-end="1938" data-start="1869"&gt;
+&lt;p data-end="1938" data-start="1872"&gt;Para cada linha de &lt;code data-end="1900" data-start="1891"&gt;srcfile&lt;/code&gt;, v&amp;aacute; &amp;agrave; aba &lt;strong data-end="1927" data-start="1911"&gt;Restrictions&lt;/strong&gt; e coloque:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul data-end="2020" data-start="1939"&gt;
+&lt;li data-end="1979" data-start="1939"&gt;
+&lt;p data-end="1979" data-start="1941"&gt;para a 1&amp;ordf;: &lt;code data-end="1979" data-start="1952"&gt;Commissioning &amp;amp;&amp;amp; VariantA&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="2020" data-start="1980"&gt;
+&lt;p data-end="2020" data-start="1982"&gt;para a 2&amp;ordf;: &lt;code data-end="2020" data-start="1993"&gt;Commissioning &amp;amp;&amp;amp; VariantB&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote data-end="2145" data-start="2022"&gt;
+&lt;p data-end="2145" data-start="2024"&gt;Assim, o output ter&amp;aacute; &lt;strong data-end="2055" data-start="2045"&gt;sempre&lt;/strong&gt; &lt;code data-end="2082" data-start="2056"&gt;commissioning_step1.dart&lt;/code&gt;, mas o conte&amp;uacute;do vem da fonte A &lt;strong data-end="2120" data-start="2114"&gt;ou&lt;/strong&gt; B, conforme as features.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 data-end="2189" data-start="2147"&gt;O que significam os campos da sua tela&lt;/h3&gt;
+&lt;ul data-end="2582" data-start="2190"&gt;
+&lt;li data-end="2263" data-start="2190"&gt;
+&lt;p data-end="2263" data-start="2192"&gt;&lt;strong data-end="2214" data-start="2192"&gt;dir (ps:directory)&lt;/strong&gt;: caminho &lt;strong data-end="2236" data-start="2224"&gt;de sa&amp;iacute;da&lt;/strong&gt; relativo (ex.: &lt;code data-end="2261" data-start="2252"&gt;src/sys&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="2322" data-start="2264"&gt;
+&lt;p data-end="2322" data-start="2266"&gt;&lt;strong data-end="2284" data-start="2266"&gt;file (ps:path)&lt;/strong&gt;: &lt;strong data-end="2312" data-start="2286"&gt;nome do arquivo gerado&lt;/strong&gt; (output).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="2400" data-start="2323"&gt;
+&lt;p data-end="2400" data-start="2325"&gt;&lt;strong data-end="2347" data-start="2325"&gt;type (ps:filetype)&lt;/strong&gt;: comportamento; para Dart use &lt;strong data-end="2388" data-start="2378"&gt;&lt;code data-end="2386" data-start="2380"&gt;misc&lt;/code&gt;&lt;/strong&gt; (s&amp;oacute; copia).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="2472" data-start="2401"&gt;
+&lt;p data-end="2472" data-start="2403"&gt;&lt;strong data-end="2428" data-start="2403"&gt;srcdir (ps:directory)&lt;/strong&gt;: base &lt;strong data-end="2448" data-start="2435"&gt;de origem&lt;/strong&gt; (onde est&amp;atilde;o os fontes).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="2582" data-start="2473"&gt;
+&lt;p data-end="2582" data-start="2475"&gt;&lt;strong data-end="2496" data-start="2475"&gt;srcfile (ps:path)&lt;/strong&gt;: &lt;strong data-end="2521" data-start="2498"&gt;fontes alternativas&lt;/strong&gt; do mesmo &lt;code data-end="2540" data-start="2531"&gt;ps:file&lt;/code&gt;. Cada valor pode ter sua &lt;strong data-end="2581" data-start="2566"&gt;Restriction&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p data-end="2763" data-start="2584" data-is-only-node="" data-is-last-node=""&gt;Se quiser, eu te monto um mini bloco com esse &lt;code data-end="2639" data-start="2630"&gt;ps:file&lt;/code&gt; &amp;#x201c;um nome / m&amp;uacute;ltiplas fontes&amp;#x201d; pronto pra colar no &lt;code data-end="2696" data-start="2689"&gt;.ccfm&lt;/code&gt; (com &lt;code data-end="2712" data-start="2702"&gt;VariantA&lt;/code&gt;/&lt;code data-end="2723" data-start="2713"&gt;VariantB&lt;/code&gt;) usando suas features de Commissioning.&lt;/p&gt;</cm:mimedesc>
+          </cm:desc>
         </cm:property>
         <cm:property cm:id="it9ZNh7dTMBFy1rR8" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="iiw3CPB7Ot7ng3m36" cm:type="ps:string">def</cm:constant>
@@ -281,10 +421,18 @@
           <cm:constant cm:id="igGppzfU2IlpRRqHi" cm:restriction="ikfvKDghOCsN_4tZl" cm:type="ps:string">ClassB_Variant2.h</cm:constant>
           <cm:constant cm:id="ik3QzsOhY0f4vbGk3" cm:type="ps:path">ClassB_Variant1.h</cm:constant>
         </cm:property>
-        
-        
-        
-        
+        <cm:property cm:id="iPc36Lacjhv28sOAT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iqeApr_YH3jBm3Fdq" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ieTKWsK_WQVW7zhQG" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iN8t0V5oUpdoR1W49" cm:type="ps:datetime">2025-11-05T03:35:34.841Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i95FzvsOvElKSSjJM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9_fYtLtEWT1YWt68" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izS0Yka3JdYWAhSMF" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iCIM1kbKw9UxcO2vI" cm:type="ps:datetime">2025-11-05T03:35:34.841Z</cm:constant>
+        </cm:property>
       </cm:properties>
     </cm:element>
     <cm:element cm:id="i2kZ3rId3YS5quDuJ" cm:type="ps:symlink" cm:class="ps:source" cm:default="on">
@@ -315,10 +463,6 @@
         <cm:property cm:id="iQpBZSAYwGmTgQBAO" cm:type="ps:string" cm:fixed="true" cm:name="alias">
           <cm:constant cm:id="iAJ_Nr7fFI10ft8eW" cm:type="ps:string">ClassD</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="i7-SpXiN89QfXVSEJ" cm:name="Makefile" cm:type="ps:project" cm:class="ps:part" cm:default="on">
@@ -374,12 +518,6 @@
           <cm:target cm:id="ikr56hrsT9sp6rZhL">./iJm3mjks6TBK9no8I</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id836173" cm:mimetype="text/plain" cm:encoding="utf-8">main.cpp</cm:mimedesc>
       </cm:vname>
@@ -400,10 +538,6 @@
         <cm:property cm:id="iugZD35yAIMf4-egO" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="ir1cP9penKvaV7jL_" cm:type="ps:string">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="ipy6wECmOmAJsQjS3" cm:name="CXX_OPTFLAGS" cm:type="ps:variable" cm:class="ps:part" cm:default="on">
@@ -422,10 +556,6 @@
           <cm:constant cm:id="iqZEHWxuf4Uxq8xhN" cm:restriction="i6kVZGvuAOGSMBFUn" cm:type="ps:string">-O6 -DNDEBUG</cm:constant>
           <cm:constant cm:id="i8q3nzXaFlkRY228d" cm:restriction="iRSxyeHTWfhqzWXFx" cm:type="ps:string">-g</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="ikL2VrStIYHHE1yro" cm:type="ps:makefile" cm:class="ps:source" cm:default="on">
@@ -456,10 +586,6 @@
           <cm:constant cm:id="ih1XpHc3LcW5CWCA9" cm:restriction="ijtF8pL3sDEl0zbts" cm:type="ps:string">1</cm:constant>
           <cm:constant cm:id="iAckQSRO-PtPqYj72" cm:type="ps:string">0</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id994841" cm:mimetype="text/plain" cm:encoding="utf-8">DEBUG</cm:mimedesc>
@@ -511,10 +637,6 @@
           <cm:constant cm:id="iD5HMe8rOgi8S2ClH" cm:restriction="i9xqMcNfzlFAnkmYE" cm:type="ps:string">0</cm:constant>
           <cm:constant cm:id="iEBro4SGmhUroWAFp" cm:restriction="id4MQP1_Ux8GIWlzK" cm:type="ps:string">1</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id838003" cm:mimetype="text/plain" cm:encoding="utf-8">PRODUCT</cm:mimedesc>
@@ -539,10 +661,6 @@
         <cm:property cm:id="iV9BwMcJDjlIijhhM" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="in2yee1ebrffsjMEi" cm:type="ps:directory">docu</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="id8kK6O6M1JzBXuBY" cm:name="config_mk" cm:type="ps:component" cm:class="ps:component" cm:default="on">
@@ -624,12 +742,6 @@
           <cm:target cm:id="ixw98qI8inMQ-2PHQ">./iC8Chb4Z2U6CpyCGQ</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id858190" cm:mimetype="text/plain" cm:encoding="utf-8">docu.html</cm:mimedesc>
       </cm:vname>
@@ -658,12 +770,6 @@
           <cm:target cm:id="it-ocbzdQ3Lu1uF8R">./i1fZPcyxQH_680fZB</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id840934" cm:mimetype="text/plain" cm:encoding="utf-8">readme.txt</cm:mimedesc>
       </cm:vname>
@@ -681,10 +787,6 @@
         <cm:property cm:id="iazIsY9YI9o7dqWZo" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="iFCP8RSD9Jb7oMDxy" cm:type="ps:string">def</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="ieW6DfcPkMAr8b4wJ" cm:name="ClassE" cm:type="ps:class" cm:class="ps:part" cm:default="on">
@@ -698,12 +800,6 @@
           <cm:target cm:id="icWjwVLZzJFPb-B95">./igGmTYlpWbQbZHJ_j</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
     </cm:element>
     <cm:element cm:id="iCbhaGsXCtElSQGI2" cm:restriction="ibqSCmjXf3VQRWp3f" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
       <cm:relations cm:id="iTFKA-QklMQiFOy4d" cm:class="ps:parents">
@@ -712,10 +808,6 @@
         </cm:relation>
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
         <cm:property cm:id="invzGm1mwdSLjmWfs" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
           <cm:constant cm:id="i7i2hPrpPxeOstwX5" cm:type="ps:path">ClassA_ImplVariant1.h</cm:constant>
         </cm:property>
@@ -728,10 +820,6 @@
         </cm:relation>
       </cm:relations>
       <cm:properties>
-        
-        
-        
-        
         <cm:property cm:id="ioe9Spp-vo6ZrOR44" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
           <cm:constant cm:id="i5n7PfiISkvT83AGr" cm:type="ps:path">ClassA_ImplVariant2.h</cm:constant>
         </cm:property>
@@ -750,10 +838,6 @@
         <cm:property cm:id="iWhaTuWFb-7SaNR-W" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="i0AdSlb2y4xu7NXlF" cm:type="ps:directory">docu</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
     </cm:element>
     <cm:element cm:id="iC8Chb4Z2U6CpyCGQ" cm:name="docu" cm:type="ps:pvsclxml" cm:class="ps:source" cm:default="on">
@@ -769,11 +853,239 @@
         <cm:property cm:id="iyr9SxDUDvdWx-sSD" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="iTKA2kJIm2EhwOQuv" cm:type="ps:directory">docu</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iAEM4MgdM-DxVNZ-z" cm:name="ESL" cm:type="ESL" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iMXVRfr-CvKTqHJhw" cm:class="ps:parents">
+        <cm:relation cm:id="iIg1PttxS52-YNo1Y" cm:type="ps:parent">
+          <cm:target cm:id="iSsn77niAoWWK5WC5">./iluvTHPzBHBfbKHDv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i0q4NBXZnfNdt3Dmd" cm:class="ps:children">
+        <cm:relation cm:id="iV3reGEju1FLDDR_y" cm:type="ps:optional">
+          <cm:target cm:id="izuHXJitDag5ymDWl">./iM3MBo-VhqS93qz5H</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ir0XNY2zppGxQB77x" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iFWSgyff-sB_hos8A" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikzCv3v33IP6X-Uhw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iy5vHFjEef2EgKzO4" cm:type="ps:datetime">2025-11-03T03:56:11.628Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMbUEAsnRi71KqKfk" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iw1luCt7kVuwvcen_" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwvJdZi9Ruqgxy-yr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-03T04:08:59.784Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ih2kpltQ-fefymY8_" cm:mimetype="text/plain" cm:encoding="utf-8">ESL</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iM3MBo-VhqS93qz5H" cm:name="Commissioning" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iXmlwf5fNuUPqoUbO" cm:class="ps:parents">
+        <cm:relation cm:id="iPtVeCWW1aBl75SIx" cm:type="ps:parent">
+          <cm:target cm:id="iqkMZdNqwviBIlain">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i2qIT3fE4Kb_KeQNa" cm:class="ps:children">
+        <cm:relation cm:id="iWy1Wsyt9HeAYu2CA" cm:type="ps:optional">
+          <cm:target cm:id="ig1x-EDpgMfxXwLtM">./i--mNvOH2S6y4aKX9</cm:target>
+          <cm:target cm:id="inVFhIBnZrHvjzc_n">./igT2VXDJQES9WbEOR</cm:target>
+          <cm:target cm:id="ioav4UcABOn6cmkWy">./ir64DygOcWItCGezA</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ilFEFFf5Jua5EKvp1" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iKQrEUwnLI02VpJB3" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFUK-ut315jVhx6MU" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iTK00-E-x5-DLQD2F" cm:type="ps:datetime">2025-11-03T04:03:04.886Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-6JaXihZXiPDrID3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iiysj7iAyXZ-B2dFd" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1X67TwG8q-Q03lUE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i4YYsEyHkd2qIakYr" cm:type="ps:datetime">2025-11-05T03:41:28.895Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i25t_fy7ozvT6E-fr" cm:mimetype="text/plain" cm:encoding="utf-8">Commissioning</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="i83LUUEBuZc_0ANGe" cm:mimetype="text/html" cm:encoding="utf-8">&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-col-size="sm" data-end="1011" data-start="982"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-col-size="md" data-end="1096" data-start="1011"&gt;
+&lt;p&gt;ps: class = Uma &lt;strong data-end="1049" data-start="1017"&gt;unidade funcional do sistema&lt;/strong&gt;, aqui representando a &lt;em data-end="1095" data-start="1072"&gt;feature Commissioning.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;O ps:Class &lt;/em&gt;Funciona como um &amp;#x201c;m&amp;oacute;dulo&amp;#x201d; no contexto do dom&amp;iacute;nio. Voc&amp;ecirc; pode imaginar como a &amp;#x201c;classe base&amp;#x201d; que agrupa todos os arquivos relacionados &amp;agrave; feature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="i--mNvOH2S6y4aKX9" cm:restriction="i477m10p9NfX-e82R" cm:name="commissioning_process_manager" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iHpFPZ9Wq4AQrW1Pu" cm:class="ps:parents">
+        <cm:relation cm:id="iIWpUmJOsHe3A-f6y" cm:type="ps:parent">
+          <cm:target cm:id="i7k3crh2Ew3pZ_F34">./iM3MBo-VhqS93qz5H</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iVmJFDcScgJ5QrbDe" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iC7pSYyKrUQB1tbAi" cm:type="ps:path">commissioning_process_manager.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKjUXV36rlGpk0WwX" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i1Yu8SVPlKiHzQBWQ" cm:type="ps:directory">src/sys</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iv78DiIjCIqL1oHK0" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iv0OKo83Dep0k8lAv" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihiKnOx2gTvRyOTjA" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iQSGO2ISFPVKVCbpu" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWxLvYDkOWHMb6U-c" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iqhF-v8Oafz-Kv3_Y" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGaxE232xfzFSSr-R" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="idIulZ8YpLm3DSIRi" cm:type="ps:datetime">2025-11-03T04:07:06.759Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i476XdzdQOMm5W5IA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i8qlP7-ADT0-eDkoW" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTjcpBBoCAoi-yx7O" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="inBNJB1tWUIZPoXRX" cm:type="ps:datetime">2025-11-05T03:15:33.477Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ieehkitDy1U_KCp8s" cm:mimetype="text/plain" cm:encoding="utf-8">commissioning_process_manager</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="ifQPEgOvkcMNw4nYj" cm:mimetype="text/html" cm:encoding="utf-8">&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-start="1287" data-end="1394" data-col-size="md"&gt;ps:file representa Um &lt;strong data-start="1292" data-end="1321"&gt;artefato f&amp;iacute;sico de c&amp;oacute;digo&lt;/strong&gt; &amp;#x2014; um arquivo real no projeto (&lt;code data-start="1356" data-end="1392"&gt;commissioning_process_manager.dart&lt;/code&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td data-start="1394" data-end="1510" data-col-size="xl"&gt;&amp;Eacute; o &lt;strong data-start="1400" data-end="1420"&gt;arquivo concreto&lt;/strong&gt; que o PV vai copiar ou gerar no produto final quando a feature associada estiver ativa.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="igT2VXDJQES9WbEOR" cm:restriction="iGulsk9ivxhOCfDP9" cm:name="commissioning_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ijGZQpmHFgRs1RaSL" cm:class="ps:parents">
+        <cm:relation cm:id="i4tVI28n-diRW5NFD" cm:type="ps:parent">
+          <cm:target cm:id="iIOedGoPWTgLnHIq2">./iM3MBo-VhqS93qz5H</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i0zN6CY2qHYijhy3r" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ipaZQHQRcHz-02F89" cm:type="ps:path">commissioning_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBPzmdzqP8MCPe-nq" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="if6ZXrNtoBzde9s2G" cm:type="ps:directory">src/sys</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iaSIjtEsf-1PbXjTk" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="i3E96_zICMcgFHI-v" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPyDaFIZPcpbAyn0o" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ijOLQj-Q0ctfC0KPc" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKSc_2FRDQ1j1IUQy" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iU3MgC7LKHBkix-RV" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izv_dhpkEWsRrtjft" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ibxCdx8z2V__B0W3c" cm:type="ps:datetime">2025-11-05T03:22:29.439Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLoy7LuXi8Si-BT54" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ijb0e0BSc5WNKkiNj" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikv9EwodMoFRo-ZKJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iVbBEvLG038VAavIa" cm:type="ps:datetime">2025-11-05T03:22:29.439Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iGRQ6YvdGkdZkYiLr" cm:mimetype="text/plain" cm:encoding="utf-8">commissioning_view</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iBXLqQ8xh_9-aPj5b" cm:mimetype="text/html" cm:encoding="utf-8">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;th&gt;Atributo&lt;/th&gt;&lt;th&gt;Valor no seu modelo&lt;/th&gt;&lt;th&gt;Significado&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;file&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;'commissioning_process_manager.dart'&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Nome do arquivo real no sistema. O PV vai procurar esse arquivo f&amp;iacute;sico no diret&amp;oacute;rio indicado em &lt;code&gt;dir&lt;/code&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;dir&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;'src/sys'&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Caminho relativo dentro do projeto (&lt;code&gt;System/src/sys&lt;/code&gt;). &amp;Eacute; de onde o PV vai copiar o arquivo durante a transforma&amp;ccedil;&amp;atilde;o.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;'misc'&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Tipo do arquivo. &lt;code&gt;misc&lt;/code&gt; significa que o PV apenas vai &lt;strong&gt;copiar&lt;/strong&gt; o arquivo pro produto (sem processamento especial). Ideal para &lt;code&gt;.dart&lt;/code&gt;, &lt;code&gt;.json&lt;/code&gt;, &lt;code&gt;.yaml&lt;/code&gt;, etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;srcdir&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;'C:\purevariants_repo\Transformation ESL\System\src'&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Caminho f&amp;iacute;sico absoluto onde o PV encontra os arquivos-fonte originais. Esse valor &amp;eacute; gerado automaticamente.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="ir64DygOcWItCGezA" cm:restriction="iS-V2PBns6AIbpkmd" cm:name="commissioning_options_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iCcG1z8Smm59FvSXo" cm:class="ps:parents">
+        <cm:relation cm:id="iOSDCkLnhJqAbUj9n" cm:type="ps:parent">
+          <cm:target cm:id="ibgr79pXJv5ZMmxNe">./iM3MBo-VhqS93qz5H</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i1nDToZFXSshQGioX" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iEFKVCrfcHmITikIi" cm:type="ps:path">commissioning_options_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itE3zVoiDFX1DXqhH" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="in0utK21amLmiSCrE" cm:type="ps:directory">src\sys</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEDHodgueo1qwRHEc" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="i-OgJj4dD1RPIDgGM" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTeKklTffuyI7gVK6" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ixHL-vVZ5DcaRrKP9" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLO78-WQDy_sQHpQ7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ispqyOH5Pi5fgoQLj" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iz9hKhKkERd6w9boZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iNw_DK4PB7f_hpQqB" cm:type="ps:datetime">2025-11-05T03:41:28.895Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itqhodaBeHaGbxmxX" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="itxbvc76oLIqbdzlH" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSwWC4s7MaqhSxGjU" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iq-JWQUbki8VOicwM" cm:type="ps:datetime">2025-11-05T03:41:28.895Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iGdhe75hoMvcmFEAI" cm:mimetype="text/plain" cm:encoding="utf-8">commissioning_options_view</cm:mimedesc>
+      </cm:vname>
     </cm:element>
   </cm:elements>
 </cm:consulmodel>
