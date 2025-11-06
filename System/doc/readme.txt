@@ -1,21 +1,21 @@
-Read me
+Leia-me
 =======
 
-Installation
-------------
+Instalação
+----------
 
-First do this and then do that. That's all!
+Primeiro faça isso e depois aquilo. É só isso!
 
-Usage
------
+Uso
+---
 
-The following command line switches are available:
+As seguintes opções de linha de comando estão disponíveis:
 
---this  This option
---that  That option
+--this  Esta opção
+--that  Aquela opção
 
 PVSCL:IFCOND( DEBUG )
-The following debugging switches are available:
+As seguintes opções de depuração estão disponíveis:
 
---debug  Show some debugging infos
+--debug  Mostrar algumas informações de depuração
 PVSCL:ENDCOND
