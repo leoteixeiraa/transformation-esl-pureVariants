@@ -21,14 +21,14 @@
   <cm:elements cm:rootid="i4Kw7VuhYUDwOdHl7">
     <cm:element cm:id="i4Kw7VuhYUDwOdHl7" cm:name="System" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="i4Kw7VuhYUDwOdHl7id1000068" cm:class="ps:children">
-        <cm:relation cm:id="i9iZHF3wWzgpGFDFj" cm:type="ps:mandatory">
+        <cm:relation cm:id="i9iZHF3wWzgpGFDFj" cm:type="ps:mandatory" cm:range="n">
           <cm:target cm:id="iiVOf0Seto3ksCNTX">./ic7G4LRtYTqHr3MO2</cm:target>
           <cm:target cm:id="i3JJd4vvk2lLxfzON">./iFnTLWgStWnZGaLqD</cm:target>
           <cm:target cm:id="iL5Rm5kK4GoxMYNov">./i2sU_vWRzmBpGxE29</cm:target>
+          <cm:target cm:id="ixQoByFXAFJr2aTv-">./igmQHqBeWLP0N_P3Y</cm:target>
         </cm:relation>
-        <cm:relation cm:id="i7STyjTFEUghUuVeN" cm:type="ps:optional" cm:range="[0,n]">
-          <cm:target cm:id="iIGiGR9hVTig6CI5p">./ipkJsf_aWol39UA6t</cm:target>
-          <cm:target cm:id="iZn1TqoYnVR-8-Zvn">./igmQHqBeWLP0N_P3Y</cm:target>
+        <cm:relation cm:id="iU962BYdQ8E2mVDT9" cm:type="ps:optional">
+          <cm:target cm:id="iEQ-rIuKHmd36RtIe">./ipkJsf_aWol39UA6t</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -44,7 +44,7 @@
           <cm:constant cm:id="i0UWOicMAa8bPJ0h6" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="itUivZWePecvHfPLi" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iqrmjChWTvF8y6BLc" cm:type="ps:datetime">2025-11-03T03:47:26.553Z</cm:constant>
+          <cm:constant cm:id="iqrmjChWTvF8y6BLc" cm:type="ps:datetime">2025-11-07T03:17:15.904Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -112,17 +112,25 @@
           <cm:target cm:id="iyTnYs3A0H3qOvsSH">./iNlorfUSqhY1fAioq</cm:target>
         </cm:relation>
       </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ihv9JcATTS3b6PC73" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iay6vN66Q0_fkmKsK" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3-b5JdOO2CFwquh8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iGOY_1FBCZrrJAoUq" cm:type="ps:datetime">2025-11-06T04:55:02.542Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOmsSEku6F0WFE3va" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i2c--B9FzAxDeZNzm" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwFfEXJlLaxK6QRtS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ixmVtv80NhSp-mB-m" cm:type="ps:datetime">2025-11-06T04:55:02.542Z</cm:constant>
+        </cm:property>
+      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="i87_yRRxTh6LkelFg" cm:mimetype="text/plain" cm:encoding="utf-8">ps:classalias: Variable Base Class for ClassE</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="iJb07SpNgLnlc0go9" cm:mimetype="text/html" cm:encoding="utf-8">The ps:classalias element in family models can be used to model a variable base class 
-To have class classE inherit either from classA or classB implement classE like this
-
-classE: classD { ... };
-
-and put a 'ps:classalias' classD into the family model, and create restrictions for its attribute 
-'Value' to be either "classA" or "classB" as shown in the System.ccfm.</cm:mimedesc>
+        <cm:mimedesc cm:id="iJb07SpNgLnlc0go9" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Representa a &lt;strong data-end="1881" data-start="1839"&gt;variabilidade estrutural entre classes&lt;/strong&gt; &amp;#x2014; ou seja, qual classe ser&amp;aacute; usada como base para outra (A ou B). Isso &amp;eacute; &amp;uacute;til em contextos onde a hierarquia de classes muda entre variantes.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
     <cm:element cm:id="iBjGeEcsQvQNoRFxW" cm:name="SelectBaseClassA" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
@@ -146,23 +154,30 @@ and put a 'ps:classalias' classD into the family model, and create restrictions 
       </cm:vname>
     </cm:element>
     <cm:element cm:id="ipkJsf_aWol39UA6t" cm:name="BaseClassVariation_1" cm:type="ps:feature" cm:class="ps:feature">
-      <cm:relations cm:id="i7VIQ7ADlEouHVZjs" cm:class="ps:parents">
-        <cm:relation cm:id="iWBax32HDoD3OY0Wf" cm:type="ps:parent">
-          <cm:target cm:id="iI8EU9O4O5X2azOep">./i4Kw7VuhYUDwOdHl7</cm:target>
+      <cm:relations cm:id="ik561tyPivg3Kcskj" cm:class="ps:parents">
+        <cm:relation cm:id="iHu0g_A68oU_gYSRa" cm:type="ps:parent">
+          <cm:target cm:id="iqy-qxVarWXjq2u6e">./i4Kw7VuhYUDwOdHl7</cm:target>
         </cm:relation>
       </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6Xy-nZwqa_BkaRr4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i2MKLT3_qI-POoCkF" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUY6I7C8gY18wXlPB" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iz75AVr5uVyrBPiug" cm:type="ps:datetime">2025-11-06T04:55:42.240Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPM6Z_CjneWdRRLGB" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iAriz_70tMCtPs6tW" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixMVwtn9y5QW-gzvY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ioHNFc-3zU9cijcS3" cm:type="ps:datetime">2025-11-06T04:55:53.153Z</cm:constant>
+        </cm:property>
+      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ik1XufFZ_QHFBN7GN" cm:mimetype="text/plain" cm:encoding="utf-8">ps:file: Use Alternative Header Implementation Variant2 for ClassB using ps:srcfile</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="iYZFFqaEA5RP_bS0-" cm:mimetype="text/html" cm:encoding="utf-8">To provide different implementation files which shall have the same name during compilation
-use the ps:srcfile attribute on a ps:file element and  different values e.g. "ClassB_Variant1.h" 
-and "ClassB_Variant2.h". Select the values with appropriate restrictions.
-See example for ClassB in System.ccfm. By default ClassB_Variant1.h is the selected implementation 
-but if "Alternative Implementation for ClassB" is selected, ClassB_Variant2.h is selected and copied to 
-ClassB.h 
-
-</cm:mimedesc>
+        <cm:mimedesc cm:id="iYZFFqaEA5RP_bS0-" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Representa que, se determinada combina&amp;ccedil;&amp;atilde;o for escolhida, o sistema usa uma vers&amp;atilde;o alternativa do arquivo (&lt;code data-start="2813" data-end="2832"&gt;ClassB_Variant2.h&lt;/code&gt;).&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
     <cm:element cm:id="ic0h0Nw6r6FsHGJj_" cm:name="ClassA_Impl1" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
@@ -171,9 +186,26 @@ ClassB.h
           <cm:target cm:id="in7jaxB9MaCofS-rJ">./i2sU_vWRzmBpGxE29</cm:target>
         </cm:relation>
       </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iUjlbIelq12GAXzN7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ivHZE5-XsW_zjig1N" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i66AxGjETO9WN2Fi-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKg6hFWawRhntne1G" cm:type="ps:datetime">2025-11-06T04:56:50.521Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igd0moc1v_TLpe8zx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iIxOFJRHmGSdTal3H" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIptKEQVOSD5kqk7-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iCg004BtLOiw4-i-c" cm:type="ps:datetime">2025-11-06T04:56:50.521Z</cm:constant>
+        </cm:property>
+      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ioV-lmdxTjRBRUu1Q" cm:mimetype="text/plain" cm:encoding="utf-8">ClassA Implementation Variant 1</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="idFHvGDXWuGFVWTKt" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Cada uma representa uma poss&amp;iacute;vel implementa&amp;ccedil;&amp;atilde;o do mesmo componente. O usu&amp;aacute;rio escolhe qual usar.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="i2sU_vWRzmBpGxE29" cm:name="FragmentVariation1" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="iD0YwdOrLcAVu2EBB" cm:class="ps:parents">
@@ -187,15 +219,25 @@ ClassB.h
           <cm:target cm:id="iE-ASDuh0O32ot5yY">./inuHA-zm0dvvJ1yWv</cm:target>
         </cm:relation>
       </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iAA63hMm0VJFyTpM-" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i-DO20niIssitUrcu" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8_aLSxf5GHhIu-qp" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iD1KOr1XjzdEzPj9G" cm:type="ps:datetime">2025-11-06T04:55:20.567Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCGIPQKYGwgdx0Yr3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ii1P9wRxijA0ngt9H" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1nKbyWbjbH-5T-t8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iwA2ZJcSBlJHDHs-X" cm:type="ps:datetime">2025-11-06T04:55:20.567Z</cm:constant>
+        </cm:property>
+      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iNA0_nOoI7h3xPIFT" cm:mimetype="text/plain" cm:encoding="utf-8">ps:fragment: Variable implementations with shared parts</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="ibD6UEZ_9raTyXJFH" cm:mimetype="text/html" cm:encoding="utf-8">The ps:fragment source element in family models can be used to combine shared 
-and variable parts into one file.
-Class A has 2 different implementations of  constructor&amp;destructor but shares the same 
-class declaration. The file is combined from ClassA_Decl.h plus ClassA_ImplVariant1.h or
-ClassA_ImplVariant2.h. See System.ccfm</cm:mimedesc>
+        <cm:mimedesc cm:id="ibD6UEZ_9raTyXJFH" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Define que h&amp;aacute; &lt;strong data-end="2316" data-start="2280"&gt;duas implementa&amp;ccedil;&amp;otilde;es alternativas&lt;/strong&gt; de um mesmo componente (aqui: &lt;code data-end="2380" data-start="2347"&gt;ClassA Implementation Variant 1&lt;/code&gt; e &lt;code data-end="2394" data-start="2383"&gt;Variant 2&lt;/code&gt;).&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
     <cm:element cm:id="inuHA-zm0dvvJ1yWv" cm:name="ClassA_Imp2" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
@@ -208,7 +250,7 @@ ClassA_ImplVariant2.h. See System.ccfm</cm:mimedesc>
         <cm:mimedesc cm:id="ijcqfyat6DLl6BekA" cm:mimetype="text/plain" cm:encoding="utf-8">ClassA Implementation Variant 2</cm:mimedesc>
       </cm:vname>
     </cm:element>
-    <cm:element cm:id="igmQHqBeWLP0N_P3Y" cm:name="ESL" cm:type="ps:feature" cm:class="ps:feature">
+    <cm:element cm:id="igmQHqBeWLP0N_P3Y" cm:name="ESL" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="iTiGSVq0d6ME9h-YK" cm:class="ps:parents">
         <cm:relation cm:id="iSn4EtEu1SH5WnDo1" cm:type="ps:parent">
           <cm:target cm:id="iyAUBZT4tP7EMynoM">./i4Kw7VuhYUDwOdHl7</cm:target>
@@ -231,9 +273,15 @@ ClassA_ImplVariant2.h. See System.ccfm</cm:mimedesc>
           <cm:constant cm:id="iIx56MdZS3aHtCksS" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="ijV3BvpvkJVKGgmdB" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iB48p49UGmbrJdCgr" cm:type="ps:datetime">2025-11-03T03:47:13.529Z</cm:constant>
+          <cm:constant cm:id="iB48p49UGmbrJdCgr" cm:type="ps:datetime">2025-11-07T03:17:15.904Z</cm:constant>
         </cm:property>
       </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i2YjeygUdLEplKXvD" cm:mimetype="text/plain" cm:encoding="utf-8">ESL</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iNgdv3CTgdSvDzVh2" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Agrupa as features espec&amp;iacute;ficas do dom&amp;iacute;nio &lt;strong data-end="2960" data-start="2927"&gt;Electronic Shelf Labels (ESL)&lt;/strong&gt;.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iI3828eu9oqvv0vBm" cm:name="Commission" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
       <cm:relations cm:id="isoxrbcF_jDspeajn" cm:class="ps:parents">
@@ -257,12 +305,15 @@ ClassA_ImplVariant2.h. See System.ccfm</cm:mimedesc>
           <cm:constant cm:id="iUFv1Mm-ZXyFWBQn1" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iaFpB-HgADGDcwBoR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iWrT25gtMToyyLrSv" cm:type="ps:datetime">2025-11-05T03:01:50.588Z</cm:constant>
+          <cm:constant cm:id="iWrT25gtMToyyLrSv" cm:type="ps:datetime">2025-11-06T04:56:16.413Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iDk-RjvfgYrxWR8px" cm:mimetype="text/plain" cm:encoding="utf-8">Commissioning</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iAlnfVLNStO5XXlCc" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;S&amp;atilde;o as features que representam as jornadas do sistema (ativar ou desativar etiquetas, etc.).&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="ibnXFt_3VQa0gSzvt" cm:name="decommission_1_1" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
       <cm:relations cm:id="iZd0xhIUK928L6APT" cm:class="ps:parents">
@@ -286,12 +337,15 @@ ClassA_ImplVariant2.h. See System.ccfm</cm:mimedesc>
           <cm:constant cm:id="iRjHpXF8kFXQDuMPH" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="i6k1-2tvEPabhWkYb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="ioddfHP_N3BzY50xA" cm:type="ps:datetime">2025-11-03T03:47:21.313Z</cm:constant>
+          <cm:constant cm:id="ioddfHP_N3BzY50xA" cm:type="ps:datetime">2025-11-06T04:56:29.688Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iMKq_cLzDHoWbPUbY" cm:mimetype="text/plain" cm:encoding="utf-8">Decommission</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iROhjNbgZFTw-tjEa" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Define que uma feature s&amp;oacute; pode ser ativada se a outra tamb&amp;eacute;m estiver. Exemplo: &amp;#x201c;Commissioning requer Decommissioning&amp;#x201d;.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
   </cm:elements>
 </cm:consulmodel>

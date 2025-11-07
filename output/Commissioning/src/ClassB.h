@@ -5,8 +5,8 @@
 
 class ClassB {
 public:
-  ClassB() { std::cout<<(void*)this<<": Class B (Variant 1) created"<<std::endl; }
-  ~ClassB() { std::cout<<(void*)this<<": Class B (Variant 1) deleted"<<std::endl; }
+  ClassB() { std::cout<<(void*)this<<": Class B (Variant 2) created"<<std::endl; }
+  ~ClassB() { std::cout<<(void*)this<<": Class B (Variant 2) deleted"<<std::endl; }
 };
 
 #endif /* __ClassB__ */
