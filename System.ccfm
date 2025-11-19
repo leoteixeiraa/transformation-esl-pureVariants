@@ -281,7 +281,38 @@
           <cm:constant cm:id="ieFwsKIKE42la7ynr" cm:restriction="iBQ-7pvaKVkdVuo5e" cm:type="ps:class">ikOdBCIsChxpcCQ8_/i-jiK2MKwIbLcaCF2</cm:constant>
           <cm:constant cm:id="iTEE_KGSJNVYWVVwQ" cm:restriction="iucKrt9lEYCWsfqhG" cm:type="ps:class">ikOdBCIsChxpcCQ8_/inK20tQGZCqaiaS5a</cm:constant>
         </cm:property>
+        <cm:property cm:id="iRNE9phm5MNewy_hl" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iLsOA1OCgWo34a7xz" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-QJvrkshifvkkcTz" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ief2Igzfyw8OKKUw7" cm:type="ps:datetime">2025-11-07T04:31:48.482Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="if_EDqvZscskagS-2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iv4LLQyB4z991rkFZ" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izkHP4fjdzRbhR1OM" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ii7Ga2bXw3-lov4do" cm:type="ps:datetime">2025-11-07T04:32:36.984Z</cm:constant>
+        </cm:property>
       </cm:properties>
+      <cm:desc>
+        <cm:mimedesc cm:id="ikqqp9TL5CDQ-L64L" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Representa uma &lt;em data-start="710" data-end="717"&gt;parte&lt;/em&gt; que permite definir uma &lt;strong data-start="742" data-end="776"&gt;rela&amp;ccedil;&amp;atilde;o de alias entre classes&lt;/strong&gt;, possibilitando que classes alternativas possam ser usadas na mesma posi&amp;ccedil;&amp;atilde;o dentro de uma hierarquia de classes&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-start="892" data-end="1069"&gt;&amp;#x1f539; &lt;strong data-start="895" data-end="928"&gt;No contexto original (C/C++):&lt;/strong&gt;&lt;br data-start="928" data-end="931"&gt; Permite declarar que uma classe (&lt;code data-start="964" data-end="972"&gt;ClassD&lt;/code&gt;) pode ser substitu&amp;iacute;da por outra (&lt;code data-start="1006" data-end="1014"&gt;ClassA&lt;/code&gt; ou &lt;code data-start="1018" data-end="1026"&gt;ClassB&lt;/code&gt;) &amp;#x2014; um alias no n&amp;iacute;vel de c&amp;oacute;digo ou heran&amp;ccedil;a.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-start="1071" data-end="1196"&gt;&amp;#x1f539; &lt;strong data-start="1074" data-end="1107"&gt;No seu contexto (ESL / Dart):&lt;/strong&gt;&lt;br data-start="1107" data-end="1110"&gt; Voc&amp;ecirc; pode interpretar como &lt;strong data-start="1137" data-end="1181"&gt;&amp;#x201c;liga&amp;ccedil;&amp;atilde;o entre componentes equivalentes&amp;#x201d;&lt;/strong&gt; &amp;#x2014; por exemplo:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul data-start="1197" data-end="1399"&gt;
+&lt;li data-start="1197" data-end="1306"&gt;
+&lt;p data-start="1199" data-end="1306"&gt;diferentes &lt;strong data-start="1210" data-end="1247"&gt;implementa&amp;ccedil;&amp;otilde;es de um mesmo m&amp;oacute;dulo&lt;/strong&gt; (como &lt;code data-start="1254" data-end="1276"&gt;CommissioningProcess&lt;/code&gt; vs &lt;code data-start="1280" data-end="1304"&gt;DecommissioningProcess&lt;/code&gt;);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-start="1307" data-end="1399"&gt;
+&lt;p data-start="1309" data-end="1399"&gt;ou classes com o &lt;strong data-start="1326" data-end="1373"&gt;mesmo papel, mas varia&amp;ccedil;&amp;otilde;es de comportamento&lt;/strong&gt; (mock, produ&amp;ccedil;&amp;atilde;o, etc.).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-start="1401" data-end="1572"&gt;Assim, &lt;code data-start="1411" data-end="1426"&gt;ps:classalias&lt;/code&gt; &lt;strong data-start="1427" data-end="1453"&gt;n&amp;atilde;o &amp;eacute; exclusivo de C++&lt;/strong&gt; &amp;#x2014; ele expressa &lt;strong data-start="1469" data-end="1539"&gt;variabilidade estrutural entre classes ou componentes equivalentes&lt;/strong&gt;, independentemente da linguagem.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="ih7phK12Qzxq-xL8Y" cm:type="ps:fragment" cm:class="ps:source" cm:default="on">
       <cm:relations cm:id="itc4H1sbW6-n21JYf" cm:class="ps:parents">
@@ -458,7 +489,28 @@
         <cm:property cm:id="iYzQVvTlDyYcYfq7I" cm:type="ps:path" cm:fixed="true" cm:name="linktarget">
           <cm:constant cm:id="iXpYfV-IgfDkW1WZK" cm:type="ps:string">sys/ClassC.h</cm:constant>
         </cm:property>
+        <cm:property cm:id="iza0nqxW6A3KoXOUH" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iB9PjDIePqwZkCjkc" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="if9YEQ15QYOGqh1Du" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ieBVDyOj27qIgpp04" cm:type="ps:datetime">2025-11-07T04:36:42.122Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9PQVTI2vF8VuKL65" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="idxuvgIUhAKySQmSI" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOa1EVmRqzxLnSybz" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ilSry1AjZxkHos0sU" cm:type="ps:datetime">2025-11-07T04:36:42.122Z</cm:constant>
+        </cm:property>
       </cm:properties>
+      <cm:desc>
+        <cm:mimedesc cm:id="irFJwk8Ca4xukKD6L" cm:mimetype="text/html" cm:encoding="utf-8">&lt;h2 data-end="3406" data-start="3381"&gt;&lt;strong data-end="3406" data-start="3387"&gt;5. &lt;code data-end="3404" data-start="3392"&gt;ps:symlink&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p data-end="3434" data-start="3407"&gt;&amp;#x1f4d8; &lt;strong data-end="3432" data-start="3410"&gt;Defini&amp;ccedil;&amp;atilde;o oficial:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote data-end="3499" data-start="3435"&gt;
+&lt;p data-end="3499" data-start="3437"&gt;&amp;#x201c;Mapeia diretamente um &lt;em data-end="3476" data-start="3460"&gt;link simb&amp;oacute;lico&lt;/em&gt; para outro arquivo.&amp;#x201d;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="3669" data-start="3501"&gt;&amp;#x1f539; &lt;strong data-end="3515" data-start="3504"&gt;Fun&amp;ccedil;&amp;atilde;o:&lt;/strong&gt;&lt;br data-end="3518" data-start="3515"&gt; Permite criar um atalho para outro arquivo durante a gera&amp;ccedil;&amp;atilde;o &amp;#x2014; muito usado em sistemas que reaproveitam o mesmo arquivo em diferentes lugares do build.&lt;/p&gt;
+&lt;p data-end="3856" data-start="3671"&gt;&amp;#x1f539; &lt;strong data-end="3694" data-start="3674"&gt;No seu contexto:&lt;/strong&gt;&lt;br data-end="3697" data-start="3694"&gt; Poderia criar uma c&amp;oacute;pia simb&amp;oacute;lica entre dois arquivos &lt;code data-end="3758" data-start="3751"&gt;.dart&lt;/code&gt; ou &lt;code data-end="3769" data-start="3762"&gt;.json&lt;/code&gt; dentro do &lt;code data-end="3788" data-start="3780"&gt;output&lt;/code&gt;, &amp;uacute;til se um mesmo componente &amp;eacute; reutilizado por diferentes features.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iVmLwtvpqKsIs91Ar" cm:type="ps:classaliasfile" cm:class="ps:source" cm:default="on">
       <cm:relations cm:id="ib9zK-RwEtSe1I9kt" cm:class="ps:parents">
@@ -473,7 +525,33 @@
         <cm:property cm:id="iQpBZSAYwGmTgQBAO" cm:type="ps:string" cm:fixed="true" cm:name="alias">
           <cm:constant cm:id="iAJ_Nr7fFI10ft8eW" cm:type="ps:string">ClassD</cm:constant>
         </cm:property>
+        <cm:property cm:id="iM_T5hNetm7_boj-J" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i3ZH-hQpIIi6UmTUn" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOvoPySeHR2XnBE6o" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iiZCMXz0vNddxlxNN" cm:type="ps:datetime">2025-11-07T04:36:10.366Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4ZY_Q-2x79_yezVT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ixQuFYhCbrUiCgWnb" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZPckyoGuy2i5Inyk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i8Orfh6V6KDqWmC75" cm:type="ps:datetime">2025-11-07T04:36:10.367Z</cm:constant>
+        </cm:property>
       </cm:properties>
+      <cm:desc>
+        <cm:mimedesc cm:id="iKF3F-V-zSNlNTrs9" cm:mimetype="text/html" cm:encoding="utf-8">&lt;h2 data-end="2824" data-start="2792"&gt;&lt;strong data-end="2824" data-start="2798"&gt;&lt;code data-end="2822" data-start="2803"&gt;ps:classaliasfile&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p data-end="2852" data-start="2825"&gt;&amp;#x1f4d8; &lt;strong data-end="2850" data-start="2828"&gt;Defini&amp;ccedil;&amp;atilde;o oficial:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote data-end="2939" data-start="2853"&gt;
+&lt;p data-end="2939" data-start="2855"&gt;&amp;#x201c;Representa um arquivo que cont&amp;eacute;m o alias de classe usado por um &lt;code data-end="2935" data-start="2920"&gt;ps:classalias&lt;/code&gt;.&amp;#x201d;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="3068" data-start="2941"&gt;&amp;#x1f539; &lt;strong data-end="2955" data-start="2944"&gt;Fun&amp;ccedil;&amp;atilde;o:&lt;/strong&gt;&lt;br data-end="2958" data-start="2955"&gt; &amp;Eacute; o arquivo f&amp;iacute;sico que guarda o v&amp;iacute;nculo entre as classes.&lt;br data-end="3018" data-start="3015"&gt; No C++ seria algo como &lt;code data-end="3065" data-start="3041"&gt;typedef ClassA ClassD;&lt;/code&gt;.&lt;/p&gt;
+&lt;p data-end="3172" data-start="3070"&gt;&amp;#x1f539; &lt;strong data-end="3096" data-start="3073"&gt;No seu caso (Dart):&lt;/strong&gt;&lt;br data-end="3099" data-start="3096"&gt; Pode equivaler a um arquivo &lt;code data-end="3134" data-start="3127"&gt;.dart&lt;/code&gt; que faz reexport ou redirecionamento:&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-dart"&gt;&lt;span&gt;export 'commissioning_process.dart' if (dart.library.html) 'commissioning_web_process.dart';&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="3374" data-start="3278"&gt;Ou seja, ele &lt;strong data-end="3344" data-start="3291"&gt;implementa a liga&amp;ccedil;&amp;atilde;o entre alternativas de classe&lt;/strong&gt;, o mesmo conceito estrutural.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="i7-SpXiN89QfXVSEJ" cm:name="Makefile" cm:type="ps:project" cm:class="ps:part" cm:default="on">
       <cm:relations cm:id="ivLXNS_56_jGyHWZe" cm:class="ps:parents">
@@ -625,7 +703,29 @@
         <cm:property cm:id="i5hf7xmF4MaviSI26" cm:type="ps:string" cm:fixed="true" cm:name="variable">
           <cm:constant cm:id="iPxaI4HkXyEqWpTSJ" cm:type="ps:string">CXX_OPTFLAGS</cm:constant>
         </cm:property>
+        <cm:property cm:id="iNVcV1frtJM0oH31G" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iKrWLNu2fm_9wg4Re" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJkuZbz7T_ozA_xuP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iy-xG6N62inP4xJxX" cm:type="ps:datetime">2025-11-07T04:34:20.404Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6xTGAy4t5cSNigmr" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iRZnFfSJfp2YstL8o" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixIt4l4lwjrvkzos_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ijmfD7I7lPTi05O9Y" cm:type="ps:datetime">2025-11-07T04:34:20.404Z</cm:constant>
+        </cm:property>
       </cm:properties>
+      <cm:desc>
+        <cm:mimedesc cm:id="irhjt0xZfTCX2VIrG" cm:mimetype="text/html" cm:encoding="utf-8">&lt;h2 data-end="2301" data-start="2275"&gt;&lt;strong data-end="2301" data-start="2281"&gt;&lt;code data-end="2299" data-start="2286"&gt;ps:makefile&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p data-end="2329" data-start="2302"&gt;&amp;#x1f4d8; &lt;strong data-end="2327" data-start="2305"&gt;Defini&amp;ccedil;&amp;atilde;o oficial:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote data-end="2430" data-start="2330"&gt;
+&lt;p data-end="2430" data-start="2332"&gt;&amp;#x201c;Representa um arquivo de build (como GNU Makefiles) contendo vari&amp;aacute;veis e regras de compila&amp;ccedil;&amp;atilde;o.&amp;#x201d;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="2503" data-start="2432"&gt;&amp;#x1f539; &lt;strong data-end="2446" data-start="2435"&gt;Fun&amp;ccedil;&amp;atilde;o:&lt;/strong&gt;&lt;br data-end="2449" data-start="2446"&gt; Gerar ou modificar &lt;strong data-end="2502" data-start="2468"&gt;arquivos de automa&amp;ccedil;&amp;atilde;o de build&lt;/strong&gt;.&lt;/p&gt;
+&lt;p data-end="2686" data-start="2505"&gt;&amp;#x1f539; &lt;strong data-end="2524" data-start="2508"&gt;No seu caso:&lt;/strong&gt;&lt;br data-end="2527" data-start="2524"&gt; Pode equivaler a um arquivo &lt;code data-end="2567" data-start="2555"&gt;build.yaml&lt;/code&gt;, &lt;code data-end="2583" data-start="2569"&gt;pubspec.yaml&lt;/code&gt;, &lt;code data-end="2599" data-start="2585"&gt;package.json&lt;/code&gt; ou &lt;code data-end="2617" data-start="2603"&gt;CI/CD config&lt;/code&gt; &amp;#x2014; qualquer estrutura que descreva depend&amp;ecirc;ncias ou regras de gera&amp;ccedil;&amp;atilde;o.&lt;/p&gt;
+&lt;p data-end="2785" data-start="2688"&gt;&amp;#x1f4a1; Voc&amp;ecirc; poderia us&amp;aacute;-lo, por exemplo, para gerar um &lt;code data-end="2751" data-start="2739"&gt;build.yaml&lt;/code&gt; diferente para cada variante ESL.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iAQ7N-l9oUie2j-OA" cm:type="ps:flag" cm:class="ps:part" cm:default="on">
       <cm:relations cm:id="iPXpqYbYhFpDd6iRe" cm:class="ps:parents">
@@ -643,10 +743,185 @@
           <cm:constant cm:id="ih1XpHc3LcW5CWCA9" cm:restriction="ijtF8pL3sDEl0zbts" cm:type="ps:string">1</cm:constant>
           <cm:constant cm:id="iAckQSRO-PtPqYj72" cm:type="ps:string">0</cm:constant>
         </cm:property>
+        <cm:property cm:id="i5JI3nBZPetfvUdAt" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i9S-oymBQ6IP8K-sS" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_wT_Wc6IYUVHQseS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i4Mn_hfrbDhuLbiv3" cm:type="ps:datetime">2025-11-07T04:38:08.999Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iN8ht5By6cNiXsTpj" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="isouKj4sr0k-qSvA_" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-r44ZrFwPtVB-ode" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i2_qlKY8tTk1IZ4uS" cm:type="ps:datetime">2025-11-07T04:38:08.999Z</cm:constant>
+        </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id994841" cm:mimetype="text/plain" cm:encoding="utf-8">DEBUG</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="i9ajcVQQFbv06vMUP" cm:mimetype="text/html" cm:encoding="utf-8">&lt;blockquote data-end="670" data-start="493"&gt;
+&lt;p data-end="670" data-start="495"&gt;&amp;#x201c;&lt;code data-end="505" data-start="496"&gt;ps:flag&lt;/code&gt; representa uma &lt;em data-end="528" data-start="521"&gt;parte&lt;/em&gt; (part element) usada para &lt;strong data-end="593" data-start="555"&gt;definir uma flag ou valor booleano&lt;/strong&gt; que controla a presen&amp;ccedil;a ou aus&amp;ecirc;ncia de elementos durante a transforma&amp;ccedil;&amp;atilde;o.&amp;#x201d;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="846" data-start="672"&gt;&amp;#x1f449; Em outras palavras:&lt;br data-end="697" data-start="694"&gt; O &lt;code data-end="708" data-start="699"&gt;ps:flag&lt;/code&gt; &amp;eacute; &lt;strong data-end="739" data-start="711"&gt;uma vari&amp;aacute;vel de controle&lt;/strong&gt;, normalmente usada para &lt;strong data-end="787" data-start="764"&gt;ativar ou desativar&lt;/strong&gt; partes do c&amp;oacute;digo, arquivos ou par&amp;acirc;metros no produto final.&lt;/p&gt;
+&lt;hr data-end="851" data-start="848"&gt;
+&lt;h2 data-end="883" data-start="853"&gt;&lt;strong data-end="883" data-start="859"&gt;2. Fun&amp;ccedil;&amp;atilde;o conceitual&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul data-end="1176" data-start="885"&gt;
+&lt;li data-end="938" data-start="885"&gt;
+&lt;p data-end="938" data-start="887"&gt;&amp;Eacute; um &lt;strong data-end="935" data-start="892"&gt;elemento de n&amp;iacute;vel l&amp;oacute;gico (part element)&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1000" data-start="939"&gt;
+&lt;p data-end="1000" data-start="941"&gt;Seu valor &amp;eacute; normalmente &lt;strong data-end="977" data-start="965"&gt;booleano&lt;/strong&gt; (&lt;code data-end="985" data-start="979"&gt;true&lt;/code&gt; ou &lt;code data-end="996" data-start="989"&gt;false&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1176" data-start="1001"&gt;
+&lt;p data-end="1018" data-start="1003"&gt;Pode ser usado:&lt;/p&gt;
+&lt;ul data-end="1176" data-start="1021"&gt;
+&lt;li data-end="1077" data-start="1021"&gt;
+&lt;p data-end="1077" data-start="1023"&gt;isoladamente, como simples sinal de &amp;#x201c;ativo/inativo&amp;#x201d;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1176" data-start="1080"&gt;
+&lt;p data-end="1176" data-start="1082"&gt;ou associado a &lt;strong data-end="1125" data-start="1097"&gt;arquivos (&lt;code data-end="1122" data-start="1109"&gt;ps:flagfile&lt;/code&gt;)&lt;/strong&gt;, &lt;strong data-end="1140" data-start="1127"&gt;makefiles&lt;/strong&gt;, &lt;strong data-end="1170" data-start="1142"&gt;condi&amp;ccedil;&amp;otilde;es (&lt;code data-end="1167" data-start="1155"&gt;ps:condxml&lt;/code&gt;)&lt;/strong&gt;, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p data-end="1213" data-start="1178"&gt;&amp;#x1f4a1; Em SPL (Software Product Lines):&lt;/p&gt;
+&lt;blockquote data-end="1302" data-start="1214"&gt;
+&lt;p data-end="1302" data-start="1216"&gt;&lt;code data-end="1225" data-start="1216"&gt;ps:flag&lt;/code&gt; &amp;eacute; usado para &lt;strong data-end="1301" data-start="1239"&gt;materializar features em valores concretos de configura&amp;ccedil;&amp;atilde;o&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr data-end="1307" data-start="1304"&gt;
+&lt;h2 data-end="1365" data-start="1309"&gt;&lt;strong data-end="1365" data-start="1315"&gt;3. Como ele &amp;eacute; usado no Standard Transformation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p data-end="1416" data-start="1367"&gt;No &lt;em data-end="1387" data-start="1370"&gt;exemplo oficial&lt;/em&gt; (&amp;#x201c;Standard Transformation&amp;#x201d;):&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-text"&gt;&lt;span&gt;&lt;span&gt;Flags
+ &amp;#x2523; ps:flag: DEBUG
+ &amp;#x2517; ps:flag: PRODUCT
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="1590" data-start="1475"&gt;Essas flags definem se a vers&amp;atilde;o &amp;eacute; de &lt;strong data-end="1525" data-start="1512"&gt;depura&amp;ccedil;&amp;atilde;o&lt;/strong&gt; ou &lt;strong data-end="1541" data-start="1529"&gt;produ&amp;ccedil;&amp;atilde;o&lt;/strong&gt;.&lt;br data-end="1545" data-start="1542"&gt; Durante a transforma&amp;ccedil;&amp;atilde;o, esses valores podem:&lt;/p&gt;
+&lt;ul data-end="1722" data-start="1591"&gt;
+&lt;li data-end="1656" data-start="1591"&gt;
+&lt;p data-end="1656" data-start="1593"&gt;ser escritos em um arquivo de configura&amp;ccedil;&amp;atilde;o (via &lt;code data-end="1654" data-start="1641"&gt;ps:flagfile&lt;/code&gt;),&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1722" data-start="1657"&gt;
+&lt;p data-end="1722" data-start="1659"&gt;ou controlarem quais arquivos ou classes entram no build final.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr data-end="1727" data-start="1724"&gt;
+&lt;h2 data-end="1774" data-start="1729"&gt;&amp;#x1f4a1; &lt;strong data-end="1774" data-start="1735"&gt;4. Exemplo pr&amp;aacute;tico (C/C++ original)&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-c"&gt;&lt;span&gt;&lt;span&gt;&lt;span class="hljs-comment"&gt;// config.h (gerado automaticamente)&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span class="hljs-meta"&gt;#&lt;span class="hljs-keyword"&gt;define&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt; DEBUG 1
+&lt;/span&gt;&lt;span&gt;&lt;span class="hljs-meta"&gt;#&lt;span class="hljs-keyword"&gt;define&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt; PRODUCT 0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="1902" data-start="1857"&gt;Essas linhas seriam geradas porque no modelo:&lt;/p&gt;
+&lt;ul data-end="1981" data-start="1904"&gt;
+&lt;li data-end="1941" data-start="1904"&gt;
+&lt;p data-end="1941" data-start="1906"&gt;&lt;code data-end="1921" data-start="1906"&gt;ps:flag DEBUG&lt;/code&gt; estava &lt;strong data-end="1938" data-start="1929"&gt;ativo&lt;/strong&gt;,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li data-end="1981" data-start="1942"&gt;
+&lt;p data-end="1981" data-start="1944"&gt;&lt;code data-end="1961" data-start="1944"&gt;ps:flag PRODUCT&lt;/code&gt; estava &lt;strong data-end="1980" data-start="1969"&gt;inativo&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p data-end="2046" data-start="1983"&gt;O &lt;em data-end="2001" data-start="1985"&gt;pure::variants&lt;/em&gt; faz isso automaticamente ao gerar o produto.&lt;/p&gt;
+&lt;hr data-end="2051" data-start="2048"&gt;
+&lt;h2 data-end="2111" data-start="2053"&gt;&amp;nbsp;&lt;strong data-end="2111" data-start="2059"&gt;5. Exemplo adaptado ao seu contexto (ESL / Dart)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p data-end="2206" data-start="2113"&gt;Imagine que voc&amp;ecirc; quer ativar o m&amp;oacute;dulo de &lt;strong data-end="2171" data-start="2154"&gt;Commissioning&lt;/strong&gt; apenas se uma flag estiver ligada.&lt;/p&gt;
+&lt;p data-end="2241" data-start="2208"&gt;No seu &lt;code data-end="2222" data-start="2215"&gt;.ccfm&lt;/code&gt;, voc&amp;ecirc; poderia ter:&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-text"&gt;&lt;span&gt;&lt;span&gt;Flags
+ &amp;#x2523; ps:flag: COMMISSIONING
+ &amp;#x2517; ps:flag: DECOMMISSION
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="2362" data-start="2312"&gt;E gerar um arquivo Dart assim (via &lt;code data-end="2360" data-start="2347"&gt;ps:flagfile&lt;/code&gt;):&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-dart"&gt;&lt;span&gt;const bool FEATURE_COMMISSIONING = true;
+const bool FEATURE_DECOMMISSION = false;
+&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="2483" data-start="2458"&gt;A&amp;iacute;, dentro do seu c&amp;oacute;digo:&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-dart"&gt;&lt;span&gt;if (FEATURE_COMMISSIONING) {
+  runCommissioningProcess();
+}
+&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="2683" data-start="2557"&gt;&amp;#x1f4a1; Assim, o &lt;em data-end="2585" data-start="2569"&gt;pure::variants&lt;/em&gt; define &lt;strong data-end="2626" data-start="2593"&gt;automaticamente as constantes&lt;/strong&gt; com base na configura&amp;ccedil;&amp;atilde;o selecionada no &lt;code data-end="2673" data-start="2667"&gt;.xfm&lt;/code&gt; / &lt;code data-end="2682" data-start="2676"&gt;.vdm&lt;/code&gt;.&lt;/p&gt;
+&lt;hr data-end="2688" data-start="2685"&gt;
+&lt;h2 data-end="2731" data-start="2690"&gt;&amp;nbsp;&lt;strong data-end="2731" data-start="2696"&gt;6. Rela&amp;ccedil;&amp;atilde;o com outros elementos&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class="_tableContainer_1rjym_1"&gt;
+&lt;div class="group _tableWrapper_1rjym_13 flex w-fit flex-col-reverse"&gt;
+&lt;table class="w-fit min-w-(--thread-content-width)" data-end="3225" data-start="2733"&gt;
+&lt;thead data-end="2788" data-start="2733"&gt;
+&lt;tr data-end="2788" data-start="2733"&gt;&lt;th data-end="2744" data-start="2733" data-col-size="sm"&gt;Elemento&lt;/th&gt;&lt;th data-end="2768" data-start="2744" data-col-size="md"&gt;Rela&amp;ccedil;&amp;atilde;o com &lt;code data-end="2767" data-start="2758"&gt;ps:flag&lt;/code&gt;&lt;/th&gt;&lt;th data-end="2788" data-start="2768" data-col-size="sm"&gt;Fun&amp;ccedil;&amp;atilde;o combinada&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody data-end="3225" data-start="2846"&gt;
+&lt;tr data-end="2948" data-start="2846"&gt;
+&lt;td data-end="2862" data-start="2846" data-col-size="sm"&gt;&lt;code data-end="2861" data-start="2848"&gt;ps:flagfile&lt;/code&gt;&lt;/td&gt;
+&lt;td data-end="2911" data-start="2862" data-col-size="md"&gt;Usa flags para gerar arquivos de configura&amp;ccedil;&amp;atilde;o.&lt;/td&gt;
+&lt;td data-end="2948" data-start="2911" data-col-size="sm"&gt;Escreve as flags no c&amp;oacute;digo final.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr data-end="3046" data-start="2949"&gt;
+&lt;td data-end="2965" data-start="2949" data-col-size="sm"&gt;&lt;code data-end="2964" data-start="2951"&gt;ps:makefile&lt;/code&gt;&lt;/td&gt;
+&lt;td data-end="3008" data-start="2965" data-col-size="md"&gt;Pode usar flags como vari&amp;aacute;veis de build.&lt;/td&gt;
+&lt;td data-end="3046" data-start="3008" data-col-size="sm"&gt;Controla a compila&amp;ccedil;&amp;atilde;o condicional.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr data-end="3133" data-start="3047"&gt;
+&lt;td data-end="3062" data-start="3047" data-col-size="sm"&gt;&lt;code data-end="3061" data-start="3049"&gt;ps:condxml&lt;/code&gt;&lt;/td&gt;
+&lt;td data-end="3099" data-start="3062" data-col-size="md"&gt;Pode usar flags em documentos XML.&lt;/td&gt;
+&lt;td data-end="3133" data-start="3099" data-col-size="sm"&gt;Gera documenta&amp;ccedil;&amp;atilde;o condicional.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr data-end="3225" data-start="3134"&gt;
+&lt;td data-end="3147" data-start="3134" data-col-size="sm"&gt;&lt;code data-end="3146" data-start="3136"&gt;ps:value&lt;/code&gt;&lt;/td&gt;
+&lt;td data-end="3193" data-start="3147" data-col-size="md"&gt;Pode ser usada junto para calcular valores.&lt;/td&gt;
+&lt;td data-end="3225" data-start="3193" data-col-size="sm"&gt;Define flags com express&amp;otilde;es.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr data-end="3230" data-start="3227"&gt;
+&lt;h2 data-end="3262" data-start="3232"&gt;&amp;#x1f9ed; &lt;strong data-end="3262" data-start="3238"&gt;7. Resumo conceitual&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class="_tableContainer_1rjym_1"&gt;
+&lt;div class="group _tableWrapper_1rjym_13 flex w-fit flex-col-reverse"&gt;
+&lt;table class="w-fit min-w-(--thread-content-width)" data-end="3754" data-start="3264"&gt;
+&lt;thead data-end="3305" data-start="3264"&gt;
+&lt;tr data-end="3305" data-start="3264"&gt;&lt;th data-end="3272" data-start="3264" data-col-size="sm"&gt;Termo&lt;/th&gt;&lt;th data-end="3286" data-start="3272" data-col-size="md"&gt;Significado&lt;/th&gt;&lt;th data-end="3305" data-start="3286" data-col-size="md"&gt;Exemplo pr&amp;aacute;tico&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody data-end="3754" data-start="3349"&gt;
+&lt;tr data-end="3488" data-start="3349"&gt;
+&lt;td data-end="3365" data-start="3349" data-col-size="sm"&gt;&lt;strong data-end="3364" data-start="3351"&gt;&lt;code data-end="3362" data-start="3353"&gt;ps:flag&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td data-end="3448" data-start="3365" data-col-size="md"&gt;Representa um sinalizador l&amp;oacute;gico (parte do sistema que pode estar ativa ou n&amp;atilde;o).&lt;/td&gt;
+&lt;td data-end="3488" data-start="3448" data-col-size="md"&gt;&lt;code data-end="3457" data-start="3450"&gt;DEBUG&lt;/code&gt;, &lt;code data-end="3468" data-start="3459"&gt;PRODUCT&lt;/code&gt;, &lt;code data-end="3485" data-start="3470"&gt;COMMISSIONING&lt;/code&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr data-end="3640" data-start="3489"&gt;
+&lt;td data-end="3502" data-start="3489" data-col-size="sm"&gt;&lt;strong data-end="3501" data-start="3491"&gt;Fun&amp;ccedil;&amp;atilde;o&lt;/strong&gt;&lt;/td&gt;
+&lt;td data-end="3582" data-start="3502" data-col-size="md"&gt;Controla a ativa&amp;ccedil;&amp;atilde;o de partes do sistema ou arquivos durante a transforma&amp;ccedil;&amp;atilde;o.&lt;/td&gt;
+&lt;td data-end="3640" data-start="3582" data-col-size="md"&gt;Ativar/desativar arquivos &lt;code data-end="3617" data-start="3610"&gt;.dart&lt;/code&gt; ou se&amp;ccedil;&amp;otilde;es de c&amp;oacute;digo.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr data-end="3754" data-start="3641"&gt;
+&lt;td data-end="3663" data-start="3641" data-col-size="sm"&gt;&lt;strong data-end="3662" data-start="3643"&gt;Usado junto com&lt;/strong&gt;&lt;/td&gt;
+&lt;td data-end="3707" data-start="3663" data-col-size="md"&gt;&lt;code data-end="3678" data-start="3665"&gt;ps:flagfile&lt;/code&gt;, &lt;code data-end="3690" data-start="3680"&gt;ps:value&lt;/code&gt;, &lt;code data-end="3705" data-start="3692"&gt;ps:makefile&lt;/code&gt;.&lt;/td&gt;
+&lt;td data-end="3754" data-start="3707" data-col-size="md"&gt;Para escrever valores em arquivos de sa&amp;iacute;da.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr data-end="3759" data-start="3756"&gt;
+&lt;p data-end="3778" data-start="3761"&gt;&amp;#x1f4ac; &lt;strong data-end="3778" data-start="3764"&gt;Em resumo:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote data-end="4193" data-start="3779"&gt;
+&lt;p data-end="3926" data-start="3781"&gt;&lt;code data-end="3790" data-start="3781"&gt;ps:flag&lt;/code&gt; &amp;eacute; um &lt;strong data-end="3826" data-start="3796"&gt;indicador de variabilidade&lt;/strong&gt; &amp;#x2014; um &lt;em data-end="3846" data-start="3832"&gt;part element&lt;/em&gt; usado para representar &lt;strong data-end="3892" data-start="3870"&gt;decis&amp;otilde;es booleanas&lt;/strong&gt; dentro da transforma&amp;ccedil;&amp;atilde;o padr&amp;atilde;o.&lt;/p&gt;
+&lt;p data-end="4075" data-start="3933"&gt;Ele permite que o &lt;em data-end="3967" data-start="3951"&gt;pure::variants&lt;/em&gt; &lt;strong data-end="4038" data-start="3968"&gt;controle a gera&amp;ccedil;&amp;atilde;o condicional de c&amp;oacute;digo, arquivos e configura&amp;ccedil;&amp;otilde;es&lt;/strong&gt; conforme as features selecionadas.&lt;/p&gt;
+&lt;p data-end="4193" data-start="4082"&gt;No seu caso, ele pode ativar ou n&amp;atilde;o partes do fluxo &lt;em data-end="4149" data-start="4134"&gt;Commissioning&lt;/em&gt; e &lt;em data-end="4166" data-start="4152"&gt;Decommission&lt;/em&gt; na gera&amp;ccedil;&amp;atilde;o do produto ESL.&lt;/p&gt;
+&lt;/blockquote&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iiMhaXrELGkFZIRoc" cm:type="ps:flagfile" cm:class="ps:source" cm:default="on">
       <cm:relations cm:id="iKbjkie2BeucASqdE" cm:class="ps:parents">
@@ -661,7 +936,35 @@
         <cm:property cm:id="i9k2RrP4Vz3BXqfbP" cm:type="ps:string" cm:fixed="true" cm:name="flag">
           <cm:constant cm:id="iS6bz3ohQLzw3Mpza" cm:type="ps:string">DEBUG</cm:constant>
         </cm:property>
+        <cm:property cm:id="iklPs-jS6sHuyx5Q0" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iWdML3ruJaArtW3gw" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSGNc7vBEsrV4OVji" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iX-YsH8I0jM_GPPTd" cm:type="ps:datetime">2025-11-07T04:33:37.685Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1AZHTBcjn0v9jPPo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iQ2aDvMvGa-JPXMBI" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQ-fUZDBAEvB7rCST" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ivPWdnTZbr1_mOdXg" cm:type="ps:datetime">2025-11-07T04:33:37.685Z</cm:constant>
+        </cm:property>
       </cm:properties>
+      <cm:desc>
+        <cm:mimedesc cm:id="igCiA_pw_bTKwRbsn" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p data-end="1633" data-start="1606"&gt;&lt;strong data-end="1631" data-start="1609"&gt;Defini&amp;ccedil;&amp;atilde;o oficial:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote data-end="1748" data-start="1634"&gt;
+&lt;p data-end="1748" data-start="1636"&gt;&amp;#x201c;Representa um arquivo que cont&amp;eacute;m &lt;em data-end="1677" data-start="1670"&gt;flags&lt;/em&gt; (sinalizadores), como arquivos de cabe&amp;ccedil;alho com &lt;code data-end="1735" data-start="1726"&gt;#define&lt;/code&gt; em C/C++.&amp;#x201d;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="1887" data-start="1750"&gt;&amp;#x1f539; &lt;strong data-end="1764" data-start="1753"&gt;Fun&amp;ccedil;&amp;atilde;o:&lt;/strong&gt;&lt;br data-end="1767" data-start="1764"&gt; Armazena &lt;strong data-end="1827" data-start="1776"&gt;valores booleanos ou constantes de configura&amp;ccedil;&amp;atilde;o&lt;/strong&gt; que podem ser referenciados em diferentes partes do c&amp;oacute;digo.&lt;/p&gt;
+&lt;p data-end="1978" data-start="1889"&gt;&amp;#x1f539; &lt;strong data-end="1918" data-start="1892"&gt;No seu contexto (ESL):&lt;/strong&gt;&lt;br data-end="1921" data-start="1918"&gt; Pode representar um arquivo de configura&amp;ccedil;&amp;atilde;o, por exemplo:&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-dart"&gt;&lt;span&gt;const bool FEATURE_COMMISSIONING = true;
+const bool FEATURE_DECOMMISSION = false;
+&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="2144" data-start="2073"&gt;Ou at&amp;eacute; um &lt;code data-end="2096" data-start="2083"&gt;config.yaml&lt;/code&gt; com chaves que controlam a ativa&amp;ccedil;&amp;atilde;o de m&amp;oacute;dulos.&lt;/p&gt;
+&lt;p data-end="2268" data-start="2146"&gt;&amp;#x1f4a1; Serve para &lt;strong data-end="2228" data-start="2160"&gt;centralizar a defini&amp;ccedil;&amp;atilde;o de par&amp;acirc;metros de compila&amp;ccedil;&amp;atilde;o/configura&amp;ccedil;&amp;atilde;o&lt;/strong&gt; &amp;#x2014; conceito universal, n&amp;atilde;o limitado a C.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iD70LlaTpHcF2kSfi" cm:type="ps:flagfile" cm:class="ps:source" cm:default="on">
       <cm:relations cm:id="ib-K1Qaw_1uEF83_4" cm:class="ps:parents">
@@ -676,7 +979,34 @@
         <cm:property cm:id="i53QP9q9L9h2TZCmk" cm:type="ps:string" cm:fixed="true" cm:name="flag">
           <cm:constant cm:id="iaskXpbMrK02Hr0tt" cm:type="ps:string">PRODUCT</cm:constant>
         </cm:property>
+        <cm:property cm:id="iPV8UPePkZRc3Vpop" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ixqOHg8o7ZH3lHNQv" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihN2ClbgaBg4iOneq" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="imbvLeNkq-HAwfL__" cm:type="ps:datetime">2025-11-07T04:35:03.185Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuYIsetCgWdewJfZU" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iU7-v52KSHqd9BMAM" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="il9LgJ8WHufPY2Pqj" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iZiHex468MbIxJZ6Y" cm:type="ps:datetime">2025-11-07T04:35:03.186Z</cm:constant>
+        </cm:property>
       </cm:properties>
+      <cm:desc>
+        <cm:mimedesc cm:id="i4Lg-l1JCVNay0R_E" cm:mimetype="text/html" cm:encoding="utf-8">&lt;h2 data-end="2824" data-start="2792"&gt;&lt;strong data-end="2824" data-start="2798"&gt;&lt;code data-end="2822" data-start="2803"&gt;ps:classaliasfile&lt;/code&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p data-end="2852" data-start="2825"&gt;&amp;#x1f4d8; &lt;strong data-end="2850" data-start="2828"&gt;Defini&amp;ccedil;&amp;atilde;o oficial:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote data-end="2939" data-start="2853"&gt;
+&lt;p data-end="2939" data-start="2855"&gt;&amp;#x201c;Representa um arquivo que cont&amp;eacute;m o alias de classe usado por um &lt;code data-end="2935" data-start="2920"&gt;ps:classalias&lt;/code&gt;.&amp;#x201d;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="3068" data-start="2941"&gt;&amp;#x1f539; &lt;strong data-end="2955" data-start="2944"&gt;Fun&amp;ccedil;&amp;atilde;o:&lt;/strong&gt;&lt;br data-end="2958" data-start="2955"&gt; &amp;Eacute; o arquivo f&amp;iacute;sico que guarda o v&amp;iacute;nculo entre as classes.&lt;br data-end="3018" data-start="3015"&gt; No C++ seria algo como &lt;code data-end="3065" data-start="3041"&gt;typedef ClassA ClassD;&lt;/code&gt;.&lt;/p&gt;
+&lt;p data-end="3172" data-start="3070"&gt;&amp;#x1f539; &lt;strong data-end="3096" data-start="3073"&gt;No seu caso (Dart):&lt;/strong&gt;&lt;br data-end="3099" data-start="3096"&gt; Pode equivaler a um arquivo &lt;code data-end="3134" data-start="3127"&gt;.dart&lt;/code&gt; que faz reexport ou redirecionamento:&lt;/p&gt;
+&lt;div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"&gt;
+&lt;div class="sticky top-9"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="whitespace-pre! language-dart"&gt;&lt;span&gt;export 'commissioning_process.dart' if (dart.library.html) 'commissioning_web_process.dart';
+&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p data-end="3374" data-start="3278"&gt;Ou seja, ele &lt;strong data-end="3344" data-start="3291"&gt;implementa a liga&amp;ccedil;&amp;atilde;o entre alternativas de classe&lt;/strong&gt;, o mesmo conceito estrutural.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="ie7qhoSMQxo8oFGBy" cm:type="ps:flag" cm:class="ps:part" cm:default="on">
       <cm:relations cm:id="iQcu9wkro_cCjn-EA" cm:class="ps:parents">
@@ -922,6 +1252,7 @@
         <cm:relation cm:id="iV3reGEju1FLDDR_y" cm:type="ps:optional">
           <cm:target cm:id="izuHXJitDag5ymDWl">./iM3MBo-VhqS93qz5H</cm:target>
           <cm:target cm:id="ieySRZyrO2iKEViyr">./ijIG5A1TxYsfjcVMH</cm:target>
+          <cm:target cm:id="iSoFCyu0vJTneJKD9">./iETCDIXdVyGwwJ45X</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -935,7 +1266,7 @@
           <cm:constant cm:id="iw1luCt7kVuwvcen_" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iwvJdZi9Ruqgxy-yr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-06T02:22:17.791Z</cm:constant>
+          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-07T11:21:36.773Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -1282,6 +1613,76 @@
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ipVD3vb83RvtD9lKJ" cm:mimetype="text/plain" cm:encoding="utf-8">main</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iETCDIXdVyGwwJ45X" cm:name="testA" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="i_pcU4UmFRPgqnnJF" cm:class="ps:parents">
+        <cm:relation cm:id="i_30GO1wRPk18N4E4" cm:type="ps:parent">
+          <cm:target cm:id="iScb2TTYlXTPhSDM3">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iYRPMBvkEl72CtKc_" cm:class="ps:children">
+        <cm:relation cm:id="i-BxDjp7WtntLfdVG" cm:type="ps:optional">
+          <cm:target cm:id="iWaMSW8UApMj_fmd7">./iSFxfkxXCCkei1W4J</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iUFRFT4wsWtYvTGjc" cm:type="ps:string" cm:fixed="true" cm:name="classname">
+          <cm:calculate cm:id="iCkAwMjgJeadCrrwj" cm:type="ps:string">
+            <cm:script cm:id="i5jlwXxArU5ziNBKm" cm:language="ps:pvscl" cm:type="ps:string">Commissioning</cm:script>
+          </cm:calculate>
+        </cm:property>
+        <cm:property cm:id="iViVrsOKhvt3jdctN" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iiLlDrBm4crND8mXs" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iz3d_0kou6lYTQKVk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iAWlwGicJ4a4IEed4" cm:type="ps:datetime">2025-11-07T11:21:21.802Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="infFw_WlIJgtGgIfI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iLXCPVqQjJqjKj6jY" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ictJTYx1_HYAW5bYE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iVFRa2OE1CmPK48-N" cm:type="ps:datetime">2025-11-07T11:44:13.073Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iVktDvspFEzdAvTqZ" cm:mimetype="text/plain" cm:encoding="utf-8">testA</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iSFxfkxXCCkei1W4J" cm:name="ConcreteFile" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iM8yM2ZoGPuMmDNaa" cm:class="ps:parents">
+        <cm:relation cm:id="in2FFfyCYmrYAaXGA" cm:type="ps:parent">
+          <cm:target cm:id="iaviRYqGQObg-7f1O">./iETCDIXdVyGwwJ45X</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iwvho2yTlrOhk4Bs1" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iNdN43wylXRhym7CG" cm:type="ps:path">installation_logs_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipmRKcwY_W0BwV4h-" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iCsIsChGgPLuADvPR" cm:type="ps:directory">src\sys</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikMBAeWW8kKZd_tfV" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="isGQvzyopGqwJU4TI" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGL4_W-hfy8mpdSOq" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iVEsT4gODZcb7QlMj" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iffi4PfuK6qqpuSPM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iOUf1SjVWsJOtQYXi" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSrozEbxCcaY7R8wV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ixDAMMy-602Imagke" cm:type="ps:datetime">2025-11-07T11:33:36.309Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuHRXxl7N76UMCztm" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i8waPf1-TzptUjrJ7" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isFTN1M76l0BjHetd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iHMOmNG1Jngp3UsPU" cm:type="ps:datetime">2025-11-07T11:46:38.927Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i3LM3MGivYi8b7HhD" cm:mimetype="text/plain" cm:encoding="utf-8">ConcreteFile</cm:mimedesc>
       </cm:vname>
     </cm:element>
   </cm:elements>
