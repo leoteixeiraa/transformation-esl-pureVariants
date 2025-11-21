@@ -7,9 +7,9 @@ import 'package:esl_mobile_app/views/decommission/step2_decommission_checkout.da
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
-import '../../components/my_text_form_field.dart';
-import '../../styles/app_themes.dart';
-import '../../services/barcode_scanner/scanner.dart';
+import '../../../../../components/my_text_form_field.dart';
+import '../../../../../styles/app_themes.dart';
+import '../../../../../services/barcode_scanner/scanner.dart';
 
 class Step1DecommissionMacInput extends StatefulWidget {
   Step1DecommissionMacInput({super.key});

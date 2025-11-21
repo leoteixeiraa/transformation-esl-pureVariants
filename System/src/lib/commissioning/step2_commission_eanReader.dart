@@ -16,8 +16,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
-import '../../services/barcode_scanner/barcode_detector_painter.dart';
-import '../../styles/app_themes.dart';
+import '../../../../../services/barcode_scanner/barcode_detector_painter.dart';
+import '../../../../../styles/app_themes.dart';
 
 class Step2CommissionEanReader extends StatefulWidget {
   Step2CommissionEanReader({Key? key,

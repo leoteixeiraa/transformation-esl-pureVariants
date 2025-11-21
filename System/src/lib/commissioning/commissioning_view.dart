@@ -10,8 +10,8 @@ import 'package:esl_mobile_app/services/commissioning_process_manager.dart';
 import 'package:esl_mobile_app/models/mac.dart';
 import 'package:flutter_session_manager/flutter_session_manager.dart';
 
-import '../../utils/constants.dart';
-import 'commissioning_logs_view.dart';
+import '../../../../../utils/constants.dart';
+import '../../../commissioning_logs_view.dart';
 
 class CommissioningView extends StatefulWidget {
   const CommissioningView({super.key});

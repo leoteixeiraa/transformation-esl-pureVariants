@@ -8,10 +8,10 @@ import 'package:flutter_session_manager/flutter_session_manager.dart';
 import 'package:http/http.dart' as http;
 
 import 'dart:async';
-import '../dto/decommissioning_dto.dart';
-import '../dto/user_dto.dart';
-import '../models/mac.dart';
-import 'cache_management.dart';
+import '../../../../dto/decommissioning_dto.dart';
+import '../../../../dto/user_dto.dart';
+import '../../../../models/mac.dart';
+import '../../../cache_management.dart';
 
 int requisicaoRecebida = 0;
 

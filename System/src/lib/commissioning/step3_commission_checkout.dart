@@ -7,13 +7,13 @@ import 'package:esl_mobile_app/views/Commissioning/step1_commission_macReader.da
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
-import '../../components/my_actions_alert_dialog.dart';
-import '../../components/my_alert_dialog.dart';
-import '../../components/my_solid_button.dart';
-import '../../components/physicalLocation_checkout_card.dart';
-import '../../components/tagInfo_checkout_card.dart';
-import '../../models/actionArguments/commission_arguments.dart';
-import '../../utils/constants.dart';
+import '../../../../../components/my_actions_alert_dialog.dart';
+import '../../../../../components/my_alert_dialog.dart';
+import '../../../../../components/my_solid_button.dart';
+import '../../../../../components/physicalLocation_checkout_card.dart';
+import '../../../../../components/tagInfo_checkout_card.dart';
+import '../../../../../models/actionArguments/commission_arguments.dart';
+import '../../../../../utils/constants.dart';
 
 class Step3CommissionCheckout extends StatelessWidget {
   Step3CommissionCheckout({super.key, this.args});

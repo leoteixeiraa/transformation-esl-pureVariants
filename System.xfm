@@ -133,11 +133,11 @@
           <cm:constant cm:id="iRjHpXF8kFXQDuMPH" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="i6k1-2tvEPabhWkYb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="ioddfHP_N3BzY50xA" cm:type="ps:datetime">2025-11-06T04:56:29.688Z</cm:constant>
+          <cm:constant cm:id="ioddfHP_N3BzY50xA" cm:type="ps:datetime">2025-11-21T01:14:51.116Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="iMKq_cLzDHoWbPUbY" cm:mimetype="text/plain" cm:encoding="utf-8">Decommission</cm:mimedesc>
+        <cm:mimedesc cm:id="iMKq_cLzDHoWbPUbY" cm:mimetype="text/plain" cm:encoding="utf-8">Decommissioning</cm:mimedesc>
       </cm:vname>
       <cm:desc>
         <cm:mimedesc cm:id="iROhjNbgZFTw-tjEa" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Define que uma feature s&amp;oacute; pode ser ativada se a outra tamb&amp;eacute;m estiver. Exemplo: &amp;#x201c;Commissioning requer Decommissioning&amp;#x201d;.&lt;/p&gt;</cm:mimedesc>

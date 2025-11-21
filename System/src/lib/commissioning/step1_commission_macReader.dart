@@ -16,10 +16,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
-import '../../components/my_alert_dialog.dart';
-import '../../services/barcode_scanner/barcode_detector_painter.dart';
-import '../../services/validation/mac_validation_service.dart';
-import '../../styles/app_themes.dart';
+import '../../../../../components/my_alert_dialog.dart';
+import '../../../../../services/barcode_scanner/barcode_detector_painter.dart';
+import '../../../../../services/validation/mac_validation_service.dart';
+import '../../../../../styles/app_themes.dart';
 
 class Step1CommissionMacReader extends StatefulWidget {
   Step1CommissionMacReader(

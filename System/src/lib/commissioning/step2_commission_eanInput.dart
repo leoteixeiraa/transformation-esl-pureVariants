@@ -7,9 +7,9 @@ import 'package:esl_mobile_app/views/Commissioning/step3_commission_checkout.dar
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
-import '../../components/my_text_form_field.dart';
-import '../../styles/app_themes.dart';
-import '../../services/barcode_scanner/scanner.dart';
+import '../../../../../components/my_text_form_field.dart';
+import '../../../../../styles/app_themes.dart';
+import '../../../../../services/barcode_scanner/scanner.dart';
 
 class Step2CommissionEanInput extends StatefulWidget {
   const Step2CommissionEanInput({super.key});
