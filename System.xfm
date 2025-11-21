@@ -143,11 +143,13 @@
         <cm:mimedesc cm:id="iROhjNbgZFTw-tjEa" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Define que uma feature s&amp;oacute; pode ser ativada se a outra tamb&amp;eacute;m estiver. Exemplo: &amp;#x201c;Commissioning requer Decommissioning&amp;#x201d;.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
-    <cm:element cm:id="iyUUQ2YFQaA6UgzTQ" cm:name="installation_uninstallation" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+    <cm:element cm:id="iyUUQ2YFQaA6UgzTQ" cm:name="installation" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="iye8fpVyf2LNzdfRo" cm:class="ps:parents">
         <cm:relation cm:id="iXBrN6DuCdhoAmgVj" cm:type="ps:parent">
           <cm:target cm:id="iXs808-Oa2JkjuzA9">./iHEKq-KfgM0k5Z68z</cm:target>
         </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i6mfaaSEKTLfMTHeJ" cm:class="ps:dependencies">
       </cm:relations>
       <cm:properties>
         <cm:property cm:id="iVW1sGdhGwki5EHQK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
@@ -160,14 +162,34 @@
           <cm:constant cm:id="iQRGzJTTfzzmshxcV" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="itsJt0QDCJm9E4Qh7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iH9jsKNj_8H_JOwiV" cm:type="ps:datetime">2025-11-20T17:52:04.639Z</cm:constant>
+          <cm:constant cm:id="iH9jsKNj_8H_JOwiV" cm:type="ps:datetime">2025-11-21T03:54:20.901Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="inn6z2-XKNj19AwS_" cm:mimetype="text/plain" cm:encoding="utf-8">InstallationUnistallation</cm:mimedesc>
+        <cm:mimedesc cm:id="inn6z2-XKNj19AwS_" cm:mimetype="text/plain" cm:encoding="utf-8">Installation</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iY6rsDEVttJsz_emK" cm:mimetype="text/html" cm:encoding="utf-8">&lt;h1 data-end="908" data-start="874"&gt;Por que &amp;eacute; Relation (requires)?&lt;/h1&gt;
+&lt;p data-end="943" data-start="910"&gt;O manual descreve rela&amp;ccedil;&amp;otilde;es assim:&lt;/p&gt;
+&lt;p data-end="949" data-start="945"&gt;&amp;#x1f4cc;&lt;/p&gt;
+&lt;blockquote data-end="1046" data-start="950"&gt;
+&lt;p data-end="1046" data-start="952"&gt;&amp;#x201c;Supported relations are: &lt;strong data-end="990" data-start="978"&gt;requires&lt;/strong&gt;, conflicts, recommends&amp;#x2026;&amp;#x201d;&lt;br data-end="1018" data-start="1015"&gt; &amp;#x3010;pv-user-manual.pdf&amp;#x2020;L33-L38&amp;#x3011;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="1052" data-start="1048"&gt;E:&lt;/p&gt;
+&lt;blockquote data-end="1149" data-start="1053"&gt;
+&lt;p data-end="1149" data-start="1055"&gt;&amp;#x201c;Relations are checked after restrictions and must be satisfied.&amp;#x201d;&lt;br data-end="1123" data-start="1120"&gt; &amp;#x3010;pv-user-manual.pdf&amp;#x2020;L7-L9&amp;#x3011;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-end="1159" data-start="1151"&gt;Ou seja:&lt;/p&gt;
+&lt;h3 data-end="1212" data-start="1161"&gt;&amp;#x27a4; Relation = depend&amp;ecirc;ncia l&amp;oacute;gica entre features.&lt;/h3&gt;
+&lt;p data-end="1236" data-start="1214"&gt;Exatamente o seu caso:&lt;/p&gt;
+&lt;ul data-end="1379" data-start="1238"&gt;
+&lt;li data-end="1379" data-start="1238"&gt;
+&lt;p data-end="1379" data-start="1240"&gt;Installation &lt;strong data-end="1264" data-start="1253"&gt;depende&lt;/strong&gt; que Uninstallation tamb&amp;eacute;m esteja selecionado.&lt;br data-end="1313" data-start="1310"&gt; Isso &amp;eacute; um &lt;strong data-end="1335" data-start="1323"&gt;requires&lt;/strong&gt;, n&amp;atilde;o uma restri&amp;ccedil;&amp;atilde;o condicional de inclus&amp;atilde;o.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
-    <cm:element cm:id="iWDWuaTFdVqU4FNW_" cm:name="Viewing_Product_Information" cm:type="ps:feature" cm:class="ps:feature">
+    <cm:element cm:id="iWDWuaTFdVqU4FNW_" cm:name="viewing_product_information" cm:type="ps:feature" cm:class="ps:feature">
       <cm:relations cm:id="iYCWHGAErDCp2V9n5" cm:class="ps:parents">
         <cm:relation cm:id="i-RXl4d7UWJsofESU" cm:type="ps:parent">
           <cm:target cm:id="i514oiIOeCkd1vw-L">./iHEKq-KfgM0k5Z68z</cm:target>
@@ -184,12 +206,29 @@
           <cm:constant cm:id="iHOSqpUqigW_rk-FC" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="ihyozUXItiLJdAVLk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iFpL2TbNYLsZ2UwvL" cm:type="ps:datetime">2025-11-20T17:52:04.640Z</cm:constant>
+          <cm:constant cm:id="iFpL2TbNYLsZ2UwvL" cm:type="ps:datetime">2025-11-21T04:22:34.488Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="i6gbckqZlS7LRaFCe" cm:mimetype="text/plain" cm:encoding="utf-8">Viewing Product Information</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="irMUcLUvAZJcnDzm7" cm:mimetype="text/html" cm:encoding="utf-8">&lt;ul&gt;
+&lt;li&gt;Foco:&amp;nbsp;Informa&amp;ccedil;&amp;otilde;es do&amp;nbsp;produto em si&amp;nbsp;(dados comerciais/catalogr&amp;aacute;ficos)&lt;/li&gt;
+&lt;li&gt;O que mostra:Contexto de uso:&amp;nbsp;Quando o usu&amp;aacute;rio quer&amp;nbsp;ver detalhes do produto cadastrado&amp;nbsp;no sistema, independente da ESL
+&lt;ul&gt;
+&lt;li&gt;Nome do produto&lt;/li&gt;
+&lt;li&gt;GTIN (c&amp;oacute;digo de barras)&lt;/li&gt;
+&lt;li&gt;Descri&amp;ccedil;&amp;atilde;o do produto&lt;/li&gt;
+&lt;li&gt;Categoria&lt;/li&gt;
+&lt;li&gt;Informa&amp;ccedil;&amp;otilde;es comerciais do produto no sistema&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Exemplo:&amp;nbsp;Ver ficha t&amp;eacute;cnica completa de um produto espec&amp;iacute;fico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iMrir6P5O7FtFf5HA" cm:name="Displaying_ESL_Information" cm:type="ps:feature" cm:class="ps:feature">
       <cm:relations cm:id="imcJODulJ7HJUm2JR" cm:class="ps:parents">
@@ -208,12 +247,32 @@
           <cm:constant cm:id="iNkuvfNKBvquhY1o3" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iZxgxwnKWL12nCD-f" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iGxwwWduGSIkcfngM" cm:type="ps:datetime">2025-11-20T17:52:04.640Z</cm:constant>
+          <cm:constant cm:id="iGxwwWduGSIkcfngM" cm:type="ps:datetime">2025-11-21T04:14:25.531Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iURyU1M7Bs6uvL_eI" cm:mimetype="text/plain" cm:encoding="utf-8">Displaying ESL Information</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="io03L46cDKT2vXBJQ" cm:mimetype="text/html" cm:encoding="utf-8">&lt;h3&gt;2.&amp;nbsp;Displaying_ESL_Information&amp;nbsp;&amp;#x1f3f7;&amp;#xfe0f;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Foco:&amp;nbsp;Informa&amp;ccedil;&amp;otilde;es da&amp;nbsp;etiqueta eletr&amp;ocirc;nica (hardware/device)&lt;/li&gt;
+&lt;li&gt;O que mostra:
+&lt;ul&gt;
+&lt;li&gt;MAC Address da ESL&lt;/li&gt;
+&lt;li&gt;Status da ESL (instalada, operacional, etc.)&lt;/li&gt;
+&lt;li&gt;Status de comissionamento&lt;/li&gt;
+&lt;li&gt;Battery level&lt;/li&gt;
+&lt;li&gt;Template utilizado&lt;/li&gt;
+&lt;li&gt;Qual produto est&amp;aacute; ASSOCIADO&amp;nbsp;&amp;agrave; ESL (refer&amp;ecirc;ncia)&lt;/li&gt;
+&lt;li&gt;Renderiza&amp;ccedil;&amp;atilde;o atual da tela da ESL&lt;/li&gt;
+&lt;li&gt;Hist&amp;oacute;rico de atualiza&amp;ccedil;&amp;otilde;es da etiqueta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Contexto de uso:&amp;nbsp;Quando o usu&amp;aacute;rio quer&amp;nbsp;gerenciar/verificar o estado f&amp;iacute;sico da etiqueta&lt;/li&gt;
+&lt;li&gt;Exemplo:&amp;nbsp;Verificar se a ESL est&amp;aacute; funcionando, seu n&amp;iacute;vel de bateria, e qual produto ela est&amp;aacute; exibindo&lt;/li&gt;
+&lt;/ul&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="ihC6q2oByo7U-xFNj" cm:name="search_product" cm:type="ps:feature" cm:class="ps:feature">
       <cm:relations cm:id="ivJB0b9LxMtVGPRGz" cm:class="ps:parents">
@@ -232,12 +291,27 @@
           <cm:constant cm:id="idzmB-qHeANpRzm4Y" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="i5Hkgk_KIuLOlVL59" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="i6kR98qvUklBZXyu2" cm:type="ps:datetime">2025-11-20T17:52:04.641Z</cm:constant>
+          <cm:constant cm:id="i6kR98qvUklBZXyu2" cm:type="ps:datetime">2025-11-21T04:15:15.446Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iLEsiRktCsfLHx7qE" cm:mimetype="text/plain" cm:encoding="utf-8">Search Product</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iYl-VcE0IlOkpThD2" cm:mimetype="text/html" cm:encoding="utf-8">&lt;ul&gt;
+&lt;li&gt;Foco:&amp;nbsp;Encontrar/buscar&amp;nbsp;produtos ou ESLs&lt;/li&gt;
+&lt;li&gt;O que faz:
+&lt;ul&gt;
+&lt;li&gt;Busca por nome do produto&lt;/li&gt;
+&lt;li&gt;Busca por GTIN&lt;/li&gt;
+&lt;li&gt;Busca por MAC da ESL&lt;/li&gt;
+&lt;li&gt;Filtros e listagens&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Contexto de uso:&amp;nbsp;Quando o usu&amp;aacute;rio precisa&amp;nbsp;localizar&amp;nbsp;um produto ou ESL antes de visualizar detalhes&lt;/li&gt;
+&lt;li&gt;Exemplo:&amp;nbsp;Digitar "Coca Cola" para encontrar todas as ESLs que exibem este produto&lt;/li&gt;
+&lt;/ul&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iHEKq-KfgM0k5Z68z" cm:name="MobileAppFunctionalities" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="ifljWtQNuT4WYaJDX" cm:class="ps:parents">
@@ -255,6 +329,7 @@
           <cm:target cm:id="iaNq7Y5nR9Se1xql1">./ihC6q2oByo7U-xFNj</cm:target>
           <cm:target cm:id="i92znNOfPjAIrZK-v">./iI3828eu9oqvv0vBm</cm:target>
           <cm:target cm:id="iInPQVikebzRX7lud">./ibnXFt_3VQa0gSzvt</cm:target>
+          <cm:target cm:id="idr81N-JS4JUuxemu">./iQXH4WiGLgkNn0J-I</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -268,7 +343,7 @@
           <cm:constant cm:id="iOLlq3B7Yo20e2x1S" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iwx5AK41NkMcrOBIV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="ip9lMuYttb0CD-syg" cm:type="ps:datetime">2025-11-20T17:52:25.660Z</cm:constant>
+          <cm:constant cm:id="ip9lMuYttb0CD-syg" cm:type="ps:datetime">2025-11-21T03:54:13.305Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -310,6 +385,30 @@
 &lt;p&gt;Debug capapbility can be added to application. This allows you to easier search for bugs and remove them.&lt;/p&gt;
 &lt;p&gt;Debug capability is not usefull for the end user, so you can remove it from your product.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
+    </cm:element>
+    <cm:element cm:id="iQXH4WiGLgkNn0J-I" cm:name="unistallation" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ikNyk_-as31nZ9Y_K" cm:class="ps:parents">
+        <cm:relation cm:id="izCqdQ_FMhjPFeGLQ" cm:type="ps:parent">
+          <cm:target cm:id="iGvXPwGoBemhD76M2">./iHEKq-KfgM0k5Z68z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iiYSsNlrDEaL74wOV" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i_jtIRPFKssSa1Iwz" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iNtx9uLWoc2XtDnHG" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iDG0i6QGHz-sDj6qj" cm:type="ps:datetime">2025-11-21T03:06:01.509Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQuG6rG9eZ-CYzSi7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="imdSh25D40B5HqdI-" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPTTyniBUzffhgX8T" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ivDcsGqG0hg6RIMyB" cm:type="ps:datetime">2025-11-21T03:54:13.305Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iDYtpHphkZmJtDrX6" cm:mimetype="text/plain" cm:encoding="utf-8">Unistallation</cm:mimedesc>
+      </cm:vname>
     </cm:element>
   </cm:elements>
 </cm:consulmodel>

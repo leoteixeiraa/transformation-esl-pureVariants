@@ -72,6 +72,36 @@
         <cm:script cm:id="iDgT85lSg4s2CAVuT" cm:language="ps:pvscl" cm:type="ps:boolean">decommission_1_1</cm:script>
       </cm:restriction>
     </cm:restset>
+    <cm:restset cm:id="is5EtT82bJ1Y7L7aa">
+      <cm:restriction cm:id="ijlq8YrpM1Ihw1oaX">
+        <cm:script cm:id="i3vmi3hn6NtFizCiG" cm:language="ps:pvscl" cm:type="ps:boolean">unistallation</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iBS_a1M2q92DuG80E">
+      <cm:restriction cm:id="iuQ3jPxVg23FBKJ5X">
+        <cm:script cm:id="iUMCXN_IOgKP0mzpW" cm:language="ps:pvscl" cm:type="ps:boolean">installation</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="i368w7HQnHwZavRVj">
+      <cm:restriction cm:id="iVuEv1x23JYivZjOz">
+        <cm:script cm:id="ifeQGr80VbSW0F1fG" cm:language="ps:pvscl" cm:type="ps:boolean">Commission</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="i9vuHuoWbHnMnpfo1">
+      <cm:restriction cm:id="ikhWApiphuHT8Z25C">
+        <cm:script cm:id="iXNzVPX2KTWpmaU_w" cm:language="ps:pvscl" cm:type="ps:boolean">viewing_product_information</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iJo6rkAx9R9sKWftn">
+      <cm:restriction cm:id="ilrAyS02C_XzL5DV1">
+        <cm:script cm:id="ipftArFy2xYOpjuGz" cm:language="ps:pvscl" cm:type="ps:boolean">displaying_esl_information</cm:script>
+      </cm:restriction>
+    </cm:restset>
+    <cm:restset cm:id="iS4vywVe4uW025P3c">
+      <cm:restriction cm:id="iMg9Q7kQ_nncWK83i">
+        <cm:script cm:id="ixaBv-eH8DSnXrBmu" cm:language="ps:pvscl" cm:type="ps:boolean">search_product</cm:script>
+      </cm:restriction>
+    </cm:restset>
   </cm:restrictions>
   <cm:elements cm:rootid="ivekvZxE83NLQTn75">
     <cm:element cm:id="ivekvZxE83NLQTn75" cm:name="Family" cm:type="ps:family" cm:class="ps:family" cm:default="on">
@@ -91,12 +121,19 @@
           <cm:constant cm:id="ipHi2UioePeSfg82r" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iDnX2wRs6Hzd84mvF" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iyecinLP8spBEOVZs" cm:type="ps:datetime">2025-11-19T00:24:15.239Z</cm:constant>
+          <cm:constant cm:id="iyecinLP8spBEOVZs" cm:type="ps:datetime">2025-11-21T04:10:49.389Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikOdBCIsChxpcCQ8_id838529" cm:mimetype="text/plain" cm:encoding="utf-8">System</cm:mimedesc>
       </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iYd1eftBTg7Ic5Gr1" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;&lt;strong id="docs-internal-guid-5e722229-7fff-5938-da81-28d2a589b2fd" style="font-weight: normal;"&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;O arquivo &lt;/span&gt;&lt;span style="color: #188038; font-family: 'Roboto Mono',monospace; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;.ccfm&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt; (&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;Component Family Model&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;) define a &lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;fam&amp;iacute;lia de artefatos&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt; (arquivos, partes de c&amp;oacute;digo, configura&amp;ccedil;&amp;otilde;es, etc.)&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;&lt;br&gt;&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt; que podem ser &lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;reutilizados e transformados&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt; para gerar diferentes variantes de um sistema.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;" dir="ltr"&gt;&lt;strong id="docs-internal-guid-5e722229-7fff-5938-da81-28d2a589b2fd" style="font-weight: normal;"&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;&amp;#x27a1;&amp;#xfe0f; Em outras palavras:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 12pt 30pt; line-height: 1.38;" dir="ltr"&gt;&lt;strong id="docs-internal-guid-5e722229-7fff-5938-da81-28d2a589b2fd" style="font-weight: normal;"&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;&amp;Eacute; o modelo que &lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt;representa os elementos do c&amp;oacute;digo-fonte que podem variar&lt;/span&gt;&lt;span style="color: #000000; font-family: Arial,sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"&gt; entre produtos e que servir&amp;atilde;o de base para a transforma&amp;ccedil;&amp;atilde;o autom&amp;aacute;tica.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
     </cm:element>
     <cm:element cm:id="iluvTHPzBHBfbKHDv" cm:name="Classes" cm:type="ps:component" cm:class="ps:component" cm:default="on">
       <cm:relations cm:id="iBqAcNQwDjbmxcbWZ" cm:class="ps:parents">
@@ -138,6 +175,11 @@
           <cm:target cm:id="izuHXJitDag5ymDWl">./iM3MBo-VhqS93qz5H</cm:target>
           <cm:target cm:id="ieySRZyrO2iKEViyr">./ijIG5A1TxYsfjcVMH</cm:target>
           <cm:target cm:id="ixTRdYJgHgKa_Xu7o">./imwFDc6cAuKAaCQGq</cm:target>
+          <cm:target cm:id="i-ThDiZIuheKOECM1">./iSWah1NkA3tcGk78m</cm:target>
+          <cm:target cm:id="i3vNojFBL-I36ZS_j">./iMnOqnEND4FpL6guq</cm:target>
+          <cm:target cm:id="iQwQ2tAWzca2d3vih">./iCXEYQ29_k6EtS711</cm:target>
+          <cm:target cm:id="idvz_M84iYi5VyIPs">./ie2FAfR2AtrIxHDfC</cm:target>
+          <cm:target cm:id="iBMNvUQ7D6uuSqIo4">./ipTJe1mG8rEc2pmgK</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -151,7 +193,7 @@
           <cm:constant cm:id="iw1luCt7kVuwvcen_" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iwvJdZi9Ruqgxy-yr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-21T00:47:05.890Z</cm:constant>
+          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-21T04:47:16.040Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -223,7 +265,7 @@
         <cm:mimedesc cm:id="ipVD3vb83RvtD9lKJ" cm:mimetype="text/plain" cm:encoding="utf-8">main</cm:mimedesc>
       </cm:vname>
     </cm:element>
-    <cm:element cm:id="iM3MBo-VhqS93qz5H" cm:name="Commissioning" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+    <cm:element cm:id="iM3MBo-VhqS93qz5H" cm:restriction="i368w7HQnHwZavRVj" cm:name="Commissioning" cm:type="ps:class" cm:class="ps:part" cm:default="on">
       <cm:relations cm:id="iXmlwf5fNuUPqoUbO" cm:class="ps:parents">
         <cm:relation cm:id="iPtVeCWW1aBl75SIx" cm:type="ps:parent">
           <cm:target cm:id="iqkMZdNqwviBIlain">./iAEM4MgdM-DxVNZ-z</cm:target>
@@ -249,7 +291,7 @@
           <cm:constant cm:id="iiysj7iAyXZ-B2dFd" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="i1X67TwG8q-Q03lUE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="i4YYsEyHkd2qIakYr" cm:type="ps:datetime">2025-11-21T02:19:41.196Z</cm:constant>
+          <cm:constant cm:id="i4YYsEyHkd2qIakYr" cm:type="ps:datetime">2025-11-21T03:57:15.908Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -506,6 +548,18 @@
           <cm:target cm:id="ia6n6nse_WqxzHF3p">./iAEM4MgdM-DxVNZ-z</cm:target>
         </cm:relation>
       </cm:relations>
+      <cm:relations cm:id="iIoIBjOYXcqDTJHUu" cm:class="ps:children">
+        <cm:relation cm:id="iWTT5DbOYmCLd8iR9" cm:type="ps:optional">
+          <cm:target cm:id="iPg6yZym2zA_LA2-n">./i3xDzgCpVOlvwIrlU</cm:target>
+          <cm:target cm:id="ijbC5TGv_LgBk0IBY">./iRjLJx-kFUBYxXGlZ</cm:target>
+          <cm:target cm:id="i7JayIQaETU9OF5-j">./iITwUeEePHedT5yIm</cm:target>
+          <cm:target cm:id="iQ-reY4svM12rbBPp">./iUqC2ej0j1Q-E0upp</cm:target>
+          <cm:target cm:id="iFxg5JS447i1_K-CP">./iIqa2edYWYc4ED9Jj</cm:target>
+          <cm:target cm:id="iIYxqOgJ0JMkHKeH0">./iOKgi2ftBEK7oPHi1</cm:target>
+          <cm:target cm:id="ihsJgY2ee81GTR9A8">./iuxI0e75yVARFPIdS</cm:target>
+          <cm:target cm:id="iatwRlrP7nTWqvuWV">./ik2gqUwrUR85J8fVI</cm:target>
+        </cm:relation>
+      </cm:relations>
       <cm:properties>
         <cm:property cm:id="i6Si0Uo7BeOtu9egv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
           <cm:constant cm:id="iQ6bVwB16wz0fFpEW" cm:type="ps:string">leove</cm:constant>
@@ -517,11 +571,1506 @@
           <cm:constant cm:id="iGZsBnPJrn1dvASEL" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="i6DyVZB0xaT4fUZ7-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iOl8SXdewu3KJsz8-" cm:type="ps:datetime">2025-11-21T00:47:21.152Z</cm:constant>
+          <cm:constant cm:id="iOl8SXdewu3KJsz8-" cm:type="ps:datetime">2025-11-21T03:00:40.470Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iunee8IYyotUGlnfZ" cm:mimetype="text/plain" cm:encoding="utf-8">Decommissioning</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i3xDzgCpVOlvwIrlU" cm:name="lm_decommissioning_log_item" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i3iSB9oxf2CFgE09U" cm:class="ps:parents">
+        <cm:relation cm:id="i2XkCoRxZpHjt5pjR" cm:type="ps:parent">
+          <cm:target cm:id="id8SSmYf292qp9P6C">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iQtwzs-s4gUAcmuWe" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="irCjgoxNYuMEGqK9B" cm:type="ps:path">lm_decommissioning_log_item.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iO81lNvo7-ahhaWrY" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="izdtcKBLRxrxPT_wI" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i47yIwOQ8rPfjT9Eo" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iOllgLvSXK-zYiTqX" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipxTw6hSqc-_nwaj0" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="i3BXLaSdU3ta4En3J" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8kpXg5ZT-ig9hldD" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iNSK4OEq5KAPowZbb" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ieWrPEBn6qlqEppET" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZNxtA7QX7U8Izahj" cm:type="ps:datetime">2025-11-21T02:44:06.907Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ic535evx5LW209ZoF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ifDlHsbFj3rdMC-Yv" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iG7C0dGiEG7TGSa03" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i5hnKmkOYnFIHYauB" cm:type="ps:datetime">2025-11-21T02:48:41.043Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i9bBRhqVjYsFQdGb4" cm:mimetype="text/plain" cm:encoding="utf-8">lm_decommissioning_log_item</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iRjLJx-kFUBYxXGlZ" cm:name="decomissioning_options_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iRhM-hPd6aQuK7BHR" cm:class="ps:parents">
+        <cm:relation cm:id="iA-zUPIeBBpiMaeB6" cm:type="ps:parent">
+          <cm:target cm:id="iSbCb9Ps4pzShLavJ">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iIrQsPPqgbp-KsCVa" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iQh-eAbKQ6SZmqPm_" cm:type="ps:path">decomissioning_options_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWN6lQYj4Q_vuSGHu" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="isB5O4EQAsl6oRkal" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iITAmspnSbK6vZMD9" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iWNJfMAvyv9QPZD34" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="il_mDL0BlvXQbJBFy" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ibspx95OiECK6765X" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLuZQtXCgm5amOvCH" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihTVmxbTVt0oVVcDm" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLnVxwXoFzypk0bXP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i8a26Vy0SQ9lWFkk1" cm:type="ps:datetime">2025-11-21T02:50:49.569Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ih4_4cWY_JftDAnUf" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i1BbjBZPYm8UdWlL5" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKCFsL5NkS3RmyAGL" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iifXzLxeJzHgEv4Qn" cm:type="ps:datetime">2025-11-21T02:50:49.569Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="inyivhf3BZs35Imbx" cm:mimetype="text/plain" cm:encoding="utf-8">decomissioning_options_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iITwUeEePHedT5yIm" cm:name="decommission_arguments" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iuQQpChDg1f4WNx7Z" cm:class="ps:parents">
+        <cm:relation cm:id="i2oaqwT0WsDeZT7YP" cm:type="ps:parent">
+          <cm:target cm:id="ieLzMPBZYhcjd4N1r">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i0fVO_O-D1uPUZPO3" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ifM6IwKNdW4V277K9" cm:type="ps:path">decommission_arguments.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioNKwJ99i2o6Uz5ij" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iTqejzELZ3nire8Ui" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="io-Y7jkvuL9C9ZE3C" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iB8c--2sMvLEm0ZCD" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixjaijBwTzoOZx9gR" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iIbXPGMpfcrFKGJRY" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8B8d_kAhpPMkPLPJ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iwq_lpbfDu7lyZcJF" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBPMQG9ZnO7FuxPnx" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i8tlueHKtAAJuJgLa" cm:type="ps:datetime">2025-11-21T02:51:58.803Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI8G3L2xmTDOm_ffU" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9CWjii2CKBujTHmV" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_WN4US2b--Mt0K4x" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iTOKeKkxEeqKvZ4za" cm:type="ps:datetime">2025-11-21T02:51:58.803Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iQrPVWFNvTgsIl-1Y" cm:mimetype="text/plain" cm:encoding="utf-8">decommission_arguments.</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iUqC2ej0j1Q-E0upp" cm:name="decommissioning_dao" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iNTQPG1NcJNrKPBc5" cm:class="ps:parents">
+        <cm:relation cm:id="ipslLZwizNXrMPnv-" cm:type="ps:parent">
+          <cm:target cm:id="ixufONV5DD-JMHE6c">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ivE0Tf6h9uF0iv1Lv" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ilFCRGCg4J4fjFZEQ" cm:type="ps:path">decommissioning_dao.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5RT4VhYzg_dktBCX" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="is0MFT6Ih3CTiUCvq" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0kj0bg0BuBAj7MTV" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iWCwmRXifCngAlk-s" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="icLn0N4u5H3a4xtiN" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iGXILFMoqec-sLC6o" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iz44gNDc-jJIV5yak" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ixcKEX0BgkbNRk6_e" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBJnW8F-WAQnGbueV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iThK_x_-sG7_jW2EJ" cm:type="ps:datetime">2025-11-21T02:54:06.231Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI1K3MKsdE8e0YQLK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iB_n2U5_4T8Y6fEYW" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iW8CgDqvhBPy2LFe-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="is4TTWlD0VzmTY4vm" cm:type="ps:datetime">2025-11-21T02:54:06.231Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iMYi7bTnVgvVTyw59" cm:mimetype="text/plain" cm:encoding="utf-8">decommissioning_dao</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iIqa2edYWYc4ED9Jj" cm:name="decommissioning_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iaZFwFDP7piYRtOht" cm:class="ps:parents">
+        <cm:relation cm:id="iPDTg-gAE2KcRpZAP" cm:type="ps:parent">
+          <cm:target cm:id="ikq__C4xSsejJO9CH">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="imtlJRPQ09iIHf13j" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iVGHdrnFbH1FlR406" cm:type="ps:path">decommissioning_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iocKmL3IO0X4frK_T" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iE_FTPW4XWvejafXQ" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itRsE-zxtMuOwlaOe" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iADFam70Cn3Z8kG-i" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFsa6U-WuiTJ2O92T" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="idu6_dyNJC7N0scTS" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRGjC2r5ao9Ir56N-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iWNinXVYM0A0slCRd" cm:type="ps:datetime">2025-11-21T02:56:43.093Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiXIieUw_jU5Tu5dY" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ixrwe2NmT1OmQPUpH" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4Xkf2Lr-Lyxi9EYW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i7wkkEozQCbMOjoCf" cm:type="ps:datetime">2025-11-21T02:57:29.594Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZvfiEeoKfQTd_Mfm" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iUIh6iGnkITQ2T8K8" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iF6mDm1gCEfr20f1B" cm:mimetype="text/plain" cm:encoding="utf-8">decommissioning_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iOKgi2ftBEK7oPHi1" cm:name="step1_decommission_macInput" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iJ8YKHouKFWzoXfc3" cm:class="ps:parents">
+        <cm:relation cm:id="iT6lzn9U-iwxh6UA7" cm:type="ps:parent">
+          <cm:target cm:id="i1s23Xzt1HP86GJUK">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iE-dw8yKhyBUW1bCe" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="icJVIt5Y7fOQ3FtJV" cm:type="ps:path">step1_decommission_macInput.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7AZzRjYJl3Xe6S2o" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="itj82eYk6z0RkdTaF" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2_5JdgWdnJ2TDBVm" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iHqN23JhAt0Ut75Li" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6NePAHvlbVqDxs_l" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iqT1QxjfEVZtlebHC" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilMs_7nJNrPe8VgvY" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iLyoIdL7t2NJYI6_E" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5rGPzurBaRT4abIE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iL0FyxoyVqckyWlbR" cm:type="ps:datetime">2025-11-21T02:57:22.333Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iB92hC-8EJDQp3mc3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ic6UKMjxQjqSWWnTi" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQZ6Bi13ujLkjC90I" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iKgupUJe9YmbdaAJ0" cm:type="ps:datetime">2025-11-21T02:57:22.333Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iQd7jSXPXUwxHiB4V" cm:mimetype="text/plain" cm:encoding="utf-8">step1_decommission_macInput</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iuxI0e75yVARFPIdS" cm:name="step1_decommission_macReader" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iFLdVqOBOqZQE6N6O" cm:class="ps:parents">
+        <cm:relation cm:id="isf-7djXsLUsLkf-i" cm:type="ps:parent">
+          <cm:target cm:id="i_gPpKdAxqFlYFrHg">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6H1_4CocU5HkceuZ" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ioFD5B9xSg29RcaDB" cm:type="ps:path">step1_decommission_macReader.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5pq8scfgSaBGlRVc" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="inay0vvgYuGz3EDnn" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCeYuOnKtmjcI7tni" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iqF-JlY_I6VF_Rv6-" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUKKE69tYxEsJ_aOh" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="icm63bELZRDD-ZVRd" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iplmAud8aW_MpOU8L" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iUFoT9WJzfAqYN6p7" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3GIVCOcbEDrLSKMG" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="izDzCJ22orgJXr9V8" cm:type="ps:datetime">2025-11-21T02:59:51.671Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPdYnkBzvVXDD3-s6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iiQX5sXDNv4FFKhG1" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0kcWYvTcRnPuEuyI" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i3iD0FoPS0B5D19lV" cm:type="ps:datetime">2025-11-21T02:59:51.671Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iaX6NVeH_4A6psAFG" cm:mimetype="text/plain" cm:encoding="utf-8">step1_decommission_macReader</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ik2gqUwrUR85J8fVI" cm:name="step2_decommission_checkout" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ikyi29oQ081tOvPDK" cm:class="ps:parents">
+        <cm:relation cm:id="i9wcxLkWPhDRk-XtO" cm:type="ps:parent">
+          <cm:target cm:id="idvYw4ZcT5dRy_E3o">./imwFDc6cAuKAaCQGq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="irz54VmjqqREjLQmI" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iKxRWdVNhK90p9NJd" cm:type="ps:path">step2_decommission_checkout.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixjaAYIREcUEUKGLA" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iujU6LUQUXxl__lvq" cm:type="ps:directory">lib/decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0JaSYKW1CE9i0ueA" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iPtlWKEaFOuetuUCb" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\decommissioning</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHm596_cSThvD8roB" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i9D2mykF-LpGvsTQy" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMo98rAJruoAm6tTy" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i4Dqva-I2Zt4-inEA" cm:type="ps:datetime">2025-11-21T03:00:40.470Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYEV8yIFLYqYoY38L" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iJRbESgiWG-Y1VH7a" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ippY_hwdNX619wCzc" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iA3WnxilT_BOqnpqW" cm:type="ps:datetime">2025-11-21T03:00:40.470Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ioHONNHe3jQgFtCiV" cm:mimetype="text/plain" cm:encoding="utf-8">step2_decommission_checkout</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iSWah1NkA3tcGk78m" cm:restriction="iBS_a1M2q92DuG80E" cm:name="installation" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="i9iRcsL45slAqOjiC" cm:class="ps:parents">
+        <cm:relation cm:id="if4L1HsXJcX2PzXHF" cm:type="ps:parent">
+          <cm:target cm:id="iNYustN-zpb06YgiB">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i5HNKR40BtAYuUMRT" cm:class="ps:children">
+        <cm:relation cm:id="iCVxH05NOQR24xe5-" cm:type="ps:optional">
+          <cm:target cm:id="iN2BAJCOEOa6ShoTf">./i0ZNdQdLRjOlWSZ31</cm:target>
+          <cm:target cm:id="iPlPbVkB_dRDboDRy">./iMJsCkvIZCU8cfWJl</cm:target>
+          <cm:target cm:id="iinb_TuJAZUv2vfF2">./igmngYSayC2lDKh9n</cm:target>
+          <cm:target cm:id="i9MLq5d8mXWeH2kti">./imBNNo3lk3XILSMOo</cm:target>
+          <cm:target cm:id="ikd5lOkMc-ZkteaLV">./iyBuHGx7Xm_8s-Iv2</cm:target>
+          <cm:target cm:id="ib-fw9fH4EqCMZsFm">./iZjguYIIEShZpq_2x</cm:target>
+          <cm:target cm:id="iRPr6yS0LQ64uhnPY">./iaG7eLUSiaz6MQK70</cm:target>
+          <cm:target cm:id="iqGySMcq1I4OF5Ke4">./i-uxKw5_E-bQ5d67k</cm:target>
+          <cm:target cm:id="i5DxUxUzd5f6XJhvd">./iEKF8oJ36TOEPMO10</cm:target>
+          <cm:target cm:id="imYp-0kwZ6jZvVucA">./iBMdtZa94ltn4-5cJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ih7_86Kc_GoX389ZG" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iFBSV8E6TG-MzNsVJ" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAQAdBE1xtwBb5Ymn" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iMs-8SIcPHmquMDJD" cm:type="ps:datetime">2025-11-21T03:20:52.652Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1oD9pOZUYTgaq7ug" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i2yRcO3-Lx8rOhw5T" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igYeuujXYO0pF2jBw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iOosqFw4TX8pGSDnl" cm:type="ps:datetime">2025-11-21T03:55:49.382Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ixuHTQ6VP_vywwzSN" cm:mimetype="text/plain" cm:encoding="utf-8">installation</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i0ZNdQdLRjOlWSZ31" cm:name="installation_gln_form" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iLjz-v6edL02ne8hC" cm:class="ps:parents">
+        <cm:relation cm:id="ijeRWywd2Oe3RRCpV" cm:type="ps:parent">
+          <cm:target cm:id="iMjDD7sVPId_ez_q5">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6IUbyD5F35lzQa2c" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i-KUcgX2950gtdWli" cm:type="ps:path">installation_gln_form.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipF2NJXMvqzprRPTX" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="inzqQqNHk1mKRmkoB" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVtbvDyvuXRjg0luV" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iMZF7V9O6bpGrPZzS" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iXf4GwDdzvxVmlU2I" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i7Eo1thDkhfN_o-Ut" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="intMp_EB6cSO9xJ-g" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="if6_3N0CfD0KJY-le" cm:type="ps:datetime">2025-11-21T03:21:44.475Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqqk0IkrAxSAs7-nn" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iURAOnfrYyVIj8i6y" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i62TFELpFePaTSQRJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iD0FqAy8i-_EDqusi" cm:type="ps:datetime">2025-11-21T03:24:03.662Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMDsulDslcoTSYnb5" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="ithw-gOwm0WIATSLr" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iMKA7F1qVdpHEDTNh" cm:mimetype="text/plain" cm:encoding="utf-8">installation_gln_form</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iMJsCkvIZCU8cfWJl" cm:name="installation_logs_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iKWBd0JleKiLwiwlk" cm:class="ps:parents">
+        <cm:relation cm:id="ig3GX_8w2m4bB_B_F" cm:type="ps:parent">
+          <cm:target cm:id="i8cyl1clD95Uz7-JU">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iit7XQ3Oi5mIeiK3O" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iAvS_6UZGmjAwv_Lf" cm:type="ps:path">installation_logs_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iehbWQGhrJQSU6aRd" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iCzfjcfSwmz3rA7-E" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itEA9fAlOfg0W5WBP" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iFGdr34uHyHO6DJ6s" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idl14aHFVFA0_h3qT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iSeG8zfYsr2ALw9IT" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izn_qJ0PP2LxwRoGL" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iBubYcg76czlZ2zVM" cm:type="ps:datetime">2025-11-21T03:23:40.907Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isgh-ZDAJkNiGV5uv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i8fvUwMglmAdjrXoU" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyjvGCVsWE3T2d-k_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="izz6lGgYJWGLxHcUF" cm:type="ps:datetime">2025-11-21T03:26:05.633Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivUFn-lq3s2ta7vtJ" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iemuPe2M6Rd_lc_JU" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iipFsLTMocU0cM0W9" cm:mimetype="text/plain" cm:encoding="utf-8">installation_logs_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="igmngYSayC2lDKh9n" cm:name="installation_mode_qrcode_reader" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iVhv4jmoorOXdLRbH" cm:class="ps:parents">
+        <cm:relation cm:id="i7zJaeALLQoMuFI_W" cm:type="ps:parent">
+          <cm:target cm:id="iZMP2lnhfqfjko6Oi">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="igiHCp7bjwLmvbcOU" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iqJVLH6gXLzctQQth" cm:type="ps:path">installation_mode_qrcode_reader.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4tD58bfZ67RhD9c7" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i-6z1XbiZtnB7seRs" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwneVM6COIUf6FEo5" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iW-tn6IHo2NM3rUHz" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifUXPtx5CWDLufAnm" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iyLkPPj5u85Iz-0ER" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixEYYF2H_1UCbSC_f" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifnWfedduRjZ1lwyt" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isLyZmdGgJCCxl1om" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="icrUTqiwh6CAJ2pkZ" cm:type="ps:datetime">2025-11-21T03:24:39.659Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwFeaaGPEdGlYUoKD" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iR5L2TF4uAgWHWEBg" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5BonHXkteAD5N4NT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ivvj22FoaNrLCPTwJ" cm:type="ps:datetime">2025-11-21T03:26:08.760Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i7ysEkDPj3khKzzTS" cm:mimetype="text/plain" cm:encoding="utf-8">installation_mode_qrcode_reader</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="imBNNo3lk3XILSMOo" cm:name="installation_mode_selector" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="id_wOvHj_Z_U4M8mE" cm:class="ps:parents">
+        <cm:relation cm:id="i8vNUPe8qFHgx2B22" cm:type="ps:parent">
+          <cm:target cm:id="ibktfUbB8gaRPx6y9">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i28dJOvytk5MA-0ST" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="irxBgZ9gMszj4OOUf" cm:type="ps:path">installation_mode_selector.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqwva0CIJSiDr5SOo" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iAD-hg-956EFxJubt" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFiUCQuLrRmx9KXbt" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="ifLnmHFuD-7FnljVz" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3jbyQQENybZRRXSR" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iWct5Ve9nc0KnikD6" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iX_oodxfgnGBeW0C2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iKSAWAfz6l9yaZhBM" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGCR_t4XvHYrLIZWZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iFFG0AUrRMTNI_dtG" cm:type="ps:datetime">2025-11-21T03:25:52.641Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihi7MLuARrZTzGYHj" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="icT7REKh24HScJh3l" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKmgR_6BFNpy2I2uT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ir73C-mILAiQzqfVp" cm:type="ps:datetime">2025-11-21T03:25:52.641Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iRitxyYSiAr7Bi-X8" cm:mimetype="text/plain" cm:encoding="utf-8">installation_mode_selector</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iyBuHGx7Xm_8s-Iv2" cm:name="installation_options_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iyvf7QNg0sFlYRd6L" cm:class="ps:parents">
+        <cm:relation cm:id="iCBnNPOw88OiPKX19" cm:type="ps:parent">
+          <cm:target cm:id="iTh9Okeawo4l8blqB">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="isyp4AbS0Gx2Cd-AV" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iK-aGoO3npl1B3ycM" cm:type="ps:path">installation_options_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilPfuF7XTYOlgWqNq" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="ijHdIQlWQO2_nE8ac" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iXIYMrLk1yMHTiid7" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iDRQvRhNV9IVJxaUM" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiuE8o-PNrztXG5Ut" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iDCHyUPSQ5y1_eeOS" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihMHeF0HQWPm1km-y" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iIcLy_H78esC1FKRU" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqL5a5ence2k_s1Ns" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iNChuWZ2ZhWgCSKyA" cm:type="ps:datetime">2025-11-21T03:26:41.165Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTBZupauOm87NdUE0" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iCOeRlSkDNkLEzQxW" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iL3IG5f6LRy_lpp1g" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ikdxMUX3OvPbyxkBo" cm:type="ps:datetime">2025-11-21T03:26:41.165Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i_wRfeCCsREunFU8W" cm:mimetype="text/plain" cm:encoding="utf-8">installation_options_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iZjguYIIEShZpq_2x" cm:name="installation_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iT45pHX1JKFNpyala" cm:class="ps:parents">
+        <cm:relation cm:id="i0pA-q15cErTo5PY3" cm:type="ps:parent">
+          <cm:target cm:id="i3LPS1dr82g29isjW">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="igDd_stptLw51Rpo3" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i5dpe4XmqCXCZbECb" cm:type="ps:path">installation_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOLfCYhvnXOF-SxvT" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i3kn_P1RHt5q5aoGF" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuT2W2ZONDLiaFnnl" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iXqZpEvbWVTmrhjVz" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifAciR7arVJ_qTavh" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="imBGBBvPMQUEq8ezz" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipsYkNUZDZ7H08yrn" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihEYJwrQLBW7TFTPG" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9me-8YtirEa2C3F6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKA1ZF9_rWcsDEo18" cm:type="ps:datetime">2025-11-21T03:27:19.077Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBTKdIuX9AlL0ZPw9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iLNkGY6kmBGYgKLV9" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCwox8a1Z_oe9z6HO" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ilzlLMqNYepUbAzJA" cm:type="ps:datetime">2025-11-21T03:27:19.077Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iHaXLvIkKs7Nj3ADP" cm:mimetype="text/plain" cm:encoding="utf-8">installation_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iaG7eLUSiaz6MQK70" cm:name="step1_installation_macInput" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="imFeYsjDyF_ldBBoA" cm:class="ps:parents">
+        <cm:relation cm:id="ibd6BVt11_6hRZEVV" cm:type="ps:parent">
+          <cm:target cm:id="i_oayUyuw7tGO_k9Z">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i2sGN94OHfXuS2SDx" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i8T9Ct3MD4r1hxJhM" cm:type="ps:path">step1_installation_macInput.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iV1w27KOUscucHve2" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="igU43nFY7f32F9KUg" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig9X6GFr-2fDLLoP1" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iiVuZwn2Ux7T6pXjp" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izFR2zzA7YixU3KWs" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iH8s6HHKbWUonl0A4" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ib2bYYh-_qRKTomld" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="il3_D7e_fDDrEetW6" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEYRxaGTzht54jwEq" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZdrt1wuNehy5J3J-" cm:type="ps:datetime">2025-11-21T03:28:27.525Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiG5XRCtZ0u8w7Ely" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iTLuYQBKJFJ9Okodj" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6KGIxiAGHUMPzSW9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iXKp86YeD-ZrSC4QD" cm:type="ps:datetime">2025-11-21T03:28:27.525Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iy1soRKG93JO-3LnB" cm:mimetype="text/plain" cm:encoding="utf-8">step1_installation_macInput</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i-uxKw5_E-bQ5d67k" cm:name="step1_installation_macReader" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i0z5S1JkH1MNk7NLG" cm:class="ps:parents">
+        <cm:relation cm:id="iSEvHo8guLTDCMD3y" cm:type="ps:parent">
+          <cm:target cm:id="iLKyvWUMUygIbEs5Z">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iPOqBg9QvSOmt9c-k" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i-GMOdsPLItPmtqCa" cm:type="ps:path">step1_installation_macReader.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilPk-1CS4tAkwkoSa" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i-4xudpGIIjeGHRaU" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i57EU67XP1Qf6agGO" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="is0MB9FqnoEg7fHHx" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iALCvjpGjCCemfMxn" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iXo4TYgmu_JRmxzic" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOwKWHHGbqaYNVavV" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iCoxLdl1ShFWt1kvz" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iL531jzh0Be51Be4I" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iqDtzG_KXWmn5oxtH" cm:type="ps:datetime">2025-11-21T03:30:02.503Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWR4NfGoVEyDFfMiL" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i4DOTW0kNHLhhq7jY" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iq0v6tD7UF-_rPm0Q" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="icpt6Q3g9RlAITHrc" cm:type="ps:datetime">2025-11-21T03:30:02.503Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i9_vQbar1Uh4mM0oz" cm:mimetype="text/plain" cm:encoding="utf-8">step1_installation_macReader</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iEKF8oJ36TOEPMO10" cm:name="step2_installation_glnInput" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iOe0qkfViEpDFCost" cm:class="ps:parents">
+        <cm:relation cm:id="i0icpJ96VYyr9_-mZ" cm:type="ps:parent">
+          <cm:target cm:id="iEaT29auhfajwKfyI">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iN-caxJIjC14nWdSo" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iUewcPzvi0uH1FO2o" cm:type="ps:path">step2_installation_glnInput.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3W07juGWGJ2ewzOu" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iGLohxMcVbBx3j6x2" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iB-j-ld3gF8iLoDkJ" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="i-fj4PkK1gm2BHa0U" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSsc2MGLJt6T4DNza" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ic7DDAxptnlAfoSNn" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6HE7KVzn0cZKZ36D" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iGNgqb3SvO2CqJR62" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivoGaffRYA0-Fgs2k" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ikDirRKs-6q02WTOF" cm:type="ps:datetime">2025-11-21T03:30:37.308Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iziBgU-ivAPnndcvk" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iDcTEw2L1UxtJzeJc" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iU5Q9XT-3pmnJCPeT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iuDTpUr3moRPa8j2h" cm:type="ps:datetime">2025-11-21T03:30:37.308Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iV3tmIPA0SQ7oyZbw" cm:mimetype="text/plain" cm:encoding="utf-8">step2_installation_glnInput</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iBMdtZa94ltn4-5cJ" cm:name="step3_installation_Checkout" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ipM2I2LHmNU-SvccI" cm:class="ps:parents">
+        <cm:relation cm:id="ibnKteir-q3xIRdO_" cm:type="ps:parent">
+          <cm:target cm:id="iBzPEQCxSrnwcTy3t">./iSWah1NkA3tcGk78m</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ix280ASi_mXJJtETB" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iU-Hh9rWRskw50rYv" cm:type="ps:path">step3_installation_Checkout.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iykC6v28WXY8qzeSP" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="irZZbNP_nNoItSYzv" cm:type="ps:directory">lib/installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ieHrVwzfKW-xjf8Ea" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iKe9oIuyR1jiobxgh" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikpmO0c8jfD9Qcgmp" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ih5osyGmXSn-FsU1n" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\installation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVCYqOhzHa6S_-dTV" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i9aQmM5OPIUxidwnZ" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJnhXQ9iPoEhCnxOg" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iwdGqnUL9jqdes0AI" cm:type="ps:datetime">2025-11-21T03:31:10.744Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="it9gkDbX3OvBheuen" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iGp_PPGmBwwVDNYsp" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8HVeb9yJgVA86irr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iBXVzAVbaDtP-bVob" cm:type="ps:datetime">2025-11-21T03:31:10.744Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iB5DbJU5Ar3aIsBJb" cm:mimetype="text/plain" cm:encoding="utf-8">step3_installation_Checkout</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iMnOqnEND4FpL6guq" cm:restriction="is5EtT82bJ1Y7L7aa" cm:name="uninstallation" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="izqvllDOT3EAoCtGg" cm:class="ps:parents">
+        <cm:relation cm:id="idWkBgaXQ3pe8pfiN" cm:type="ps:parent">
+          <cm:target cm:id="ihs5xnaXNQU4WAjHx">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iY-fQambsHGFBEmbc" cm:class="ps:children">
+        <cm:relation cm:id="iRIkD-Jbru-6AzIJo" cm:type="ps:optional">
+          <cm:target cm:id="iAG0rXMVJUpNzSNCt">./iFL68ooh1vopZrKGr</cm:target>
+          <cm:target cm:id="iIjS9TSIhhyrGPJGa">./iFFprk_F_VUaNxPE1</cm:target>
+          <cm:target cm:id="i_rhS6MsBmzsnuoAS">./iAi_Zy2uYAysIw5gX</cm:target>
+          <cm:target cm:id="iVDnTQFsDnykR-5Na">./iyb6nMkgjjVvxYVTr</cm:target>
+          <cm:target cm:id="iAwehIuxXKgkGv-Lh">./i_xmgC7eV_ZTiZpvB</cm:target>
+          <cm:target cm:id="it0erQMskur8ebbn4">./iV-EYOGFw9XG544sp</cm:target>
+          <cm:target cm:id="iTLc8V7C6oKrV1hBW">./iHH-jmFxED6eeEe54</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iXCEy61yg0SHCYYtZ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipf8bT_lHA1V6sRTt" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iNiNKhIk5OY9TxLnC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i7Eps4fYzFWvBakUK" cm:type="ps:datetime">2025-11-21T03:47:20.416Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDnl_8QcrFljGsz73" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iPEVM-0-jRRzjFziu" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqv1tWaSHOv3jFiNS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i804pOyS8I2MqyNG7" cm:type="ps:datetime">2025-11-21T03:55:24.303Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iI5PP0heGpwsQZ98M" cm:mimetype="text/plain" cm:encoding="utf-8">Uninstallation</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iFL68ooh1vopZrKGr" cm:name="step1_uninstall_macInput" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i8Ix2vT8gd7t-bcKQ" cm:class="ps:parents">
+        <cm:relation cm:id="iICcxH04tVPAjGmk-" cm:type="ps:parent">
+          <cm:target cm:id="i2grGpcyQpEFCFVO1">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iHucYADHsYtCtB6Gi" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iWlw1KFR279fJVM1C" cm:type="ps:path">step1_uninstall_macInput.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBtPpr8ooIx0TkbiP" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iR13QYtfli-T5ERC_" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikJ9VVbmjGV_b9-p_" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iHJ9JBr6UaTsu4FBG" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igDH2niId3k0gCF-z" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="i0elWAxahP3ZfKBQi" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQqwSi0MYKlhZd69M" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iSKt94BnLcZUxe5Qd" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBO5PKwMy--C4jaS8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZ75InNsrf9mS7ozA" cm:type="ps:datetime">2025-11-21T03:49:21.185Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iC7sQgtnmBtAwv4A9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iakFTykj2-jq4GHH1" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ih_mo_d1TECFJW4VJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i2IKoHiUBl3rafeko" cm:type="ps:datetime">2025-11-21T03:49:21.185Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ioNhDnNYoTSf_pot8" cm:mimetype="text/plain" cm:encoding="utf-8">step1_uninstall_macInput</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iFFprk_F_VUaNxPE1" cm:name="step1_uninstall_macReader" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iTAOk_IlTmriQAL5M" cm:class="ps:parents">
+        <cm:relation cm:id="iuEszMIqHU_fqUkmF" cm:type="ps:parent">
+          <cm:target cm:id="ivIvO2W2HfPAifR9K">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iRAJupTt335g5lfLZ" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i_aUImPEJUc71wVNt" cm:type="ps:path">step1_uninstall_macReader.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isZSLotQTGLofOBhG" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i9wP3wqfakmrbd_l7" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFnd6cU0c-UMM38Xf" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="imf-yoTB8ZqpN1NnG" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilWGGKVgmtwM87-BD" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iesdRJsEo1Er6YI7L" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isWUjb_H0b5sI8cul" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i4gH_EpN7bk29wCEi" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iijmVC4sFYuhJBkwD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iBrqk6wGQfPdEpnm3" cm:type="ps:datetime">2025-11-21T03:51:06.769Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="in3iGdTEeDmH_UZ7S" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iHvh-gzQ813Hx3lPS" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-U9jXoj9h87CZxyT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i_3weoNBu80t-EHbQ" cm:type="ps:datetime">2025-11-21T03:51:06.769Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iMGlCgGQ9wrZvFQuS" cm:mimetype="text/plain" cm:encoding="utf-8">step1_uninstall_macReader</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iAi_Zy2uYAysIw5gX" cm:name="step2_uninstall_checkout" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iN-CYjITMYyWBUf1B" cm:class="ps:parents">
+        <cm:relation cm:id="iL3uZJ3diDIcMefU1" cm:type="ps:parent">
+          <cm:target cm:id="iK5pgvsysAElEIqp5">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iUhMMMhu93oFsLv3O" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ikCsl0RzfGyCMo-3b" cm:type="ps:path">step2_uninstall_checkout.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQYIuYEIezVGGQ7kq" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iIQLK0P9OFhpfysQS" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ir5EW5VCUfxEhiA0v" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="inQrbus7Vw8bpKTLK" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3w26Rw4ulGg22_AO" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="igCEeozrXhVWoXbbA" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikjNYeQZ8pUbuDIvZ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ih5QTARYw_tDSN-Ju" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUwnmlNYzyZ8nazpC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iY_m_YzzsC5yJuSHX" cm:type="ps:datetime">2025-11-21T03:51:47.300Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqP_AVEBhXiTMPQT3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iV7637wviaZVnZAQP" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ibzQvxT1rP5sbukAb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iJdFeTA5wYq9Mi1nE" cm:type="ps:datetime">2025-11-21T03:51:47.300Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iQUDajLN1C_QC03yQ" cm:mimetype="text/plain" cm:encoding="utf-8">step2_uninstall_checkout</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iyb6nMkgjjVvxYVTr" cm:name="uninstallation_dto" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="izziFBpKjzPhUpSXq" cm:class="ps:parents">
+        <cm:relation cm:id="i4z9EJ8JIWcHLgZYr" cm:type="ps:parent">
+          <cm:target cm:id="ik9nHydIbBp78AaUz">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ioWalYu868fV1cXWE" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i7qzRzNcScAJe7iCd" cm:type="ps:path">uninstallation_dto.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igfLo30s17-4cFB0B" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i-SVVZSgs7xpRkSti" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihcBLzVxWv7Yt7C3-" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="i4cparLxdBY4UaujE" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJFDrwz7dzLzIV9u9" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iWPpUrI5FxBekQWbB" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOuGW5aaagUJQeMLz" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iPUVD-emL84IxyTg5" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihbbkWOH7zZwhDYtO" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iqh7_V3zbMHaYNeOi" cm:type="ps:datetime">2025-11-21T03:52:11.010Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZjbFCHNxpVU3WOo3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ig8iaFv4Vcs2U1jDB" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4FFpTEOd9kFEEwle" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iWbBIa3ODNM9PtvCk" cm:type="ps:datetime">2025-11-21T03:52:11.010Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iJITtYgpHaK6bIbtA" cm:mimetype="text/plain" cm:encoding="utf-8">uninstallation_dto</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i_xmgC7eV_ZTiZpvB" cm:name="uninstallation_logs_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iR-QO84Pc_IMMwknv" cm:class="ps:parents">
+        <cm:relation cm:id="izrqWGT72JZoENzfG" cm:type="ps:parent">
+          <cm:target cm:id="i3Arr4jdPpVtsjyhm">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ieVZyMHSuRrietZm2" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ijABk-c5Rmt9PFzqP" cm:type="ps:path">uninstallation_logs_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifhw1d_DxNIciuh0a" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i9eqCeeGNWKtj7aYc" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="inmwfZxhCXGIottV_" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iYSHm31SO2hEtZAXf" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imgyYjXcyucu7r99U" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="i07GG_MO9sLuijDlP" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWqSqiborPCSTWWiJ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="im9GZh-yV-C81JWeh" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ik8NzsUXNGNM3AAPt" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iz74nKg2IMzn3I5_t" cm:type="ps:datetime">2025-11-21T03:52:39.681Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iq9Vxs1DVopMPQjWt" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iZ-Nmj5QvodHlnAjS" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6Muwbz68IBN6EnfB" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iemChUeDS5wur15-I" cm:type="ps:datetime">2025-11-21T03:52:39.681Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idTlFnZ4aNqc6hixx" cm:mimetype="text/plain" cm:encoding="utf-8">uninstallation_logs_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iV-EYOGFw9XG544sp" cm:name="uninstallation_options_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iRZCUa7ouJaMS_-RK" cm:class="ps:parents">
+        <cm:relation cm:id="iGShFP6KbtYFpu12h" cm:type="ps:parent">
+          <cm:target cm:id="iDQDK7vs_sDgX8gAI">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iPsBxURBrqa5TM7h6" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iAscmCpuFicu0HhUi" cm:type="ps:path">uninstallation_options_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUQVHPQXHT2Sw8mZF" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="itHssR2dEB-JjQqTH" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1W536QNqORFDQE0e" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="i5U3u-oHrIEJC7q1e" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEkJNyvYsp7l-jatg" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iNUso3ge3_hjXfd3e" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isLrnSJFSnG8RC7Js" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iiJIWkFNNXshI3ZNR" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iw0tOc891e7lL1nT3" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ic9kfOt0XaBaZCGRd" cm:type="ps:datetime">2025-11-21T03:53:03.031Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOGjnhTIrNRqypevo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ilx_NrnOYEF9bPURE" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="in6_WxMs3NH7Ze-Km" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iOD9LLtLg8oRXV8yJ" cm:type="ps:datetime">2025-11-21T03:53:03.031Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iStlp1Jd17v3xrvqU" cm:mimetype="text/plain" cm:encoding="utf-8">uninstallation_options_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iHH-jmFxED6eeEe54" cm:name="uninstallation_view" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ix0Z0zaaB1PJA9N1z" cm:class="ps:parents">
+        <cm:relation cm:id="iFnqn2gwYSGIrjJmu" cm:type="ps:parent">
+          <cm:target cm:id="icyiYIgocnxM6VMHF">./iMnOqnEND4FpL6guq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iun8mBgQljUGW2gGM" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iNcq2MR4RWkxcbWi1" cm:type="ps:path">uninstallation_view.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOLt6TZo95Lz61_-4" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i8Ug2mOQKOFRmReQE" cm:type="ps:directory">lib/unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiGuS9SwgzUBJhLDF" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="igVgABl478KGFzTOu" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izWQ_KT3PHFIexeHM" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iT1zr5LVgPU8TqYr1" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\unistallation</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihOUUYGKM4oI5gbir" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iic5kWblsgxqBm-H1" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="irUvy7_vOAM6S_5YX" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iIs9TaSuDOlcUDt53" cm:type="ps:datetime">2025-11-21T03:53:55.526Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMfgDUNU5d3EdSCrE" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ibFBMnhd-yJdeEq0V" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig0r1HkO1KxT-pLA9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ilhmkdgRgc9tDBp8c" cm:type="ps:datetime">2025-11-21T03:53:55.526Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iBD-St-Fc24hO9lFC" cm:mimetype="text/plain" cm:encoding="utf-8">uninstallation_view</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iCXEYQ29_k6EtS711" cm:restriction="i9vuHuoWbHnMnpfo1" cm:name="viewing_product_information" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iWZ-cn9rmdlM7YGct" cm:class="ps:parents">
+        <cm:relation cm:id="ivs2xo6efKmGJ5Skh" cm:type="ps:parent">
+          <cm:target cm:id="inBZFO0XgaDL9FgTt">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i-Z9x4ZzblKUaoyYB" cm:class="ps:children">
+        <cm:relation cm:id="ih8XeaaKixaNnN3LJ" cm:type="ps:optional">
+          <cm:target cm:id="ilWpgOxXjG_HJzqfA">./ihMGvIB7GWNZnBqXw</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iNHZ1XkDdbgfZ1DFF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="inzkkfcbyVxLrtK02" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOuJ8Iug30eQU7wwo" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iPE5j2j-EFpDHfaPP" cm:type="ps:datetime">2025-11-21T04:34:05.665Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijnT5x4XudjAglkf_" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iXJ8diDXSO2Wcx0jT" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izDa84H3jWEdXIxLe" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i7MXaipAlggwW5HaV" cm:type="ps:datetime">2025-11-21T04:37:25.008Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iOn4P2eal0jbxxfto" cm:mimetype="text/plain" cm:encoding="utf-8">Viewing Product Information</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ihMGvIB7GWNZnBqXw" cm:name="productInfo_checkout_card" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ixfIiAADvWAmDqH6Q" cm:class="ps:parents">
+        <cm:relation cm:id="iaD7MSTQVV9iJ97Uv" cm:type="ps:parent">
+          <cm:target cm:id="iEa6A5IsJA3Or2HDq">./iCXEYQ29_k6EtS711</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iSdq1TWvdSURbCYoT" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iJdwvyHDNxkQAUm4G" cm:type="ps:path">productInfo_checkout_card.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iv64PcqF9T_mso5gT" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="inxFeqm_9JAitVVmq" cm:type="ps:directory">src/viewing_product_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPnAj78-3T5ciqNFs" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="im9E7M1gTFWIlNEMp" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iD7uDmvZQfNuJapHO" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ieT7p695orXwiUTU-" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\viewing_product_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilZc-FiYvJXDTESWO" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iXWbzV4PuU6X_ie6f" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iY2a-Z6N8Wo4sLSze" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ihhab_xq7YhX3W_RJ" cm:type="ps:datetime">2025-11-21T04:35:23.482Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5_QSyPhviULr3Bcq" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iNaI0f3bPzsTl-mON" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI6KzvhadCRC0l_Qd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i_TyHt3A4PX2NuF5B" cm:type="ps:datetime">2025-11-21T04:35:23.482Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ibVyABQNVkTnDLaNF" cm:mimetype="text/plain" cm:encoding="utf-8">productInfo_checkout_card</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ie2FAfR2AtrIxHDfC" cm:restriction="iJo6rkAx9R9sKWftn" cm:name="displaying_esl_information" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ixM8XMuay0ScSLhOS" cm:class="ps:parents">
+        <cm:relation cm:id="iNNMsWQHeaMKj05vg" cm:type="ps:parent">
+          <cm:target cm:id="i_6adj9G-tbzoM_fA">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iwUsJ4NsI_x2nZyMq" cm:class="ps:children">
+        <cm:relation cm:id="ig6GqeVoGV62jVOG_" cm:type="ps:optional">
+          <cm:target cm:id="iBPPz68JZzpOWGkMd">./ixsrKHWsRiuPxeWfq</cm:target>
+          <cm:target cm:id="iLWkR18EKwG7lwODq">./iyjO3jnJP5mCZjwFu</cm:target>
+          <cm:target cm:id="iaeHwlyWU9G43LrN0">./i3ScMXPYI8ptGNMXe</cm:target>
+          <cm:target cm:id="io14mXNmhA223j5OQ">./iE6qsInaJIaDrcejl</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="izlSygiCFyYhEPLzf" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iTtZGp5J7hQlNYoDh" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVrWHh1DO0hu535G8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iPRkzceGjlfuwyhr1" cm:type="ps:datetime">2025-11-21T04:40:22.362Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imqKhopAEOZFbonTA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iaFbxogfLnA6VKTu_" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLQzeHbZfhT0ChE7N" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i1FVuZAo41o_4Ekuk" cm:type="ps:datetime">2025-11-21T04:44:37.655Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i2axEplqngrONpDH1" cm:mimetype="text/plain" cm:encoding="utf-8">Displaying ESL Information</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ixsrKHWsRiuPxeWfq" cm:name="CmpEslListTile" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iFlAvRhAEJbdLGgKZ" cm:class="ps:parents">
+        <cm:relation cm:id="iNhVSNfzuW9-Vd1Vn" cm:type="ps:parent">
+          <cm:target cm:id="iCqyA9iMzwp7aJvlU">./ie2FAfR2AtrIxHDfC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iYUel-bsZ-yrxXrnt" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="imvhObmAxSgO_Eysh" cm:type="ps:path">CmpEslListTile.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDkRjQ_TvHXR_mPPL" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iEKoPEQriCgegJvdM" cm:type="ps:directory">src/lib/displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuFhPqMALLxvXF7Kq" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iIg_CiVJAtPaWWHl0" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivnxDw2wepJE7S0ap" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iHIB8PvagRI3TqGqo" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6mMYncXSYFKwCske" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iSau36Rde7Se4nQKG" cm:type="ps:datetime">2025-11-21T04:41:30.386Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWDI6aLPHz_ZC2rGQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i_5rZfKZrdlcGVnzt" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyz1g0HIk7pay_lDT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iVTEFtKXZGR-lhP2N" cm:type="ps:datetime">2025-11-21T04:44:08.885Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iD52NaorAV78n4aB0" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="ip3zqti7d8sby6sGL" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iY1SAOPnvX4X3WzfH" cm:mimetype="text/plain" cm:encoding="utf-8">CmpEslListTile</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iyjO3jnJP5mCZjwFu" cm:name="esl_dao" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="imvfGrjyNI_ONXxc4" cm:class="ps:parents">
+        <cm:relation cm:id="i4fFqFZaBd20X40ih" cm:type="ps:parent">
+          <cm:target cm:id="iWeZO9-6OmS1mv7j5">./ie2FAfR2AtrIxHDfC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iJ4rR0ZMBz5WyLUZH" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iVrXpupBYQh2QxNxL" cm:type="ps:path">esl_dao.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDR0fa_xzed2Wxv_B" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="ihelwnpVDU-kX019M" cm:type="ps:directory">src/lib/displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRqq-yqfqX_b_puLF" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iA6GSS6NYoVTlM1pK" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-bqu6s7qjVK68l7u" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iUfeXmmOiEzbOEL5K" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iivnKUcXqW50VHQ6t" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iVJWB8xCqAnbFQZc7" cm:type="ps:datetime">2025-11-21T04:42:49.647Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3aCS4nucU27R0_uK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="idI3lAPySUu61fKW_" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1CGMakr53bXEKG0R" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iQZmnKn1oqQ_ZbUR0" cm:type="ps:datetime">2025-11-21T04:44:07.504Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izHeMoYdxH2Jt2YHj" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="ieMtdELucsUN6ucQy" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iD5hC3mQNbyT3x1UD" cm:mimetype="text/plain" cm:encoding="utf-8">esl_dao</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i3ScMXPYI8ptGNMXe" cm:name="ESL_dart" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iTvsiDtwOA8q7lYlf" cm:class="ps:parents">
+        <cm:relation cm:id="iXuFRoJc3s6I7kCqj" cm:type="ps:parent">
+          <cm:target cm:id="ipzOPPBHk4U6GPB2T">./ie2FAfR2AtrIxHDfC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iDGM6h-Y1A1MjAVMO" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iwsNuCaqJibrBKc8z" cm:type="ps:path">ESL.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHbGq7_ovEDMoPCWI" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iY-58K_gf3e0KfTTv" cm:type="ps:directory">src/lib/displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iayV256qqy_NMa6XE" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iNkMUC3opSMkgMJnI" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ir8EHCLmIgdtnKi4V" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="i97rveGRk8onT7o8t" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYM4UIgJibFU4wiUE" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i6MddiL-ObohZanht" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ia6ThKd7DL74cTAjz" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="inPJ92n_bfszu5cXd" cm:type="ps:datetime">2025-11-21T04:43:56.723Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3_p9xPHBCpMC1p95" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="imCadJvXTePZKaD1A" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAH2ny9tlQouAjcWE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iu6goks4FfPqRUdqE" cm:type="ps:datetime">2025-11-21T04:43:56.723Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iXIYW2AzM1oIza1Ke" cm:mimetype="text/plain" cm:encoding="utf-8">ESL_dart</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iE6qsInaJIaDrcejl" cm:name="lm_esl_widget_item" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i1qL4IIJI8e0HmOyf" cm:class="ps:parents">
+        <cm:relation cm:id="iDkBO80HUrkXIr02j" cm:type="ps:parent">
+          <cm:target cm:id="i8bZ96wxpRqnfyD7v">./ie2FAfR2AtrIxHDfC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i3CORwQ8Mgl5S7LMG" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iupqHWkionKrVViKE" cm:type="ps:path">lm_esl_widget_item.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihrLt_M8KLDCYb6wc" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="irE26oFQ8bddYA_ai" cm:type="ps:directory">src/lib/displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ip_ocXSwQW7hv8zwF" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iBXslbeCQwjIijRMD" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLr-VUVP3CFi3_7Vx" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iM7sfad888ou-qtL5" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\displaying_esl_information</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8mK56_d5jpoBQLza" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i3aaUlLLemGx7aSUc" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i02EJXIn8XHPs6e8t" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iAtvL7J2DKw0fysnl" cm:type="ps:datetime">2025-11-21T04:44:37.656Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDwbBvmomWZ4I9zZN" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iJPViAOTxb6b7tLR4" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyGBjI3_dbfUFc3pq" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ichbybkifo-XWa7eX" cm:type="ps:datetime">2025-11-21T04:44:37.656Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iO4DV8fyaOieOEJFX" cm:mimetype="text/plain" cm:encoding="utf-8">lm_esl_widget_item</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ipTJe1mG8rEc2pmgK" cm:restriction="iS4vywVe4uW025P3c" cm:name="search_product" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iD3WQsP6QK2EFS3Y2" cm:class="ps:parents">
+        <cm:relation cm:id="iAXSish3jgbp866B2" cm:type="ps:parent">
+          <cm:target cm:id="i8-LVNLZ-HRK0A1eX">./iAEM4MgdM-DxVNZ-z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iKkXOF5HKazCGKFjy" cm:class="ps:children">
+        <cm:relation cm:id="ipCB1tyxWb86ORWpu" cm:type="ps:optional">
+          <cm:target cm:id="i-Lcmri-aWeFsXSGj">./ihOxIx9lmpyyTZGEF</cm:target>
+          <cm:target cm:id="ix_T8ZB8L41X2jtz0">./iGmBGAnR3wH3P0HGg</cm:target>
+          <cm:target cm:id="iqbGueVCDZ3_xGdD9">./ia_e3xXe890HeZvX4</cm:target>
+          <cm:target cm:id="i3T5tV_86nuVfo0wL">./ieKR1AtNkXxu0P7vf</cm:target>
+          <cm:target cm:id="iC2kLV2-czrsJac9Q">./iVi729j2aQhrEUXn7</cm:target>
+          <cm:target cm:id="iuNSH9j80Ygws2j8D">./iTH1ourEJM5Vm1A9U</cm:target>
+          <cm:target cm:id="iwJZ38_mnjJuJlIg-">./iAhEq6M7ckl2cxZOr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iTs5L1Zyf4pn8r4D6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ijzfz_5b8uZ5J6oRp" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7kEIW1mOfNlTjgDZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="inXtnC18ANzj6gdPD" cm:type="ps:datetime">2025-11-21T04:47:16.040Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5pEf9uFaGr8AD_LZ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iKbMXg_EOChBdQ5jx" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1oHEsiAYGEqDVdk7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="izEzT-5RNZBx9leeJ" cm:type="ps:datetime">2025-11-21T04:52:39.388Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iWx40xLJhAsiRTGhM" cm:mimetype="text/plain" cm:encoding="utf-8">Search Product</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ihOxIx9lmpyyTZGEF" cm:name="esl_search" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iq6VuJRq4gL_KQh4N" cm:class="ps:parents">
+        <cm:relation cm:id="iZWQh-4x7Yy_26jNU" cm:type="ps:parent">
+          <cm:target cm:id="iK6Fp0aBiWtNYmHwH">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iRJCfitfXtet3zpi2" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iPViu3lJ06kyJYO-0" cm:type="ps:path">esl_search.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBJ9pPNYkBKS3-WLJ" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="io1fZSpwWhVpz5HGM" cm:type="ps:directory">src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ib8KE6RosXMg_r2ON" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iDhDU6skE5b8pIGy0" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAeSgvZoeSR84IH3w" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iv1ruAxACEI6syJq5" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iw_O-cjp2EmEdmUj2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iU7THDC3RLjadpAif" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJHqJjQDOxsFxTKRD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ivIO6UZAWgI9Ks_Fr" cm:type="ps:datetime">2025-11-21T04:48:47.653Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHrQ8oE3GAaLrRZLo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iC2IaRiBvNyj8xCqd" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEiAkZALkYGAjLOz6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iXIQj-zHgiLgy2iFz" cm:type="ps:datetime">2025-11-21T04:48:47.653Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ib2G61yJi7Ik38upR" cm:mimetype="text/plain" cm:encoding="utf-8">esl_search</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iGmBGAnR3wH3P0HGg" cm:name="step0_search_actions" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ihu3UuXiYemCEeKXd" cm:class="ps:parents">
+        <cm:relation cm:id="ibhiNy9G5Dg8Weq01" cm:type="ps:parent">
+          <cm:target cm:id="iRQBnN-J5CtUXPJ5b">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iQzUx3hwWkO5Kf5mN" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iojcRP48cGogXEbUH" cm:type="ps:path">step0_search_actions.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imnIgkmojmfuMvDSl" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iUYsKYgFjQ9mpzYJD" cm:type="ps:directory">src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHrmRakKFyCavXLuv" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iKkTc01y98pgw0s7g" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPKafUBVIJdskHOUH" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iL8pvQPqEk3TYjOM4" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_yNAayogc1M_sbaM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iu5j3bkBpQyG0crZe" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iG6fuXJQ0vCYOtALy" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iyK_xQnn-sUpawJml" cm:type="ps:datetime">2025-11-21T04:49:10.554Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5ifczs8IDQQ5cg4g" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i2i1Aro4Yl4iLDpwb" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4s2vnUeXWbGXJATC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i4onkd1U35T8i-HhL" cm:type="ps:datetime">2025-11-21T04:49:10.554Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iOlsl57jeABGbVoQ4" cm:mimetype="text/plain" cm:encoding="utf-8">step0_search_actions</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ia_e3xXe890HeZvX4" cm:name="step1_search_all" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="icWv3Qu3Y-QvUTOoe" cm:class="ps:parents">
+        <cm:relation cm:id="iwQkANBlaczdIJQ9E" cm:type="ps:parent">
+          <cm:target cm:id="idyGvuGm9juc7G0Qh">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="imTgzsEYK0OGoRJ-X" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ieQU6x5ngygR_E43b" cm:type="ps:path">step1_search_all.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ingz0w8rhqjWBtbiH" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i7gLxnlfz56MFZ7Qd" cm:type="ps:directory">src\lib\search_productsrc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igLIlnF8xRV6J067_" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iNsgDgQdsIKmXgerK" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4ZRKGSEcWcJ8Vamg" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iQcz6cZQOcen9-W5b" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7Eu0_MT7vSBgT4cH" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i0Kb5zsizKymlOhxM" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCsGAHvRBq-07QnF6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iK1wIDLHDp1Rjtz4d" cm:type="ps:datetime">2025-11-21T04:49:48.047Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI27RC8l2gvIM1Y3g" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iCh7cN6rDq2KEnRNQ" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iF7PCyEgXSjTTOaNE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i48-Z6q1U0HzVr_6E" cm:type="ps:datetime">2025-11-21T04:49:48.047Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iksPz_2Y12ge44TST" cm:mimetype="text/plain" cm:encoding="utf-8">step1_search_all</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ieKR1AtNkXxu0P7vf" cm:name="step1_search_byProductName" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i0znt3LbPkl_-p3b2" cm:class="ps:parents">
+        <cm:relation cm:id="iCpMQA3QsxIad2sLD" cm:type="ps:parent">
+          <cm:target cm:id="i_GtcU65H0Fij4OHM">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iaK5CNHZ_4BiSJL7f" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="infwbid8fdvYLz_XB" cm:type="ps:path">step1_search_byProductName.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipeDkZxhbRe64TAVy" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iA75IePQnlLJVin8z" cm:type="ps:directory">src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iO-Yy6rWJsrPnzrAw" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="ihgqckOVgOkfunJla" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixczvKPO7PUjn_RA7" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ib38Re9crLX2-9oSs" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixTezMpEgEU0-UM2a" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iwU2f-bq3Idsn7NXG" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0byUVu7fjJ5CgI1L" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iDruw3rM5jl5GmfC9" cm:type="ps:datetime">2025-11-21T04:50:35.264Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUttckvN0w4Pf0cjF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i38r4cSL9u2KQ72u5" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igaQBfLvSACDVuUKD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iXnPc1O0ezKMxCIBe" cm:type="ps:datetime">2025-11-21T04:50:35.264Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iBz6wgXO2w5V1W88k" cm:mimetype="text/plain" cm:encoding="utf-8">step1_search_byProductName</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iVi729j2aQhrEUXn7" cm:name="step1_searchByMac_macInput" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iIoFhv8x7uGc384g3" cm:class="ps:parents">
+        <cm:relation cm:id="iPyvHcVGTEDMGsd7o" cm:type="ps:parent">
+          <cm:target cm:id="izaMgaf5665vP9Ilk">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iZEx9Pbj64Cdw_1Ud" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ir9_8U0jGSNyUflhN" cm:type="ps:path">step1_searchByMac_macInput.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3cKoufvFopjlFDEx" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i6Rvdju2HsWFB_2wv" cm:type="ps:directory">src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJZZeSMxVq-SvKlIz" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iTFKVqIX9bjA9Pdc7" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iA8Pb0aZ4qyG_iyeR" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ixJdt9_IGa5hv1t-J" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idRH6fe6uDXISkLhG" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i9GVVOcMlUAs8MNeM" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ibe8zlqnoDy9m7Qf7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iokiJUYm4xRgJMA0o" cm:type="ps:datetime">2025-11-21T04:51:34.669Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imfNkY51c8NMILPb1" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i-J35WK0-uc9Gqe3j" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isTo1Kxup1dHzNoJ6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ir2zAk-dTzyRF0BFZ" cm:type="ps:datetime">2025-11-21T04:51:34.669Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i-4q0Q2q_OJ0RS6yc" cm:mimetype="text/plain" cm:encoding="utf-8">step1_searchByMac_macInput</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iTH1ourEJM5Vm1A9U" cm:name="step1_searchByMac_macReader" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="isMJJSJ8zSRgUYjA8" cm:class="ps:parents">
+        <cm:relation cm:id="iqjJcvt8T06-R-NNj" cm:type="ps:parent">
+          <cm:target cm:id="iElDHJ_dkgTAOWy4t">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iB6ToN4mJPpIOiUlH" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i_pITYX1i8yehBf_f" cm:type="ps:path">step1_searchByMac_macReader.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iskEC7fcFh3rX_m8e" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i7aiRWThapOf6GcOG" cm:type="ps:directory">src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivl98P6w0PuJd0A-d" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="ifSQa4lICamV-g5p2" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iD0y3CQwLx9UGZ4Fc" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipSP3LiZyWJDOpPH4" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ionHctdVyKDTKCayJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i5s03ruT2iiGViagK" cm:type="ps:datetime">2025-11-21T04:52:05.499Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihzlsxYjlByrJptgm" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iKdv6lvTCWE5Kdt8a" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEopMMf65ovk394Tf" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iZZbg0s_tv1tZqCKM" cm:type="ps:datetime">2025-11-21T04:52:05.499Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ie4ce9fxpY-8Twc4a" cm:mimetype="text/plain" cm:encoding="utf-8">step1_searchByMac_macReader</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iAhEq6M7ckl2cxZOr" cm:name="step2_searchByMac_esl" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ilEDGhquigfJe9Uyx" cm:class="ps:parents">
+        <cm:relation cm:id="iUNeZLXSGrT1XsNp_" cm:type="ps:parent">
+          <cm:target cm:id="ioPJ8fN5O-NlEseqk">./ipTJe1mG8rEc2pmgK</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixsV_5TWNVKLr3MI5" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iGZWmqBsdoB4CZ1q0" cm:type="ps:path">step2_searchByMac_esl.dart</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijC1EMn6mJKk-U6S9" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iCzVpJbJQsDMj9opD" cm:type="ps:directory">src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLQQ75ySIq14v4QJX" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iO5O7GfvOoQJI4-uF" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_-uyS_36B0xCgm6E" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="irSKXOBtx8mA3ON88" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\search_product</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAUmmG_Z3uHssnT2w" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ir_iqrQhqsQDoC-1K" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iF4n7rDyn2ZbNuH4d" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iXoIbeBNDHCBlteJj" cm:type="ps:datetime">2025-11-21T04:52:39.388Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivbCH7_WeiAVCeHOU" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ihbIyuC4mLn8pv-H1" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="insWcaoVSEzTCuBM2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i1OdXSFRJb1-HaiOs" cm:type="ps:datetime">2025-11-21T04:52:39.388Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i9ThqYc9GKbJL3Vet" cm:mimetype="text/plain" cm:encoding="utf-8">step2_searchByMac_esl</cm:mimedesc>
       </cm:vname>
     </cm:element>
   </cm:elements>
