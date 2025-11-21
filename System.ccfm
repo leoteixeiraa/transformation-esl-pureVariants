@@ -132,7 +132,6 @@
         <cm:relation cm:id="iV3reGEju1FLDDR_y" cm:type="ps:optional">
           <cm:target cm:id="izuHXJitDag5ymDWl">./iM3MBo-VhqS93qz5H</cm:target>
           <cm:target cm:id="ieySRZyrO2iKEViyr">./ijIG5A1TxYsfjcVMH</cm:target>
-          <cm:target cm:id="iSoFCyu0vJTneJKD9">./iETCDIXdVyGwwJ45X</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -146,81 +145,11 @@
           <cm:constant cm:id="iw1luCt7kVuwvcen_" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iwvJdZi9Ruqgxy-yr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-07T11:21:36.773Z</cm:constant>
+          <cm:constant cm:id="iTmVy-0smEncEpZMk" cm:type="ps:datetime">2025-11-20T17:35:58.107Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ih2kpltQ-fefymY8_" cm:mimetype="text/plain" cm:encoding="utf-8">ESL</cm:mimedesc>
-      </cm:vname>
-    </cm:element>
-    <cm:element cm:id="iETCDIXdVyGwwJ45X" cm:name="testA" cm:type="ps:class" cm:class="ps:part" cm:default="on">
-      <cm:relations cm:id="i_pcU4UmFRPgqnnJF" cm:class="ps:parents">
-        <cm:relation cm:id="i_30GO1wRPk18N4E4" cm:type="ps:parent">
-          <cm:target cm:id="iScb2TTYlXTPhSDM3">./iAEM4MgdM-DxVNZ-z</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:relations cm:id="iYRPMBvkEl72CtKc_" cm:class="ps:children">
-        <cm:relation cm:id="i-BxDjp7WtntLfdVG" cm:type="ps:optional">
-          <cm:target cm:id="iWaMSW8UApMj_fmd7">./iSFxfkxXCCkei1W4J</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:properties>
-        <cm:property cm:id="iUFRFT4wsWtYvTGjc" cm:type="ps:string" cm:fixed="true" cm:name="classname">
-          <cm:calculate cm:id="iCkAwMjgJeadCrrwj" cm:type="ps:string">
-            <cm:script cm:id="i5jlwXxArU5ziNBKm" cm:language="ps:pvscl" cm:type="ps:string">Commissioning</cm:script>
-          </cm:calculate>
-        </cm:property>
-        <cm:property cm:id="iViVrsOKhvt3jdctN" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
-          <cm:constant cm:id="iiLlDrBm4crND8mXs" cm:type="ps:string">leove</cm:constant>
-        </cm:property>
-        <cm:property cm:id="iz3d_0kou6lYTQKVk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
-          <cm:constant cm:id="iAWlwGicJ4a4IEed4" cm:type="ps:datetime">2025-11-07T11:21:21.802Z</cm:constant>
-        </cm:property>
-        <cm:property cm:id="infFw_WlIJgtGgIfI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
-          <cm:constant cm:id="iLXCPVqQjJqjKj6jY" cm:type="ps:string">leove</cm:constant>
-        </cm:property>
-        <cm:property cm:id="ictJTYx1_HYAW5bYE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iVFRa2OE1CmPK48-N" cm:type="ps:datetime">2025-11-07T11:44:13.073Z</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="iVktDvspFEzdAvTqZ" cm:mimetype="text/plain" cm:encoding="utf-8">testA</cm:mimedesc>
-      </cm:vname>
-    </cm:element>
-    <cm:element cm:id="iSFxfkxXCCkei1W4J" cm:name="ConcreteFile" cm:type="ps:file" cm:class="ps:source" cm:default="on">
-      <cm:relations cm:id="iM8yM2ZoGPuMmDNaa" cm:class="ps:parents">
-        <cm:relation cm:id="in2FFfyCYmrYAaXGA" cm:type="ps:parent">
-          <cm:target cm:id="iaviRYqGQObg-7f1O">./iETCDIXdVyGwwJ45X</cm:target>
-        </cm:relation>
-      </cm:relations>
-      <cm:properties>
-        <cm:property cm:id="iwvho2yTlrOhk4Bs1" cm:type="ps:path" cm:fixed="true" cm:name="file">
-          <cm:constant cm:id="iNdN43wylXRhym7CG" cm:type="ps:path">installation_logs_view.dart</cm:constant>
-        </cm:property>
-        <cm:property cm:id="ipmRKcwY_W0BwV4h-" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
-          <cm:constant cm:id="iCsIsChGgPLuADvPR" cm:type="ps:directory">src\sys</cm:constant>
-        </cm:property>
-        <cm:property cm:id="ikMBAeWW8kKZd_tfV" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
-          <cm:constant cm:id="isGQvzyopGqwJU4TI" cm:type="ps:filetype">misc</cm:constant>
-        </cm:property>
-        <cm:property cm:id="iGL4_W-hfy8mpdSOq" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
-          <cm:constant cm:id="iVEsT4gODZcb7QlMj" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src</cm:constant>
-        </cm:property>
-        <cm:property cm:id="iffi4PfuK6qqpuSPM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
-          <cm:constant cm:id="iOUf1SjVWsJOtQYXi" cm:type="ps:string">leove</cm:constant>
-        </cm:property>
-        <cm:property cm:id="iSrozEbxCcaY7R8wV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
-          <cm:constant cm:id="ixDAMMy-602Imagke" cm:type="ps:datetime">2025-11-07T11:33:36.309Z</cm:constant>
-        </cm:property>
-        <cm:property cm:id="iuHRXxl7N76UMCztm" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
-          <cm:constant cm:id="i8waPf1-TzptUjrJ7" cm:type="ps:string">leove</cm:constant>
-        </cm:property>
-        <cm:property cm:id="isFTN1M76l0BjHetd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iHMOmNG1Jngp3UsPU" cm:type="ps:datetime">2025-11-07T11:46:38.927Z</cm:constant>
-        </cm:property>
-      </cm:properties>
-      <cm:vname>
-        <cm:mimedesc cm:id="i3LM3MGivYi8b7HhD" cm:mimetype="text/plain" cm:encoding="utf-8">ConcreteFile</cm:mimedesc>
       </cm:vname>
     </cm:element>
     <cm:element cm:id="ijIG5A1TxYsfjcVMH" cm:name="Main" cm:type="ps:class" cm:class="ps:part" cm:default="on">

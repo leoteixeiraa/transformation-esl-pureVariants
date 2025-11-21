@@ -54,9 +54,8 @@
         </cm:relation>
       </cm:relations>
       <cm:relations cm:id="iSx8y-VDFLg3tXN7X" cm:class="ps:children">
-        <cm:relation cm:id="ivwXaoQ_i3rWxG9fT" cm:type="ps:optional">
-          <cm:target cm:id="ipfnG7SuI5HDxa5Rm">./iI3828eu9oqvv0vBm</cm:target>
-          <cm:target cm:id="i24YXYcx6-H8ziK-G">./ibnXFt_3VQa0gSzvt</cm:target>
+        <cm:relation cm:id="i7ADzuoGSGgSywCFF" cm:type="ps:or">
+          <cm:target cm:id="iRcgJg6LEsziwL18M">./ihBWf3GQBvbeWWrkj</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -70,25 +69,25 @@
           <cm:constant cm:id="iIx56MdZS3aHtCksS" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="ijV3BvpvkJVKGgmdB" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iB48p49UGmbrJdCgr" cm:type="ps:datetime">2025-11-07T03:17:15.904Z</cm:constant>
+          <cm:constant cm:id="iB48p49UGmbrJdCgr" cm:type="ps:datetime">2025-11-20T17:52:54.874Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
-        <cm:mimedesc cm:id="i2YjeygUdLEplKXvD" cm:mimetype="text/plain" cm:encoding="utf-8">ESL</cm:mimedesc>
+        <cm:mimedesc cm:id="i2YjeygUdLEplKXvD" cm:mimetype="text/plain" cm:encoding="utf-8">ESL Solution</cm:mimedesc>
       </cm:vname>
       <cm:desc>
-        <cm:mimedesc cm:id="iNgdv3CTgdSvDzVh2" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Agrupa as features espec&amp;iacute;ficas do dom&amp;iacute;nio &lt;strong data-end="2960" data-start="2927"&gt;Electronic Shelf Labels (ESL)&lt;/strong&gt;.&lt;/p&gt;</cm:mimedesc>
+        <cm:mimedesc cm:id="iNgdv3CTgdSvDzVh2" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Agrupa as features espec&amp;iacute;ficas do dom&amp;iacute;nio &lt;strong data-start="2927" data-end="2960"&gt;Electronic Shelf Labels (ESL)&lt;/strong&gt;.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
     <cm:element cm:id="iI3828eu9oqvv0vBm" cm:name="Commission" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
-      <cm:relations cm:id="isoxrbcF_jDspeajn" cm:class="ps:parents">
-        <cm:relation cm:id="i2yJN_lGIUYEr2sdh" cm:type="ps:parent">
-          <cm:target cm:id="i7M8Ii8RBmKFYc9Sw">./igmQHqBeWLP0N_P3Y</cm:target>
-        </cm:relation>
-      </cm:relations>
       <cm:relations cm:id="iPg-tyxjDX-CvJIG0" cm:class="ps:dependencies">
         <cm:relation cm:id="i_32udltdTFFdKnZY" cm:type="ps:requires">
           <cm:target cm:id="iEwR-KB0c65VIkW9X">iint6ybh_zHt3i9Y8/ibnXFt_3VQa0gSzvt</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i-ZTAHcD_2X5xbn00" cm:class="ps:parents">
+        <cm:relation cm:id="iwtUerBruF6XFnwyT" cm:type="ps:parent">
+          <cm:target cm:id="ibrbmvvvVIgoy7s8e">./iHEKq-KfgM0k5Z68z</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -113,14 +112,14 @@
       </cm:desc>
     </cm:element>
     <cm:element cm:id="ibnXFt_3VQa0gSzvt" cm:name="decommission_1_1" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
-      <cm:relations cm:id="iZd0xhIUK928L6APT" cm:class="ps:parents">
-        <cm:relation cm:id="iZPqbZHh5BKJ0wCHJ" cm:type="ps:parent">
-          <cm:target cm:id="iksRHFvKQsAQPpOjm">./igmQHqBeWLP0N_P3Y</cm:target>
-        </cm:relation>
-      </cm:relations>
       <cm:relations cm:id="i3ILKUmv-Cfho33ii" cm:class="ps:dependencies">
         <cm:relation cm:id="i7nI5eBbAmkTdMIvd" cm:type="ps:requires">
           <cm:target cm:id="iHIMlKP-xUKfzDh-r">iint6ybh_zHt3i9Y8/iI3828eu9oqvv0vBm</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iJEOodteRzipfeLx8" cm:class="ps:parents">
+        <cm:relation cm:id="iLmrq5NLPpUYzx29x" cm:type="ps:parent">
+          <cm:target cm:id="i5lxbaSPF3sK9kdll">./iHEKq-KfgM0k5Z68z</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -142,6 +141,174 @@
       </cm:vname>
       <cm:desc>
         <cm:mimedesc cm:id="iROhjNbgZFTw-tjEa" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Define que uma feature s&amp;oacute; pode ser ativada se a outra tamb&amp;eacute;m estiver. Exemplo: &amp;#x201c;Commissioning requer Decommissioning&amp;#x201d;.&lt;/p&gt;</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="iyUUQ2YFQaA6UgzTQ" cm:name="installation_uninstallation" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iye8fpVyf2LNzdfRo" cm:class="ps:parents">
+        <cm:relation cm:id="iXBrN6DuCdhoAmgVj" cm:type="ps:parent">
+          <cm:target cm:id="iXs808-Oa2JkjuzA9">./iHEKq-KfgM0k5Z68z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iVW1sGdhGwki5EHQK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i-KueFPjFrvdQlyat" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ir4xCWSiXnUOEIwcX" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ivgbBcQC8RU7W0uKS" cm:type="ps:datetime">2025-11-20T17:52:04.639Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_BZ5WxDnrO4_k5C3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iQRGzJTTfzzmshxcV" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itsJt0QDCJm9E4Qh7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iH9jsKNj_8H_JOwiV" cm:type="ps:datetime">2025-11-20T17:52:04.639Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="inn6z2-XKNj19AwS_" cm:mimetype="text/plain" cm:encoding="utf-8">InstallationUnistallation</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iWDWuaTFdVqU4FNW_" cm:name="Viewing_Product_Information" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iYCWHGAErDCp2V9n5" cm:class="ps:parents">
+        <cm:relation cm:id="i-RXl4d7UWJsofESU" cm:type="ps:parent">
+          <cm:target cm:id="i514oiIOeCkd1vw-L">./iHEKq-KfgM0k5Z68z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMLWUlT-c_l19NIeg" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ilPsM3-QSVb62AC2g" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-JkKU4rf1mprqHlJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i-Fv7n4BKXCvt71Hp" cm:type="ps:datetime">2025-11-20T17:52:04.640Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwpA5lqT4MEhdgH7y" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iHOSqpUqigW_rk-FC" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihyozUXItiLJdAVLk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iFpL2TbNYLsZ2UwvL" cm:type="ps:datetime">2025-11-20T17:52:04.640Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i6gbckqZlS7LRaFCe" cm:mimetype="text/plain" cm:encoding="utf-8">Viewing Product Information</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iMrir6P5O7FtFf5HA" cm:name="Displaying_ESL_Information" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="imcJODulJ7HJUm2JR" cm:class="ps:parents">
+        <cm:relation cm:id="iGT95AY87fP8uDNYL" cm:type="ps:parent">
+          <cm:target cm:id="iYYaImc7F43yNWl_v">./iHEKq-KfgM0k5Z68z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i03_QN3RGCwg_Go4T" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifJMQIPP3k3Hg8lPL" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9rYY1F9sNmFXKdb-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="imoO5KrUrw7hxJjyH" cm:type="ps:datetime">2025-11-20T17:52:04.640Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iw8u9HbhZchO-0e12" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iNkuvfNKBvquhY1o3" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZxgxwnKWL12nCD-f" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iGxwwWduGSIkcfngM" cm:type="ps:datetime">2025-11-20T17:52:04.640Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iURyU1M7Bs6uvL_eI" cm:mimetype="text/plain" cm:encoding="utf-8">Displaying ESL Information</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ihC6q2oByo7U-xFNj" cm:name="search_product" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ivJB0b9LxMtVGPRGz" cm:class="ps:parents">
+        <cm:relation cm:id="iCzEYvw8Ts_B8sgZd" cm:type="ps:parent">
+          <cm:target cm:id="imyyt2lcjo6h98Vh1">./iHEKq-KfgM0k5Z68z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ig0D3PPp1FcsxSC7O" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iAksUQoANzfbMpZ3p" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ij5r-Yb07h3O2Gm8L" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iss6aKyGZwwCbRhC4" cm:type="ps:datetime">2025-11-20T17:52:04.641Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="im1TrRw4lb3SUnHva" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="idzmB-qHeANpRzm4Y" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5Hkgk_KIuLOlVL59" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i6kR98qvUklBZXyu2" cm:type="ps:datetime">2025-11-20T17:52:04.641Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iLEsiRktCsfLHx7qE" cm:mimetype="text/plain" cm:encoding="utf-8">Search Product</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iHEKq-KfgM0k5Z68z" cm:name="MobileAppFunctionalities" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="ifljWtQNuT4WYaJDX" cm:class="ps:parents">
+        <cm:relation cm:id="ij2D4yUQJjtd8BVrz" cm:type="ps:parent">
+          <cm:target cm:id="ig3Ob7zH4y2H1PuBY">./ihBWf3GQBvbeWWrkj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iRfFeVXhSmCMbH4q-" cm:class="ps:children">
+        <cm:relation cm:id="igmBY9MGb9Gnu0-LJ" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iokRlsPUSYbDPzTk4">./iyUUQ2YFQaA6UgzTQ</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="iHahpf1Wwebg8abv1" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="ibPsp5rm3Dat_BQ3i">./iWDWuaTFdVqU4FNW_</cm:target>
+          <cm:target cm:id="i8hioWgE1RyUXpeQd">./iMrir6P5O7FtFf5HA</cm:target>
+          <cm:target cm:id="iaNq7Y5nR9Se1xql1">./ihC6q2oByo7U-xFNj</cm:target>
+          <cm:target cm:id="i92znNOfPjAIrZK-v">./iI3828eu9oqvv0vBm</cm:target>
+          <cm:target cm:id="iInPQVikebzRX7lud">./ibnXFt_3VQa0gSzvt</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iSfzRgKF0qyIWLh4U" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iAmsLPnXAK_y9Lxmd" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iycKb4DbNe7PBR0WX" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ixFenOA0qYpkh5UNl" cm:type="ps:datetime">2025-11-20T17:52:04.639Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4aMEDcg-fyEtS-0V" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iOLlq3B7Yo20e2x1S" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwx5AK41NkMcrOBIV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ip9lMuYttb0CD-syg" cm:type="ps:datetime">2025-11-20T17:52:25.660Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i83VTLhmD13XNC0tB" cm:mimetype="text/plain" cm:encoding="utf-8">Mobile App Functionalities</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ihBWf3GQBvbeWWrkj" cm:name="ESLInstallationDevice_1" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ixZmSw-vYEjcmUXwU" cm:class="ps:children">
+        <cm:relation cm:id="igUpBpmKxak0LPQkt" cm:type="ps:or">
+        </cm:relation>
+        <cm:relation cm:id="iyOk1uWmQoYm6O_vG" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iqvzVBIr6ZbCJQUm_">./iHEKq-KfgM0k5Z68z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iD51Pmkb5ZpkueSyq" cm:class="ps:parents">
+        <cm:relation cm:id="iwQcD8XExjl48lSJ3" cm:type="ps:parent">
+          <cm:target cm:id="iDpLNDT3-2GhNkGwR">./igmQHqBeWLP0N_P3Y</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="id6UfXhN-rFNz1MlL" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iiaZFIJpI_-ZqRhrM" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_PqgG0V2fSmybpV-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i9322JGdXJ-TpxI5u" cm:type="ps:datetime">2025-11-20T17:52:04.639Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iY18GRHlcWB-IHUHA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ihrvukd55wTMsJWNe" cm:type="ps:string">leove</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijvuBiDU7utJkukDu" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="izHhEJZO4WKzPg1Yo" cm:type="ps:datetime">2025-11-20T17:52:04.639Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iVqXcsmBDlGigRQkn" cm:mimetype="text/plain" cm:encoding="utf-8">ESL Installation Device</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="iKNgXXtGx_-gXK9yk" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Optional Feature.&lt;/p&gt;
+&lt;p&gt;Debug capapbility can be added to application. This allows you to easier search for bugs and remove them.&lt;/p&gt;
+&lt;p&gt;Debug capability is not usefull for the end user, so you can remove it from your product.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
   </cm:elements>
