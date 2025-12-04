@@ -1,34 +1,32 @@
 import 'dart:developer';
 
 import 'package:esl_mobile_app/components/my_card.dart';
-import 'package:esl_mobile_app/views/decommission/step1_decommission_macReader.dart';
+import 'package:esl_mobile_app/components/tagInfo_checkout_card.dart';
+import 'package:esl_mobile_app/views/Uninstallation/step1_uninstall_macReader.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
 import '../../components/my_actions_alert_dialog.dart';
 import '../../components/my_alert_dialog.dart';
 import '../../components/my_solid_button.dart';
-import '../../components/tagInfo_checkout_card.dart';
-import '../../models/actionArguments/decommission_arguments.dart';
-import '../../services/commissioning_process_manager.dart';
+
+import '../../models/actionArguments/uninstallation_arguments.dart';
 import '../../services/installation_process_manager.dart';
 import '../../utils/constants.dart';
 
-class Step2DecommissionCheckout extends StatelessWidget {
-  Step2DecommissionCheckout({super.key, this.args});
+class Step2UninstallationCheckout extends StatelessWidget {
+  Step2UninstallationCheckout({super.key,  this.args});
 
-  DecommissioningArguments? args;
+  UninstallationArguments? args;
 
   @override
   Widget build(BuildContext context) {
-    args =
-    ModalRoute
-        .of(context)!
-        .settings
-        .arguments as DecommissioningArguments;
+
+    args = ModalRoute.of(context)!.settings.arguments as UninstallationArguments;
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Descomissionar produto", style: TextStyle(fontSize: 24)),
+        title: const Text("Desinstalar etiqueta", style: TextStyle(fontSize: 24)),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 20),
@@ -36,35 +34,32 @@ class Step2DecommissionCheckout extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 32),
-            Text('Conferência', style: Theme
-                .of(context)
-                .textTheme
-                .headlineSmall),
+            Text('Conferência', style: Theme.of(context).textTheme.headlineSmall),
             const SizedBox(height: 16),
-            TagInfoCheckoutCard(mac: args?.macAddress ?? ""),
+            TagInfoCheckoutCard(mac: args?.macAddress ?? ''),
           ],
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      floatingActionButton: buildInstallButton(context),
+      floatingActionButton: buildInstallButton(context, mac: args?.macAddress ?? '' ),
     );
   }
 
-  Padding buildInstallButton(BuildContext context) {
+  Padding buildInstallButton(BuildContext context, {required String mac}) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: SizedBox(
         height: 50,
         width: double.infinity,
         child: MySolidButton(
-            buttonLabel: Text('Descomissionar etiqueta'),
+            buttonLabel: Text('Desinstalar etiqueta'),
             onPressedCallBack: () =>
             {
-              CommissioningProcessManager()
-                  .decommission(
-                macParameter: args?.macAddress ?? '',
-              )
-                  .timeout(
+              InstallationProcessManager()
+                  .uninstall(
+                macParameter: mac ?? '',
+
+                ).timeout(
                 const Duration(milliseconds: ZEROMQ_TIMEOUT_VALUE),
                 onTimeout: () {
                   MyAlertDialog(success: false).build(
@@ -76,12 +71,12 @@ class Step2DecommissionCheckout extends StatelessWidget {
                   );
 
                   throw Exception(
-                      'Tempo esgotado durante o descomissionamento de produto! Tente novamente mais tarde');
+                      'Tempo esgotado durante a instalação de dispositivos! Tente novamente mais tarde');
                 },
               ).then(
                     (value) {
                   //TODO VERIFICAR POR CODIGO DE RETORNO DA REQUISIÇÃO
-                  log('Operação de descomissionamento retornou ${value.body}');
+                  log('Operação de instalação retornou ${value.body}');
                   if (value.body.contains('NACK')) {
                     //problema nos dados enviados
                     MyAlertDialog(success: false).build(
@@ -104,15 +99,10 @@ class Step2DecommissionCheckout extends StatelessWidget {
                     MyActionsAlertDialog(success: true).build(
                         context,
                         titulo: 'Solicitação enviada!',
-                        mensagem: 'A solicitação de descomissionamento foi enviada. Você receberá uma notificação em caso de falha.',
-                        newActionWidget: Step1DecommissionMacReader(
-                            allowedBarcodeFormats: const [
-                              BarcodeFormat.code128
-                            ]),
-                        /* PVSCL:IFCOND(Commission) */
-                        newActionRoute: '/commissioning/decommission/macReader',
-                        /* PVSCL:ENDCOND */
-                        newActionLabel: 'Novo descomissionamento'
+                        mensagem: 'A solicitação de desinstalação foi enviada. Você receberá uma notificação em caso de falha.',
+                        newActionWidget: Step1UninstallMacReader(allowedBarcodeFormats: const [BarcodeFormat.code128]),
+                        newActionRoute: '/installation/uninstall/macReader',
+                        newActionLabel: 'Nova desinstalação'
                     );
                   }
                 },
@@ -125,7 +115,6 @@ class Step2DecommissionCheckout extends StatelessWidget {
                   buttonLabel: 'Ok',
                 );
               }),
-
 
             }
         ),

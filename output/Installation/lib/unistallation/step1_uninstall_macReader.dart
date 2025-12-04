@@ -6,10 +6,9 @@ import 'dart:async';
 import 'package:camera/camera.dart';
 import 'package:esl_mobile_app/components/lm_home_card.dart';
 import 'package:esl_mobile_app/components/my_solid_button.dart';
-import 'package:esl_mobile_app/models/actionArguments/decommission_arguments.dart';
+import 'package:esl_mobile_app/models/actionArguments/uninstallation_arguments.dart';
 import 'package:esl_mobile_app/views/Installation/step1_installation_macInput.dart';
 import 'package:esl_mobile_app/views/Uninstallation/step1_uninstall_macInput.dart';
-import 'package:esl_mobile_app/views/decommission/step1_decommission_macInput.dart';
 import 'package:esl_mobile_app/views/notifications/notifications_view.dart';
 import 'package:esl_mobile_app/views/operations_view.dart';
 import 'package:esl_mobile_app/components/cmp_navigation_bar.dart';
@@ -23,16 +22,16 @@ import '../../services/barcode_scanner/barcode_detector_painter.dart';
 import '../../services/validation/mac_validation_service.dart';
 import '../../styles/app_themes.dart';
 
-class Step1DecommissionMacReader extends StatefulWidget {
-  Step1DecommissionMacReader(
+class Step1UninstallMacReader extends StatefulWidget {
+  Step1UninstallMacReader(
       {Key? key,
-        this.customPaint,
-        //this.onImage,
-        required this.allowedBarcodeFormats,
-        this.onCameraFeedReady,
-        this.onDetectorViewModeChanged,
-        this.onCameraLensDirectionChanged,
-        this.initialCameraLensDirection = CameraLensDirection.back})
+      this.customPaint,
+      //this.onImage,
+      required this.allowedBarcodeFormats,
+      this.onCameraFeedReady,
+      this.onDetectorViewModeChanged,
+      this.onCameraLensDirectionChanged,
+      this.initialCameraLensDirection = CameraLensDirection.back})
       : super(key: key);
 
   CustomPaint? customPaint;
@@ -45,10 +44,10 @@ class Step1DecommissionMacReader extends StatefulWidget {
   List<BarcodeFormat> allowedBarcodeFormats;
 
   @override
-  State<StatefulWidget> createState() => _Step1DecommissionMacReaderState();
+  State<StatefulWidget> createState() => _Step1UninstallMacReaderState();
 }
 
-class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader> {
+class _Step1UninstallMacReaderState extends State<Step1UninstallMacReader> {
   static List<CameraDescription> _cameras = [];
   CameraController? _controller;
   int _cameraIndex = -1;
@@ -94,7 +93,7 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
     _barcodeScanner = BarcodeScanner(formats: widget.allowedBarcodeFormats);
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Descomissionar produto", style: TextStyle(fontSize: 24)),
+        title: const Text('Desinstalar de etiqueta'),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 20),
@@ -109,7 +108,8 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
                   height: 3,
                   color: MyColorStyles.danger600,
                 ),
-              ],),
+              ],
+            ),
             Text('Escaneie o código de barras da etiqueta eletrônica',
                 style: Theme.of(context).textTheme.headlineSmall,
                 textAlign: TextAlign.center),
@@ -142,16 +142,13 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
           child: MySolidButton(
               buttonLabel: Text('Digite o código manualmente'),
               onPressedCallBack: () async => {
-                //await _stopLiveFeed(),
-                if (context.mounted) {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => Step1DecommissionMacInput(),
-
-                    ),
-                  ),
-                }
-              }),
+                    //await _stopLiveFeed(),
+                    if (context.mounted)
+                      {
+                        Navigator.of(context)
+                            .pushNamed('/installation/uninstall/macInput'),
+                      }
+                  }),
         ),
       ),
     );
@@ -174,7 +171,7 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
             child: FittedBox(
               fit: BoxFit.fitWidth,
               child: Container(
-                width: size/3,
+                width: size / 3,
                 height: size / _controller!.value.aspectRatio,
                 child: CameraPreview(
                   _controller!,
@@ -184,22 +181,22 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
             ),
           ),
         )
-      // Stack(
-      //   fit: StackFit.expand,
-      //   children: <Widget>[
-      //     Center(
-      //       child: _changingCameraLens
-      //           ? const Center(
-      //         child: Text('Changing camera lens'),
-      //       )
-      //           : CameraPreview(
-      //         _controller!,
-      //         //child: widget.customPaint,
-      //       ),
-      //     ),
-      //   ],
-      // ),
-    );
+        // Stack(
+        //   fit: StackFit.expand,
+        //   children: <Widget>[
+        //     Center(
+        //       child: _changingCameraLens
+        //           ? const Center(
+        //         child: Text('Changing camera lens'),
+        //       )
+        //           : CameraPreview(
+        //         _controller!,
+        //         //child: widget.customPaint,
+        //       ),
+        //     ),
+        //   ],
+        // ),
+        );
   }
 
   Future _startLiveFeed() async {
@@ -266,7 +263,7 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
       rotation = InputImageRotationValue.fromRawValue(sensorOrientation);
     } else if (Platform.isAndroid) {
       var rotationCompensation =
-      _orientations[_controller!.value.deviceOrientation];
+          _orientations[_controller!.value.deviceOrientation];
       if (rotationCompensation == null) return null;
       if (camera.lensDirection == CameraLensDirection.front) {
         // front-facing
@@ -334,22 +331,19 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
           barcodeFound = true;
 
           //await _stopLiveFeed();
-          if (context.mounted && rtrn != null ) {
+          if (context.mounted && rtrn != null) {
             debugPrint(rtrn);
             print(rtrn);
             var service = MacValidationService();
             if (service.isMacValid(rtrn)) {
               Navigator.of(context).pushNamed(
-                /* PVSCL:IFCOND(Commission) */
-                '/commissioning/decommission/checkout',
-                /* PVSCL:ENDCOND */
-                arguments: DecommissioningArguments(
-                    macAddress: rtrn
+                '/installation/uninstall/checkout',
+                arguments: UninstallationArguments(
+                  macAddress: rtrn,
                 ),
               );
             } else {
-              MyAlertDialog(success: false)
-                  .build(context,
+              MyAlertDialog(success: false).build(context,
                   titulo: 'Códgio de etiqueta inválido',
                   mensagem: 'O código MAC informado não é válido',
                   buttonLabel: 'Ok');
@@ -360,12 +354,12 @@ class _Step1DecommissionMacReaderState extends State<Step1DecommissionMacReader>
         String text = 'Barcodes found: ${value.length}\n\n';
         for (final barcode in value) {
           text += 'Barcode: ${barcode.rawValue}\n\n';
-         /* await _stopLiveFeed();
+          //await _stopLiveFeed();
           if (context.mounted) {
-            Navigator.of(context).pushNamed(
+            /*Navigator.of(context).pushNamed(
                 '/labelActions/placeLabel/glnReader',
-                arguments: barcode.rawValue ?? '');
-          }*/
+                arguments: barcode.rawValue ?? '');*/
+          }
         }
         _text = text;
         // TODO: set _customPaint to draw boundingRect on top of image

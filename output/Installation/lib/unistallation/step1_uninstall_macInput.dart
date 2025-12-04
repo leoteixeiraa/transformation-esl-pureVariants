@@ -1,36 +1,39 @@
 // ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors, prefer_const_literals_to_create_immutables
 import 'package:esl_mobile_app/components/my_solid_button.dart';
 import 'package:esl_mobile_app/dto/user_dto.dart';
-import 'package:esl_mobile_app/models/actionArguments/decommission_arguments.dart';
+import 'package:esl_mobile_app/models/actionArguments/uninstallation_arguments.dart';
 import 'package:esl_mobile_app/services/cache_management.dart';
-import 'package:esl_mobile_app/views/decommission/step2_decommission_checkout.dart';
+import 'package:esl_mobile_app/views/Installation/step1_installation_macReader.dart';
+import 'package:esl_mobile_app/views/Installation/step2_installation_glnInput.dart';
+import 'package:esl_mobile_app/views/Uninstallation/step2_uninstall_checkout.dart';
+
+//import 'package:esl_mobile_app/views/place_label_gln_reader.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_barcode_scanning/google_mlkit_barcode_scanning.dart';
 
-import '../../../../../components/my_text_form_field.dart';
-import '../../../../../styles/app_themes.dart';
-import '../../../../../services/barcode_scanner/scanner.dart';
+import '../../components/my_text_form_field.dart';
+import '../../styles/app_themes.dart';
+import '../../services/barcode_scanner/scanner.dart';
 
-class Step1DecommissionMacInput extends StatefulWidget {
-  Step1DecommissionMacInput({super.key});
+class Step1UninstallMacInput extends StatefulWidget {
+  const Step1UninstallMacInput({super.key});
 
   @override
-  State<StatefulWidget> createState() => _Step1DecommissionMacInputState();
+  State<StatefulWidget> createState() => _Step1UninstallMacInputState();
 }
 
-class _Step1DecommissionMacInputState extends State<Step1DecommissionMacInput> {
+class _Step1UninstallMacInputState extends State<Step1UninstallMacInput> {
   UserDto? user;
-
-  //var cache = CacheManagement();
+  var cache = CacheManagement();
   final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
-    var args = DecommissioningArguments();
+    var args = UninstallationArguments();
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Descomissionar produto",
-            style: TextStyle(fontSize: 24)),
+        title: Text("Desinstalar etiqueta", style: TextStyle(fontSize: 24)),
       ),
       body: Form(
         key: _formKey,
@@ -78,12 +81,12 @@ class _Step1DecommissionMacInputState extends State<Step1DecommissionMacInput> {
           height: 50,
           width: double.infinity,
           child: MySolidButton(
-              buttonLabel: Text('Revisão'),
+              buttonLabel: Text('Próximo'),
               onPressedCallBack: () {
                 if (_formKey.currentState!.validate()) {
-                  print(' step1DMI: ${args.macAddress}');
+                  print(' step1UMI: ${args.macAddress}');
                   Navigator.of(context).pushNamed(
-                    '/commissioning/decommission/checkout',
+                    '/installation/uninstall/checkout',
                     arguments: args,
                   );
                 }
