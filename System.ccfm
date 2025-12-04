@@ -71,6 +71,9 @@
       <cm:restriction cm:id="ikhwvas8Zsm4Rvo0k">
         <cm:script cm:id="iDgT85lSg4s2CAVuT" cm:language="ps:pvscl" cm:type="ps:boolean">decommission_1_1</cm:script>
       </cm:restriction>
+      <cm:restriction cm:id="i6wMNarrizNA01sKT">
+        <cm:script cm:id="iBukOrgRK0OrO7-Lw" cm:language="ps:pvscl" cm:type="ps:boolean">Commission AND installation</cm:script>
+      </cm:restriction>
     </cm:restset>
     <cm:restset cm:id="is5EtT82bJ1Y7L7aa">
       <cm:restriction cm:id="ijlq8YrpM1Ihw1oaX">
@@ -84,7 +87,7 @@
     </cm:restset>
     <cm:restset cm:id="i368w7HQnHwZavRVj">
       <cm:restriction cm:id="iVuEv1x23JYivZjOz">
-        <cm:script cm:id="ifeQGr80VbSW0F1fG" cm:language="ps:pvscl" cm:type="ps:boolean">Commission</cm:script>
+        <cm:script cm:id="ifeQGr80VbSW0F1fG" cm:language="ps:pvscl" cm:type="ps:boolean">Commission AND installation</cm:script>
       </cm:restriction>
     </cm:restset>
     <cm:restset cm:id="i9vuHuoWbHnMnpfo1">
@@ -94,7 +97,7 @@
     </cm:restset>
     <cm:restset cm:id="iJo6rkAx9R9sKWftn">
       <cm:restriction cm:id="ilrAyS02C_XzL5DV1">
-        <cm:script cm:id="ipftArFy2xYOpjuGz" cm:language="ps:pvscl" cm:type="ps:boolean">displaying_esl_information</cm:script>
+        <cm:script cm:id="ipftArFy2xYOpjuGz" cm:language="ps:pvscl" cm:type="ps:boolean">Displaying_ESL_Information</cm:script>
       </cm:restriction>
     </cm:restset>
     <cm:restset cm:id="iS4vywVe4uW025P3c">
@@ -121,7 +124,7 @@
           <cm:constant cm:id="ipHi2UioePeSfg82r" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iDnX2wRs6Hzd84mvF" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iyecinLP8spBEOVZs" cm:type="ps:datetime">2025-11-21T04:10:49.389Z</cm:constant>
+          <cm:constant cm:id="iyecinLP8spBEOVZs" cm:type="ps:datetime">2025-11-21T04:56:43.212Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -291,7 +294,7 @@
           <cm:constant cm:id="iiysj7iAyXZ-B2dFd" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="i1X67TwG8q-Q03lUE" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="i4YYsEyHkd2qIakYr" cm:type="ps:datetime">2025-11-21T03:57:15.908Z</cm:constant>
+          <cm:constant cm:id="i4YYsEyHkd2qIakYr" cm:type="ps:datetime">2025-11-21T06:21:13.196Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
@@ -1656,7 +1659,7 @@
           <cm:constant cm:id="imvhObmAxSgO_Eysh" cm:type="ps:path">CmpEslListTile.dart</cm:constant>
         </cm:property>
         <cm:property cm:id="iDkRjQ_TvHXR_mPPL" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
-          <cm:constant cm:id="iEKoPEQriCgegJvdM" cm:type="ps:directory">src/lib/displaying_esl_information</cm:constant>
+          <cm:constant cm:id="iEKoPEQriCgegJvdM" cm:type="ps:directory">lib/displaying_esl_information</cm:constant>
         </cm:property>
         <cm:property cm:id="iuFhPqMALLxvXF7Kq" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
           <cm:constant cm:id="iIg_CiVJAtPaWWHl0" cm:type="ps:directory">C:\purevariants_repo\Transformation ESL\System\src\lib\displaying_esl_information</cm:constant>
@@ -1671,7 +1674,7 @@
           <cm:constant cm:id="i_5rZfKZrdlcGVnzt" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iyz1g0HIk7pay_lDT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iVTEFtKXZGR-lhP2N" cm:type="ps:datetime">2025-11-21T04:44:08.885Z</cm:constant>
+          <cm:constant cm:id="iVTEFtKXZGR-lhP2N" cm:type="ps:datetime">2025-11-21T06:03:05.149Z</cm:constant>
         </cm:property>
         <cm:property cm:id="iD52NaorAV78n4aB0" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="ip3zqti7d8sby6sGL" cm:type="ps:filetype">misc</cm:constant>
