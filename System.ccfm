@@ -76,8 +76,8 @@
       </cm:restriction>
     </cm:restset>
     <cm:restset cm:id="is5EtT82bJ1Y7L7aa">
-      <cm:restriction cm:id="ijlq8YrpM1Ihw1oaX">
-        <cm:script cm:id="i3vmi3hn6NtFizCiG" cm:language="ps:pvscl" cm:type="ps:boolean">unistallation</cm:script>
+      <cm:restriction cm:id="iCmzftPz8lDBeVeYQ">
+        <cm:script cm:id="i9lJRhYws1CiO1fut" cm:language="ps:pvscl" cm:type="ps:boolean">installation</cm:script>
       </cm:restriction>
     </cm:restset>
     <cm:restset cm:id="iBS_a1M2q92DuG80E">
