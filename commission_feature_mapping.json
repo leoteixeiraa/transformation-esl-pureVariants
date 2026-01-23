@@ -1,0 +1,13 @@
+{
+  "feature": "Commission",
+  "elements": [
+    {
+      "path": "System/src/esl_mobile_app/lib/views/Commissioning/commissioning_view.dart",
+      "type": "file",
+      "name": "commissioning_view.dart",
+      "confidence": "High",
+      "role": "UI: main commissioning screen"
+    }
+    // ...demais itens...
+  ]
+}

@@ -19,11 +19,6 @@
     </cm:properties>
   </cm:head>
   <cm:restrictions>
-    <cm:restset cm:id="igbGlMCa2BRHu8tRh" cm:constraint="true">
-      <cm:restriction cm:id="itJ8l2w9d2hoaXqTi">
-        <cm:script cm:id="i36ZltIBaccuWB3N_" cm:language="ps:pvscl" cm:type="ps:boolean">Commission IMPLIES decommission_1_1</cm:script>
-      </cm:restriction>
-    </cm:restset>
     <cm:restset cm:id="ihaRFAwlBeTg-R6UU" cm:constraint="true">
       <cm:restriction cm:id="iadfOHSYTmo7hEZ2M">
         <cm:script cm:id="ic5lVyE0CuA7qMzwM" cm:language="ps:pvscl" cm:type="ps:boolean">(Commission OR decommission_1_1 OR uninstallation) IMPLIES installation
@@ -95,7 +90,7 @@ ENTÃO a feature Installation também deve estar selecionada (true).
         <cm:mimedesc cm:id="iNgdv3CTgdSvDzVh2" cm:mimetype="text/html" cm:encoding="utf-8">&lt;p&gt;Agrupa as features espec&amp;iacute;ficas do dom&amp;iacute;nio &lt;strong data-start="2927" data-end="2960"&gt;Electronic Shelf Labels (ESL)&lt;/strong&gt;.&lt;/p&gt;</cm:mimedesc>
       </cm:desc>
     </cm:element>
-    <cm:element cm:id="iI3828eu9oqvv0vBm" cm:name="Commission" cm:type="ps:feature" cm:class="ps:feature" cm:default="off" cm:constraint="igbGlMCa2BRHu8tRh">
+    <cm:element cm:id="iI3828eu9oqvv0vBm" cm:name="Commission" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
       <cm:relations cm:id="iPg-tyxjDX-CvJIG0" cm:class="ps:dependencies">
       </cm:relations>
       <cm:relations cm:id="i-ZTAHcD_2X5xbn00" cm:class="ps:parents">
@@ -114,7 +109,7 @@ ENTÃO a feature Installation também deve estar selecionada (true).
           <cm:constant cm:id="iUFv1Mm-ZXyFWBQn1" cm:type="ps:string">leove</cm:constant>
         </cm:property>
         <cm:property cm:id="iaFpB-HgADGDcwBoR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iWrT25gtMToyyLrSv" cm:type="ps:datetime">2025-12-03T00:33:48.169Z</cm:constant>
+          <cm:constant cm:id="iWrT25gtMToyyLrSv" cm:type="ps:datetime">2026-01-09T04:00:25.471Z</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
